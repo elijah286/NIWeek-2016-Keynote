@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="651E6669DA106CCABB33C58A10A181E1" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.7" />
+		<ApplicationVersionInfo Build="4.7.1.34468" Name="LabVIEW Conversion" Version="4.7.1.34468" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="Boolean" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="Boolean" Id="12" Name="Square LED">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Bindings="Envoy,DefinitionReference,DefaultTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="7" ModelDefinitionType="DefaultTarget" Name="SoundReadFileData_output\ param_Term8_ID553\.gtype" NameTracksFileName="True">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.PanelCommon.SourceModel.ControlDefinition,EmbeddedReference" Id="8" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="9" xmlns="http://www.ni.com/MocCommon">
+					<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]50" Id="10" Label="[UIModel]11" Left="[float]200" MinHeight="[float]36" MinWidth="[float]34" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]0" Top="[float]200" TrueContent="[string]On" Value="{DataItemBinding Id=12}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Id="11" LabelOwner="[UIModel]10" Left="[float]200" Text="[string]Square LED" Top="[float]177" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

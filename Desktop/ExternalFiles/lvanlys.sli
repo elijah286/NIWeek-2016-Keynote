@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="5F9263875E8F33BAAF079D25A96A4763" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/ExtCodeInterface" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.7" />
+		<ApplicationVersionInfo Build="4.7.1.34468" Name="LabVIEW Conversion" Version="4.7.1.34468" />
+	</SourceModelFeatureSet>
+	<SharedLibrary CallingConvention="Cdecl" Id="1" PathToLibrary="lvanlys.*" StringEncoding="CodePage" ThreadRequirements="AnyThread" xmlns="http://www.ni.com/ExtCodeInterface">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<SharedLibraryEntryPoint Id="5" Name="SinePtrn" Symbol="SinePtrn">
+			<Icon Id="6" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+				<IconPanel Height="[float]80" Id="7" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+					<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="8" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+						<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="9" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+						<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="10" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+						<FileNameText Attached="[bool]True" Id="11" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]SinePtrn" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+							<FontSetting FontFamily="Verdana" FontSize="6" Id="12" />
+						</FileNameText>
+					</IconTemplate>
+				</IconPanel>
+			</Icon>
+			<ConnectorPane Height="80" Id="13" ListViewHeight="265" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+				<ConnectorPaneTerminal />
+				<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="21" />
+				<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 110" Parameter="25" />
+				<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="29" />
+				<ConnectorPaneTerminal Hotspot="15 0" />
+				<ConnectorPaneTerminal Hotspot="25 0" />
+				<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="18" />
+				<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="22" />
+				<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 125" Parameter="26" />
+				<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="30" />
+				<ConnectorPaneTerminal Hotspot="15 80" />
+				<ConnectorPaneTerminal Hotspot="25 80" />
+				<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 140" Parameter="33" />
+				<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 155" Parameter="34" />
+				<ConnectorPaneTerminal Hotspot="0 55" ListViewHotspot="0 170" Parameter="37" />
+				<ConnectorPaneTerminal Hotspot="40 55" ListViewHotspot="150 185" Parameter="38" />
+				<ConnectorPaneTerminal Hotspot="0 65" ListViewHotspot="0 200" Parameter="41" />
+				<ConnectorPaneTerminal Hotspot="40 65" ListViewHotspot="150 215" Parameter="42" />
+				<ConnectorPaneTerminal Hotspot="0 75" ListViewHotspot="0 230" Parameter="14" />
+				<ConnectorPaneTerminal Hotspot="40 75" ListViewHotspot="150 245" Parameter="15" />
+			</ConnectorPane>
+			<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="14" Name="error in" />
+			<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="15" Name="error out" />
+			<SharedLibraryParameter Id="16" IsReturnParameter="True" Name="return">
+				<NumericType Id="17" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="18" Name="return" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="19" Name="xH">
+				<ArrayType Dimensions="1" ElementDataType="Double" Format="ArrayHandle" Id="20" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="21" Name="xH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="22" Name="xH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="23" Name="size">
+				<NumericType Id="24" PassingMode="PointerToValue" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="25" Name="size in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="26" Name="size out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="27" Name="ampl">
+				<NumericType DataType="Double" Id="28" PassingMode="PointerToValue" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="29" Name="ampl in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="30" Name="ampl out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="31" Name="ph">
+				<NumericType DataType="Double" Id="32" PassingMode="PointerToValue" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="33" Name="ph in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="34" Name="ph out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="35" Name="cycles">
+				<NumericType DataType="Double" Id="36" PassingMode="PointerToValue" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="37" Name="cycles in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="38" Name="cycles out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="39" Name="dsperr">
+				<NumericType Id="40" PassingMode="PointerToValue" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="41" Name="dsperr in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="42" Name="dsperr out" />
+			</SharedLibraryParameter>
+		</SharedLibraryEntryPoint>
+		<SharedLibraryEntryPoint Id="43" Name="CxFFT2D_H_IDP" Symbol="CxFFT2D_H_IDP" UnreserveCallback="TransformUnreserveProc">
+			<Icon Id="44" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+				<IconPanel Height="[float]90" Id="45" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+					<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="46" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+						<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="47" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+						<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="48" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+						<FileNameText Attached="[bool]True" Id="49" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]CxFFT2D_H_IDP" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+							<FontSetting FontFamily="Verdana" FontSize="6" Id="50" />
+						</FileNameText>
+					</IconTemplate>
+				</IconPanel>
+			</Icon>
+			<ConnectorPane Height="90" Id="51" ListViewHeight="295" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+				<ConnectorPaneTerminal />
+				<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="59" />
+				<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 110" Parameter="63" />
+				<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="67" />
+				<ConnectorPaneTerminal Hotspot="15 0" />
+				<ConnectorPaneTerminal Hotspot="25 0" />
+				<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="56" />
+				<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="60" />
+				<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 125" Parameter="64" />
+				<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="68" />
+				<ConnectorPaneTerminal Hotspot="15 90" />
+				<ConnectorPaneTerminal Hotspot="25 90" />
+				<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 140" Parameter="71" />
+				<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 155" Parameter="72" />
+				<ConnectorPaneTerminal Hotspot="0 55" ListViewHotspot="0 170" Parameter="75" />
+				<ConnectorPaneTerminal Hotspot="40 55" ListViewHotspot="150 185" Parameter="76" />
+				<ConnectorPaneTerminal Hotspot="0 65" ListViewHotspot="0 200" Parameter="79" />
+				<ConnectorPaneTerminal Hotspot="40 65" ListViewHotspot="150 215" Parameter="80" />
+				<ConnectorPaneTerminal Hotspot="0 75" ListViewHotspot="0 230" Parameter="83" />
+				<ConnectorPaneTerminal Hotspot="40 75" ListViewHotspot="150 245" Parameter="84" />
+				<ConnectorPaneTerminal Hotspot="0 85" ListViewHotspot="0 260" Parameter="52" />
+				<ConnectorPaneTerminal Hotspot="40 85" ListViewHotspot="150 275" Parameter="53" />
+			</ConnectorPane>
+			<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="52" Name="error in" />
+			<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="53" Name="error out" />
+			<SharedLibraryParameter Id="54" IsReturnParameter="True" Name="return type">
+				<NumericType Id="55" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="56" Name="return type" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="57" Name="xH">
+				<ArrayType Const="True" Dimensions="2" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="58" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="59" Name="xH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="60" Name="xH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="61" Name="orgRow">
+				<NumericType Id="62" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="63" Name="orgRow in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="64" Name="orgRow out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="65" Name="orgCol">
+				<NumericType Id="66" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="67" Name="orgCol in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="68" Name="orgCol out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="69" Name="rowsFFT">
+				<NumericType Id="70" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="71" Name="rowsFFT in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="72" Name="rowsFFT out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="73" Name="colsFFT">
+				<NumericType Id="74" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="75" Name="colsFFT in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="76" Name="colsFFT out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="77" Name="shift">
+				<NumericType Id="78" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="79" Name="shift in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="80" Name="shift out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="81" Name="yH">
+				<ArrayType Dimensions="2" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="82" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="83" Name="yH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="84" Name="yH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="85" Name="tidl">
+				<InstanceDataPointType Id="86" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="87" Name="tidl in" Visible="False" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="88" Name="tidl out" Visible="False" />
+			</SharedLibraryParameter>
+		</SharedLibraryEntryPoint>
+		<SharedLibraryEntryPoint Id="89" Name="CxInvFFT2D_H_IDP" Symbol="CxInvFFT2D_H_IDP" UnreserveCallback="TransformUnreserveProc">
+			<Icon Id="90" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+				<IconPanel Height="[float]50" Id="91" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+					<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="92" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+						<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="93" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+						<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="94" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+						<FileNameText Attached="[bool]True" Id="95" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]CxInvFFT2D_H_IDP" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+							<FontSetting FontFamily="Verdana" FontSize="6" Id="96" />
+						</FileNameText>
+					</IconTemplate>
+				</IconPanel>
+			</Icon>
+			<ConnectorPane Height="50" Id="97" ListViewHeight="175" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+				<ConnectorPaneTerminal />
+				<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="105" />
+				<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 110" Parameter="109" />
+				<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="113" />
+				<ConnectorPaneTerminal Hotspot="15 0" />
+				<ConnectorPaneTerminal Hotspot="25 0" />
+				<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="102" />
+				<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="106" />
+				<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 125" Parameter="110" />
+				<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="114" />
+				<ConnectorPaneTerminal Hotspot="15 50" />
+				<ConnectorPaneTerminal Hotspot="25 50" />
+				<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 140" Parameter="98" />
+				<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 155" Parameter="99" />
+			</ConnectorPane>
+			<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="98" Name="error in" />
+			<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="99" Name="error out" />
+			<SharedLibraryParameter Id="100" IsReturnParameter="True" Name="return type">
+				<NumericType Id="101" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="102" Name="return type" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="103" Name="xH">
+				<ArrayType Const="True" Dimensions="2" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="104" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="105" Name="xH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="106" Name="xH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="107" Name="shifted">
+				<NumericType Id="108" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="109" Name="shifted in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="110" Name="shifted out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="111" Name="yH">
+				<ArrayType Dimensions="2" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="112" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="113" Name="yH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="114" Name="yH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="115" Name="tidp">
+				<InstanceDataPointType Id="116" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="117" Name="tidp in" Visible="False" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="118" Name="tidp out" Visible="False" />
+			</SharedLibraryParameter>
+		</SharedLibraryEntryPoint>
+		<SharedLibraryEntryPoint Id="119" Name="ReInvFFT2D_H_IDP" Symbol="ReInvFFT2D_H_IDP" UnreserveCallback="TransformUnreserveProc">
+			<Icon Id="120" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+				<IconPanel Height="[float]50" Id="121" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+					<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="122" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+						<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="123" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+						<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="124" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+						<FileNameText Attached="[bool]True" Id="125" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]ReInvFFT2D_H_IDP" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+							<FontSetting FontFamily="Verdana" FontSize="6" Id="126" />
+						</FileNameText>
+					</IconTemplate>
+				</IconPanel>
+			</Icon>
+			<ConnectorPane Height="50" Id="127" ListViewHeight="175" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+				<ConnectorPaneTerminal />
+				<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="135" />
+				<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 110" Parameter="139" />
+				<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="143" />
+				<ConnectorPaneTerminal Hotspot="15 0" />
+				<ConnectorPaneTerminal Hotspot="25 0" />
+				<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="132" />
+				<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="136" />
+				<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 125" Parameter="140" />
+				<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="144" />
+				<ConnectorPaneTerminal Hotspot="15 50" />
+				<ConnectorPaneTerminal Hotspot="25 50" />
+				<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 140" Parameter="128" />
+				<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 155" Parameter="129" />
+			</ConnectorPane>
+			<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="128" Name="error in" />
+			<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="129" Name="error out" />
+			<SharedLibraryParameter Id="130" IsReturnParameter="True" Name="return type">
+				<NumericType Id="131" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="132" Name="return type" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="133" Name="xH">
+				<ArrayType Const="True" Dimensions="2" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="134" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="135" Name="xH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="136" Name="xH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="137" Name="shifted">
+				<NumericType Id="138" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="139" Name="shifted in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="140" Name="shifted out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="141" Name="yH">
+				<ArrayType Dimensions="2" ElementDataType="Double" Format="ArrayHandle" Id="142" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="143" Name="yH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="144" Name="yH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="145" Name="tidp">
+				<InstanceDataPointType Id="146" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="147" Name="tidp in" Visible="False" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="148" Name="tidp out" Visible="False" />
+			</SharedLibraryParameter>
+		</SharedLibraryEntryPoint>
+		<SharedLibraryEntryPoint Id="149" Name="ReFFT2D_H_IDP" Symbol="ReFFT2D_H_IDP" UnreserveCallback="TransformUnreserveProc">
+			<Icon Id="150" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+				<IconPanel Height="[float]90" Id="151" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+					<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="152" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+						<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="153" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+						<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="154" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+						<FileNameText Attached="[bool]True" Id="155" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]ReFFT2D_H_IDP" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+							<FontSetting FontFamily="Verdana" FontSize="6" Id="156" />
+						</FileNameText>
+					</IconTemplate>
+				</IconPanel>
+			</Icon>
+			<ConnectorPane Height="90" Id="157" ListViewHeight="295" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+				<ConnectorPaneTerminal />
+				<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="165" />
+				<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 110" Parameter="169" />
+				<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="173" />
+				<ConnectorPaneTerminal Hotspot="15 0" />
+				<ConnectorPaneTerminal Hotspot="25 0" />
+				<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="162" />
+				<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="166" />
+				<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 125" Parameter="170" />
+				<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="174" />
+				<ConnectorPaneTerminal Hotspot="15 90" />
+				<ConnectorPaneTerminal Hotspot="25 90" />
+				<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 140" Parameter="177" />
+				<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 155" Parameter="178" />
+				<ConnectorPaneTerminal Hotspot="0 55" ListViewHotspot="0 170" Parameter="181" />
+				<ConnectorPaneTerminal Hotspot="40 55" ListViewHotspot="150 185" Parameter="182" />
+				<ConnectorPaneTerminal Hotspot="0 65" ListViewHotspot="0 200" Parameter="185" />
+				<ConnectorPaneTerminal Hotspot="40 65" ListViewHotspot="150 215" Parameter="186" />
+				<ConnectorPaneTerminal Hotspot="0 75" ListViewHotspot="0 230" Parameter="189" />
+				<ConnectorPaneTerminal Hotspot="40 75" ListViewHotspot="150 245" Parameter="190" />
+				<ConnectorPaneTerminal Hotspot="0 85" ListViewHotspot="0 260" Parameter="158" />
+				<ConnectorPaneTerminal Hotspot="40 85" ListViewHotspot="150 275" Parameter="159" />
+			</ConnectorPane>
+			<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="158" Name="error in" />
+			<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="159" Name="error out" />
+			<SharedLibraryParameter Id="160" IsReturnParameter="True" Name="return type">
+				<NumericType Id="161" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="162" Name="return type" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="163" Name="xH">
+				<ArrayType Const="True" Dimensions="2" ElementDataType="Double" Format="ArrayHandle" Id="164" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="165" Name="xH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="166" Name="xH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="167" Name="orgRow">
+				<NumericType Id="168" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="169" Name="orgRow in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="170" Name="orgRow out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="171" Name="orgCol">
+				<NumericType Id="172" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="173" Name="orgCol in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="174" Name="orgCol out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="175" Name="rowsFFT">
+				<NumericType Id="176" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="177" Name="rowsFFT in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="178" Name="rowsFFT out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="179" Name="colsFFT">
+				<NumericType Id="180" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="181" Name="colsFFT in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="182" Name="colsFFT out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="183" Name="shift">
+				<NumericType Id="184" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="185" Name="shift in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="186" Name="shift out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="187" Name="yH">
+				<ArrayType Dimensions="2" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="188" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="189" Name="yH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="190" Name="yH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="191" Name="tidp">
+				<InstanceDataPointType Id="192" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="193" Name="tidp in" Visible="False" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="194" Name="tidp out" Visible="False" />
+			</SharedLibraryParameter>
+		</SharedLibraryEntryPoint>
+		<SharedLibraryEntryPoint Id="195" Name="CxNIFFTH80_IDP" Symbol="CxNIFFTH80_IDP" UnreserveCallback="TransformUnreserveProc">
+			<Icon Id="196" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+				<IconPanel Height="[float]70" Id="197" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+					<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="198" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+						<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="199" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+						<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="200" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+						<FileNameText Attached="[bool]True" Id="201" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]CxNIFFTH80_IDP" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+							<FontSetting FontFamily="Verdana" FontSize="6" Id="202" />
+						</FileNameText>
+					</IconTemplate>
+				</IconPanel>
+			</Icon>
+			<ConnectorPane Height="70" Id="203" ListViewHeight="235" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+				<ConnectorPaneTerminal />
+				<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="211" />
+				<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 110" Parameter="215" />
+				<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="223" />
+				<ConnectorPaneTerminal Hotspot="15 0" />
+				<ConnectorPaneTerminal Hotspot="25 0" />
+				<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="208" />
+				<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="212" />
+				<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 125" Parameter="216" />
+				<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="224" />
+				<ConnectorPaneTerminal Hotspot="15 70" />
+				<ConnectorPaneTerminal Hotspot="25 70" />
+				<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 140" Parameter="227" />
+				<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 155" Parameter="228" />
+				<ConnectorPaneTerminal Hotspot="0 55" ListViewHotspot="0 170" Parameter="231" />
+				<ConnectorPaneTerminal Hotspot="40 55" ListViewHotspot="150 185" Parameter="232" />
+				<ConnectorPaneTerminal Hotspot="0 65" ListViewHotspot="0 200" Parameter="204" />
+				<ConnectorPaneTerminal Hotspot="40 65" ListViewHotspot="150 215" Parameter="205" />
+			</ConnectorPane>
+			<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="204" Name="error in" />
+			<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="205" Name="error out" />
+			<SharedLibraryParameter Id="206" IsReturnParameter="True" Name="return type">
+				<NumericType Id="207" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="208" Name="return type" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="209" Name="xH">
+				<ArrayType Const="True" Dimensions="1" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="210" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="211" Name="xH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="212" Name="xH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="213" Name="yH">
+				<ArrayType Dimensions="1" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="214" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="215" Name="yH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="216" Name="yH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="217" Name="tidp">
+				<InstanceDataPointType Id="218" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="219" Name="tidp in" Visible="False" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="220" Name="tidp out" Visible="False" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="221" Name="org">
+				<NumericType Id="222" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="223" Name="org in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="224" Name="org out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="225" Name="fftSize">
+				<NumericType Id="226" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="227" Name="fftSize in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="228" Name="fftSize out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="229" Name="shift">
+				<NumericType Id="230" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="231" Name="shift in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="232" Name="shift out" />
+			</SharedLibraryParameter>
+		</SharedLibraryEntryPoint>
+		<SharedLibraryEntryPoint Id="233" Name="InvCxNIFFTH80_IDP" Symbol="InvCxNIFFTH80_IDP" UnreserveCallback="TransformUnreserveProc">
+			<Icon Id="234" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+				<IconPanel Height="[float]50" Id="235" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+					<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="236" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+						<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="237" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+						<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="238" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+						<FileNameText Attached="[bool]True" Id="239" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]InvCxNIFFTH80_IDP" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+							<FontSetting FontFamily="Verdana" FontSize="6" Id="240" />
+						</FileNameText>
+					</IconTemplate>
+				</IconPanel>
+			</Icon>
+			<ConnectorPane Height="50" Id="241" ListViewHeight="175" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+				<ConnectorPaneTerminal />
+				<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="249" />
+				<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 110" Parameter="253" />
+				<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="261" />
+				<ConnectorPaneTerminal Hotspot="15 0" />
+				<ConnectorPaneTerminal Hotspot="25 0" />
+				<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="246" />
+				<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="250" />
+				<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 125" Parameter="254" />
+				<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="262" />
+				<ConnectorPaneTerminal Hotspot="15 50" />
+				<ConnectorPaneTerminal Hotspot="25 50" />
+				<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 140" Parameter="242" />
+				<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 155" Parameter="243" />
+			</ConnectorPane>
+			<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="242" Name="error in" />
+			<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="243" Name="error out" />
+			<SharedLibraryParameter Id="244" IsReturnParameter="True" Name="return type">
+				<NumericType Id="245" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="246" Name="return type" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="247" Name="xH">
+				<ArrayType Const="True" Dimensions="1" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="248" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="249" Name="xH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="250" Name="xH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="251" Name="yH">
+				<ArrayType Dimensions="1" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="252" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="253" Name="yH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="254" Name="yH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="255" Name="tidp">
+				<InstanceDataPointType Id="256" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="257" Name="tidp in" Visible="False" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="258" Name="tidp out" Visible="False" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="259" Name="shift">
+				<NumericType Id="260" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="261" Name="shift in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="262" Name="shift out" />
+			</SharedLibraryParameter>
+		</SharedLibraryEntryPoint>
+		<SharedLibraryEntryPoint Id="263" Name="InvReNIFFTH80_IDP" Symbol="InvReNIFFTH80_IDP" UnreserveCallback="TransformUnreserveProc">
+			<Icon Id="264" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+				<IconPanel Height="[float]50" Id="265" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+					<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="266" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+						<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="267" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+						<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="268" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+						<FileNameText Attached="[bool]True" Id="269" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]InvReNIFFTH80_IDP" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+							<FontSetting FontFamily="Verdana" FontSize="6" Id="270" />
+						</FileNameText>
+					</IconTemplate>
+				</IconPanel>
+			</Icon>
+			<ConnectorPane Height="50" Id="271" ListViewHeight="175" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+				<ConnectorPaneTerminal />
+				<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="279" />
+				<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 110" Parameter="283" />
+				<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="291" />
+				<ConnectorPaneTerminal Hotspot="15 0" />
+				<ConnectorPaneTerminal Hotspot="25 0" />
+				<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="276" />
+				<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="280" />
+				<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 125" Parameter="284" />
+				<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="292" />
+				<ConnectorPaneTerminal Hotspot="15 50" />
+				<ConnectorPaneTerminal Hotspot="25 50" />
+				<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 140" Parameter="272" />
+				<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 155" Parameter="273" />
+			</ConnectorPane>
+			<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="272" Name="error in" />
+			<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="273" Name="error out" />
+			<SharedLibraryParameter Id="274" IsReturnParameter="True" Name="return type">
+				<NumericType Id="275" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="276" Name="return type" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="277" Name="xH">
+				<ArrayType Const="True" Dimensions="1" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="278" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="279" Name="xH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="280" Name="xH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="281" Name="yH">
+				<ArrayType Dimensions="1" ElementDataType="Double" Format="ArrayHandle" Id="282" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="283" Name="yH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="284" Name="yH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="285" Name="tidl">
+				<InstanceDataPointType Id="286" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="287" Name="tidl in" Visible="False" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="288" Name="tidl out" Visible="False" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="289" Name="shift">
+				<NumericType Id="290" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="291" Name="shift in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="292" Name="shift out" />
+			</SharedLibraryParameter>
+		</SharedLibraryEntryPoint>
+		<SharedLibraryEntryPoint Id="293" Name="ReNIFFTH80_IDP" Symbol="ReNIFFTH80_IDP" UnreserveCallback="TransformUnreserveProc">
+			<Icon Id="294" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+				<IconPanel Height="[float]70" Id="295" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+					<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="296" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+						<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="297" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+						<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="298" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+						<FileNameText Attached="[bool]True" Id="299" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]ReNIFFTH80_IDP" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+							<FontSetting FontFamily="Verdana" FontSize="6" Id="300" />
+						</FileNameText>
+					</IconTemplate>
+				</IconPanel>
+			</Icon>
+			<ConnectorPane Height="70" Id="301" ListViewHeight="235" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+				<ConnectorPaneTerminal />
+				<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="309" />
+				<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 110" Parameter="313" />
+				<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="321" />
+				<ConnectorPaneTerminal Hotspot="15 0" />
+				<ConnectorPaneTerminal Hotspot="25 0" />
+				<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="306" />
+				<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="310" />
+				<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 125" Parameter="314" />
+				<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="322" />
+				<ConnectorPaneTerminal Hotspot="15 70" />
+				<ConnectorPaneTerminal Hotspot="25 70" />
+				<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 140" Parameter="325" />
+				<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 155" Parameter="326" />
+				<ConnectorPaneTerminal Hotspot="0 55" ListViewHotspot="0 170" Parameter="329" />
+				<ConnectorPaneTerminal Hotspot="40 55" ListViewHotspot="150 185" Parameter="330" />
+				<ConnectorPaneTerminal Hotspot="0 65" ListViewHotspot="0 200" Parameter="302" />
+				<ConnectorPaneTerminal Hotspot="40 65" ListViewHotspot="150 215" Parameter="303" />
+			</ConnectorPane>
+			<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="302" Name="error in" />
+			<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="303" Name="error out" />
+			<SharedLibraryParameter Id="304" IsReturnParameter="True" Name="return type">
+				<NumericType Id="305" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="306" Name="return type" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="307" Name="xH">
+				<ArrayType Const="True" Dimensions="1" ElementDataType="Double" Format="ArrayHandle" Id="308" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="309" Name="xH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="310" Name="xH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="311" Name="yH">
+				<ArrayType Dimensions="1" ElementDataType="ComplexDouble" Format="ArrayHandle" Id="312" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="313" Name="yH in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="314" Name="yH out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="315" Name="tidp">
+				<InstanceDataPointType Id="316" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="317" Name="tidp in" Visible="False" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="318" Name="tidp out" Visible="False" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="319" Name="org">
+				<NumericType Id="320" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="321" Name="org in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="322" Name="org out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="323" Name="size">
+				<NumericType Id="324" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="325" Name="size in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="326" Name="size out" />
+			</SharedLibraryParameter>
+			<SharedLibraryParameter Id="327" Name="shift">
+				<NumericType Id="328" />
+				<SharedLibraryDiagramParameter CallDirection="Input" Id="329" Name="shift in" />
+				<SharedLibraryDiagramParameter CallDirection="Output" Id="330" Name="shift out" />
+			</SharedLibraryParameter>
+		</SharedLibraryEntryPoint>
+	</SharedLibrary>
+</SourceFile>
