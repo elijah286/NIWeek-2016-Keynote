@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="481CEF1AFFAF8C47D75D03F5C582D753" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4992A957E8EFAE90EA38DB5813E46D81" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.1" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.0" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.1" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.1" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.7" />
-		<ApplicationVersionInfo Build="4.7.1.34468" Name="Next Generation LabVIEW Features" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
+		<ApplicationVersionInfo Build="4.7.1.34638" Name="Next Generation LabVIEW Features" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -101,9 +101,9 @@
 							<Parameter Id="L0" Desc="x" />
 							<Parameter Id="L1" Desc="time-frequency sampling information" />
 							<Parameter Id="L2" Desc="window information" />
-							<Parameter Id="T0" Desc="time-frequency configuration" />
+							<Parameter Id="T1" Desc="time-frequency configuration" />
 							<Parameter Id="B1" Desc="energy conservation?" />
-							<Parameter Id="L3" Desc="window parameter" />
+							<Parameter Id="B0" Desc="window parameter" />
 							<Parameter Id="L4" Desc="error in" />
 							<Parameter Id="R0" Desc="STFT spectrogram" />
 							<Parameter Id="R4" Desc="error out" />
@@ -112,9 +112,9 @@
 					<Terminal DataType="Double[]" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="@812a1e7cd2564067b1f075d3062e16be" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="@0fa85d9b4e5a45e9831c7758b887e860" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="@e92e046665044cca812e9ef89208a38e" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@e92e046665044cca812e9ef89208a38e" Direction="Input" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Boolean" Direction="Input" Hotspot="25 50" Id="B1" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="Double" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Double" Direction="Input" Hotspot="15 50" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Double[,]" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
@@ -127,13 +127,13 @@
 						<Wire Id="2728" Joints="N(2726:outArray)|(102,100) N(2711:2470)|(166,100)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 170 165" Id="2471" Pattern="True">
-						<DataAccessor Bounds="52 140 40 15" DataItem="2729" Id="2730" Label="2733" xmlns="http://www.ni.com/MocCommon">
+						<DataAccessor Bounds="57 40 40 15" DataItem="2729" Id="2730" Label="2733" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
-						<NodeLabel AttachedTo="2730" Bounds="15 140 32 14" Id="2733" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="2730" Bounds="20 40 32 14" Id="2733" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Slider</p.Text>
 						</NodeLabel>
-						<MethodCall Bounds="102 85 40 40" DomainName="NI.MocCommon" Id="2777" Target="Pitch\ Change\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="107 85 40 40" DomainName="NI.MocCommon" Id="2777" Target="Pitch\ Change\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Waveform in" />
@@ -153,16 +153,16 @@
 							<Terminal DataType="Wfm(Double)[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
-						<Wire Id="2779" Joints="N(2777:R0)|(142,90) N(2708:2471)|(166,90)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="2780" Joints="N(2777:R1)|(142,100) N(2711:2471)|(166,100)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="2789" Joints="N(2717:2471)|(4,90) N(2777:L0)|(102,90)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="2884" Joints="N(2883:2471)|(4,25) h(113) N(2777:T0)|(117,85)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="2779" Joints="N(2777:R0)|(147,90) N(2708:2471)|(166,90)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="2780" Joints="N(2777:R1)|(147,100) N(2711:2471)|(166,100)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="2789" Joints="N(2717:2471)|(4,90) N(2777:L0)|(107,90)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="2885" Joints="N(2730:Value)|(97,45) h(23) v(35) h(2) N(2777:T0)|(122,85)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Selector Bounds="-4 55 13 10" Docking="Left" Id="2472" Terminals="2469=2724, 2470, 2471" />
 					<CaseStructure.Tunnel Bounds="171 90 13 10" Docking="Right" Id="2708" Terminals="2469=2800, 2470=2725, 2471=2779" />
 					<CaseStructure.Tunnel Bounds="171 100 13 10" Docking="Right" Id="2711" Terminals="2469=113, 2470=2728, 2471=2780" />
 					<CaseStructure.Tunnel Bounds="-4 90 13 10" Docking="Left" Id="2717" Terminals="2469=2798, 2470=2725, 2471=2789" />
-					<CaseStructure.Tunnel Bounds="-4 25 13 10" Docking="Left" Id="2883" Terminals="2469=2882, 2470, 2471=2884" />
+					<CaseStructure.Tunnel Bounds="-4 25 13 10" Docking="Left" Id="2883" Terminals="2469=2882, 2470, 2471" />
 				</CaseStructure>
 				<DataAccessor Bounds="100 160 40 15" DataItem="2719" Id="2720" Label="2723" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -313,7 +313,7 @@
 					<RangeLimit Enabled="[bool]False" Fill="[SMSolidColorBrush]#ffee1c24" Id="39" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ffee1c24" Value="[double]90" />
 					<RangeLimit Enabled="[bool]False" Fill="[SMSolidColorBrush]#ff00a64e" Id="40" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ff00a64e" Value="[double]10" />
 				</Axis>
-				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" HighLimit="[UIModel]42" Id="28" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" LowLimit="[UIModel]43" MajorDivisions="[UIModel]41" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.08, 0.07, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" HighLimit="[UIModel]42" Id="28" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" LowLimit="[UIModel]43" MajorDivisions="[UIModel]41" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.5, 0.5, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="41" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 					<RangeLimit Enabled="[bool]False" Fill="[SMSolidColorBrush]#ffee1c24" Id="42" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ffee1c24" Value="[double]9" />
 					<RangeLimit Enabled="[bool]False" Fill="[SMSolidColorBrush]#ff00a64e" Id="43" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ff00a64e" Value="[double]1" />
