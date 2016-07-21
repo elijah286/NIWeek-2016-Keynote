@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="2FF563D7AB3637D5475C05D110B544E5" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="GComponentFeatureSet" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/GComponent.xsd" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/SystemDiagram" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/SystemDesigner/SystemModel" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/SystemDesigner/SystemModelCore" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="Vireo Browser" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel" Version="4.5.0.49152" />
+		<ApplicationVersionInfo Build="4.7.1.34708" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.SystemDesigner.SystemDiagram.Moc,EmbeddedReference,NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition" Id="4" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition" Name="SystemDiagram">
+			<SystemDiagram Id="42" SystemDiagramVersion="75" xmlns="http://www.ni.com/SystemDesigner/SystemDiagram">
+				<SystemDiagramRootDiagram Id="57">
+					<SystemHardware Bounds="140 175 315 80" Facade="PartsView" HasLayoutManager="True" Id="226" SystemModelContent="{:/62}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoBrowser]VireoBrowser">
+						<SystemHardwareGroupDiagram Bounds="0 36 315 38" GroupName="Software" Id="227" />
+						<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+						<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+					</SystemHardware>
+				</SystemDiagramRootDiagram>
+				<EnvoyFacadeManager Id="6" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
+					<MappingManager Id="8" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
+						<Instance Id="62" Source="{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoBrowser">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoBrowser]VireoBrowser" p9:Process.AssociatedIdentifier="66" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Superimposition Id="9" Name="Root Superimposition">
+							<Superimpose Source="62" />
+						</Superimposition>
+					</MappingManager>
+				</EnvoyFacadeManager>
+			</SystemDiagram>
+			<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel,SystemDiagramEnumerateTargetService,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy,ContentKind_{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}Process.VireoBrowser,ProcessBackedProjectServiceMetaFactory,VIAEnvironment,VireoBrowserTarget,MoCTarget" Id="66" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel" Name="VireoBrowser">
+				<SystemDiagramTarget xmlns="http://www.ni.com/SystemDesigner/SystemDiagram" />
+				<NameScopingEnvoy Bindings="Envoy,DefinitionReference,BuildSpecification,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="67" ModelDefinitionType="BuildSpecification" Name="Interactive">
+					<BuildSpecificationDefinition Id="68" TopLevelComponentRefId="225" xmlns="http://www.ni.com/GComponent.xsd">
+						<CompilerSymbolTable Id="69" xmlns="http://www.ni.com/PlatformFramework" />
+						<ComponentConfigurationReference AssociatedEnvoyId="222" ConfigName="Default" Id="225" />
+						<ComponentConfigurationReference AssociatedEnvoyId="237" ConfigName="Default" Id="238" />
+						<ComponentConfigurationReference AssociatedEnvoyId="250" ConfigName="Default" Id="253" />
+						<ComponentConfigurationReference AssociatedEnvoyId="254" ConfigName="Default" Id="257" />
+						<ComponentConfigurationReference AssociatedEnvoyId="258" ConfigName="Default" Id="261" />
+						<ComponentConfigurationReference AssociatedEnvoyId="262" ConfigName="Default" Id="265" />
+						<ComponentConfigurationReference AssociatedEnvoyId="266" ConfigName="Default" Id="269" />
+						<ComponentConfigurationReference AssociatedEnvoyId="270" ConfigName="Default" Id="273" />
+						<ComponentConfigurationReference AssociatedEnvoyId="274" ConfigName="Default" Id="277" />
+						<ComponentConfigurationReference AssociatedEnvoyId="278" ConfigName="Default" Id="281" />
+						<ComponentConfigurationReference AssociatedEnvoyId="282" ConfigName="Default" Id="285" />
+						<ComponentConfigurationReference AssociatedEnvoyId="286" ConfigName="Default" Id="289" />
+						<ComponentConfigurationReference AssociatedEnvoyId="290" ConfigName="Default" Id="293" />
+						<ComponentConfigurationReference AssociatedEnvoyId="294" ConfigName="Default" Id="297" />
+						<ComponentConfigurationReference AssociatedEnvoyId="298" ConfigName="Default" Id="301" />
+						<ComponentConfigurationReference AssociatedEnvoyId="302" ConfigName="Default" Id="305" />
+						<ComponentConfigurationReference AssociatedEnvoyId="306" ConfigName="Default" Id="309" />
+						<ComponentConfigurationReference AssociatedEnvoyId="310" ConfigName="Default" Id="313" />
+						<ComponentConfigurationReference AssociatedEnvoyId="314" ConfigName="Default" Id="317" />
+						<ComponentConfigurationReference AssociatedEnvoyId="318" ConfigName="Default" Id="321" />
+						<ComponentConfigurationReference AssociatedEnvoyId="322" ConfigName="Default" Id="325" />
+						<ComponentConfigurationReference AssociatedEnvoyId="326" ConfigName="Default" Id="329" />
+						<ComponentConfigurationReference AssociatedEnvoyId="330" ConfigName="Default" Id="333" />
+						<ComponentConfigurationReference AssociatedEnvoyId="334" ConfigName="Default" Id="337" />
+						<ComponentConfigurationReference AssociatedEnvoyId="338" ConfigName="Default" Id="341" />
+						<ComponentConfigurationReference AssociatedEnvoyId="342" ConfigName="Default" Id="345" />
+						<ComponentConfigurationReference AssociatedEnvoyId="346" ConfigName="Default" Id="349" />
+						<ComponentConfigurationReference AssociatedEnvoyId="350" ConfigName="Default" Id="353" />
+						<ComponentConfigurationReference AssociatedEnvoyId="354" ConfigName="Default" Id="357" />
+						<ComponentConfigurationReference AssociatedEnvoyId="358" ConfigName="Default" Id="361" />
+						<ComponentConfigurationReference AssociatedEnvoyId="362" ConfigName="Default" Id="365" />
+						<ComponentConfigurationReference AssociatedEnvoyId="366" ConfigName="Default" Id="369" />
+						<ComponentConfigurationReference AssociatedEnvoyId="370" ConfigName="Default" Id="373" />
+						<ComponentConfigurationReference AssociatedEnvoyId="374" ConfigName="Default" Id="377" />
+						<ComponentConfigurationReference AssociatedEnvoyId="378" ConfigName="Default" Id="381" />
+						<ComponentConfigurationReference AssociatedEnvoyId="382" ConfigName="Default" Id="385" />
+						<ComponentConfigurationReference AssociatedEnvoyId="386" ConfigName="Default" Id="389" />
+						<ComponentConfigurationReference AssociatedEnvoyId="390" ConfigName="Default" Id="393" />
+						<ComponentConfigurationReference AssociatedEnvoyId="394" ConfigName="Default" Id="397" />
+						<ComponentConfigurationReference AssociatedEnvoyId="398" ConfigName="Default" Id="401" />
+						<ComponentConfigurationReference AssociatedEnvoyId="402" ConfigName="Default" Id="405" />
+						<ComponentConfigurationReference AssociatedEnvoyId="406" ConfigName="Default" Id="409" />
+						<ComponentConfigurationReference AssociatedEnvoyId="410" ConfigName="Default" Id="413" />
+						<ComponentConfigurationReference AssociatedEnvoyId="414" ConfigName="Default" Id="417" />
+						<ComponentConfigurationReference AssociatedEnvoyId="418" ConfigName="Default" Id="421" />
+					</BuildSpecificationDefinition>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference" Id="222" ModelDefinitionType="SparseEnvoyManager" Name="Default\ Component" Reparentable="False">
+						<SparseEnvoyManager Id="223">
+							<SparseEnvoyManagerDependencySource Id="224" Target=":NullTarget:Default\ Component" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference,RcxRepositoryManagerDefinition" Id="232" ModelDefinitionType="RepositoryManagerDefinition" Name="rcx\.lib" Reparentable="False">
+						<RepositoryManagerDefinition Location="" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="233" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="234" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="235" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="236" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+					</EmbeddedDefinitionReference>
+					<SourceFileReference Bindings="ComponentMoC,Envoy,DefinitionReference,ComponentDefinition,NationalInstruments.Component.Moc,FileReference,SourceFileReference,EnvoyManager" Id="237" ModelDefinitionType="ComponentDefinition" Name="Component\.gcomp" StoragePath="Component.gcomp" />
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="250" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Conditioning_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129480760000000" Id="251">
+							<SparseEnvoyManagerDependencySource Id="252" Target=":NullTarget:AAL_Conditioning_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="254" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Filtering_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129480860000000" Id="255">
+							<SparseEnvoyManagerDependencySource Id="256" Target=":NullTarget:AAL_Filtering_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="258" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Fitting_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129480940000000" Id="259">
+							<SparseEnvoyManagerDependencySource Id="260" Target=":NullTarget:AAL_Fitting_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="262" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Generation_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129481020000000" Id="263">
+							<SparseEnvoyManagerDependencySource Id="264" Target=":NullTarget:AAL_Generation_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="266" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Interpolation_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129481100000000" Id="267">
+							<SparseEnvoyManagerDependencySource Id="268" Target=":NullTarget:AAL_Interpolation_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="270" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Linear_Algebra_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129481180000000" Id="271">
+							<SparseEnvoyManagerDependencySource Id="272" Target=":NullTarget:AAL_Linear_Algebra_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="274" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Measurement_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129481270000000" Id="275">
+							<SparseEnvoyManagerDependencySource Id="276" Target=":NullTarget:AAL_Measurement_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="278" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Operations_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129481350000000" Id="279">
+							<SparseEnvoyManagerDependencySource Id="280" Target=":NullTarget:AAL_Operations_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="282" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Resampling_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129481430000000" Id="283">
+							<SparseEnvoyManagerDependencySource Id="284" Target=":NullTarget:AAL_Resampling_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="286" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Statistics_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129481510000000" Id="287">
+							<SparseEnvoyManagerDependencySource Id="288" Target=":NullTarget:AAL_Statistics_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="290" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Support_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129481590000000" Id="291">
+							<SparseEnvoyManagerDependencySource Id="292" Target=":NullTarget:AAL_Support_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="294" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Transforms_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129481680000000" Id="295">
+							<SparseEnvoyManagerDependencySource Id="296" Target=":NullTarget:AAL_Transforms_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="298" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Windows_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131129481760000000" Id="299">
+							<SparseEnvoyManagerDependencySource Id="300" Target=":NullTarget:AAL_Windows_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="302" ModelDefinitionType="SparseEnvoyManager" Name="Control_Controller\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131116612410000000" Id="303">
+							<SparseEnvoyManagerDependencySource Id="304" Target=":NullTarget:Control_Controller\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="306" ModelDefinitionType="SparseEnvoyManager" Name="Control_DesignPID\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131116612410000000" Id="307">
+							<SparseEnvoyManagerDependencySource Id="308" Target=":NullTarget:Control_DesignPID\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="310" ModelDefinitionType="SparseEnvoyManager" Name="Control_Linear\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131116612410000000" Id="311">
+							<SparseEnvoyManagerDependencySource Id="312" Target=":NullTarget:Control_Linear\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="314" ModelDefinitionType="SparseEnvoyManager" Name="Control_Nonlinear\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131116612410000000" Id="315">
+							<SparseEnvoyManagerDependencySource Id="316" Target=":NullTarget:Control_Nonlinear\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="318" ModelDefinitionType="SparseEnvoyManager" Name="Control_PIDGain\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131116612410000000" Id="319">
+							<SparseEnvoyManagerDependencySource Id="320" Target=":NullTarget:Control_PIDGain\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="322" ModelDefinitionType="SparseEnvoyManager" Name="Control_SignalGeneration\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131116612410000000" Id="323">
+							<SparseEnvoyManagerDependencySource Id="324" Target=":NullTarget:Control_SignalGeneration\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="326" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Conditioning\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131252590000000" Id="327">
+							<SparseEnvoyManagerDependencySource Id="328" Target=":NullTarget:AAL_Conditioning\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="330" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Fitting\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131254920000000" Id="331">
+							<SparseEnvoyManagerDependencySource Id="332" Target=":NullTarget:AAL_Fitting\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="334" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Formula\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131255120000000" Id="335">
+							<SparseEnvoyManagerDependencySource Id="336" Target=":NullTarget:AAL_Formula\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="338" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Generation\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131255220000000" Id="339">
+							<SparseEnvoyManagerDependencySource Id="340" Target=":NullTarget:AAL_Generation\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="342" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Geometry\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131255330000000" Id="343">
+							<SparseEnvoyManagerDependencySource Id="344" Target=":NullTarget:AAL_Geometry\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="346" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Integral_Differentiation\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131255330000000" Id="347">
+							<SparseEnvoyManagerDependencySource Id="348" Target=":NullTarget:AAL_Integral_Differentiation\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="350" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Interpolation\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131255530000000" Id="351">
+							<SparseEnvoyManagerDependencySource Id="352" Target=":NullTarget:AAL_Interpolation\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="354" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Linear_Algebra\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131255640000000" Id="355">
+							<SparseEnvoyManagerDependencySource Id="356" Target=":NullTarget:AAL_Linear_Algebra\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="358" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Matrix\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131255650000000" Id="359">
+							<SparseEnvoyManagerDependencySource Id="360" Target=":NullTarget:AAL_Matrix\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="362" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Measurement\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131255900000000" Id="363">
+							<SparseEnvoyManagerDependencySource Id="364" Target=":NullTarget:AAL_Measurement\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="366" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Operations\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131255900000000" Id="367">
+							<SparseEnvoyManagerDependencySource Id="368" Target=":NullTarget:AAL_Operations\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="370" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Polynomial\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131256110000000" Id="371">
+							<SparseEnvoyManagerDependencySource Id="372" Target=":NullTarget:AAL_Polynomial\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="374" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Probability\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131256210000000" Id="375">
+							<SparseEnvoyManagerDependencySource Id="376" Target=":NullTarget:AAL_Probability\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="378" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Resampling\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131256320000000" Id="379">
+							<SparseEnvoyManagerDependencySource Id="380" Target=":NullTarget:AAL_Resampling\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="382" ModelDefinitionType="SparseEnvoyManager" Name="AAL_SML\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131256320000000" Id="383">
+							<SparseEnvoyManagerDependencySource Id="384" Target=":NullTarget:AAL_SML\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="386" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Statistics\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131256530000000" Id="387">
+							<SparseEnvoyManagerDependencySource Id="388" Target=":NullTarget:AAL_Statistics\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="390" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Support\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131256530000000" Id="391">
+							<SparseEnvoyManagerDependencySource Id="392" Target=":NullTarget:AAL_Support\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="394" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Transforms\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131256730000000" Id="395">
+							<SparseEnvoyManagerDependencySource Id="396" Target=":NullTarget:AAL_Transforms\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="398" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Windows\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131256830000000" Id="399">
+							<SparseEnvoyManagerDependencySource Id="400" Target=":NullTarget:AAL_Windows\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="402" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Filtering\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131256940000000" Id="403">
+							<SparseEnvoyManagerDependencySource Id="404" Target=":NullTarget:AAL_Filtering\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="406" ModelDefinitionType="SparseEnvoyManager" Name="AAL_BLAS\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131257060000000" Id="407">
+							<SparseEnvoyManagerDependencySource Id="408" Target=":NullTarget:AAL_BLAS\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="410" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Special_Func\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131257160000000" Id="411">
+							<SparseEnvoyManagerDependencySource Id="412" Target=":NullTarget:AAL_Special_Func\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="414" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Differential_Equations\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131257260000000" Id="415">
+							<SparseEnvoyManagerDependencySource Id="416" Target=":NullTarget:AAL_Differential_Equations\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="418" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Optimization\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131131257370000000" Id="419">
+							<SparseEnvoyManagerDependencySource Id="420" Target=":NullTarget:AAL_Optimization\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+				</NameScopingEnvoy>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="228" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="229" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="230" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="231" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+				</EmbeddedDefinitionReference>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="33" ModelDefinitionType="DataDepot" Name="DataDepot">
+			<DataDepot />
+		</NameScopingEnvoy>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NullTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="56" ModelDefinitionType="NullTarget" Name="NullTarget">
+			<NullTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,ComponentDefinition,NationalInstruments.Component.Moc,EmbeddedReference" Id="210" ModelDefinitionType="ComponentDefinition" Name="Default\ Component">
+				<ComponentDefinition DefaultConfigurationName="Default" Id="211" xmlns="http://www.ni.com/GComponent.xsd">
+					<Icon Id="212" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]40" Id="213" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="214" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="215" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="216" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Id="217" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Default Component" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Verdana" FontSize="6" Id="218" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+					<CompilerSymbolTable Id="219" xmlns="http://www.ni.com/PlatformFramework" />
+					<ComponentConfiguration Id="220" Name="Default">
+						<CompilerSymbolTable Id="221" xmlns="http://www.ni.com/PlatformFramework" />
+					</ComponentConfiguration>
+				</ComponentDefinition>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,EmbeddedReference" Id="243" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
+				<PackageReferencesDefinition xmlns="http://www.ni.com/GComponent.xsd">
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="AAL_Conditioning_Base.gcomp,AAL_Filtering_Base.gcomp,AAL_Fitting_Base.gcomp,AAL_Generation_Base.gcomp,AAL_Interpolation_Base.gcomp,AAL_Linear_Algebra_Base.gcomp,AAL_Measurement_Base.gcomp,AAL_Operations_Base.gcomp,AAL_Resampling_Base.gcomp,AAL_Statistics_Base.gcomp,AAL_Support_Base.gcomp,AAL_Transforms_Base.gcomp,AAL_Windows_Base.gcomp" Id="247" PackageInterfaceDefinitionEnvoyId="245" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="Control_Controller.gcomp,Control_DesignPID.gcomp,Control_Linear.gcomp,Control_Nonlinear.gcomp,Control_PIDGain.gcomp,Control_SignalGeneration.gcomp" Id="248" PackageInterfaceDefinitionEnvoyId="246" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="AAL_Conditioning.gcomp,AAL_Fitting.gcomp,AAL_Formula.gcomp,AAL_Generation.gcomp,AAL_Geometry.gcomp,AAL_Integral_Differentiation.gcomp,AAL_Interpolation.gcomp,AAL_Linear_Algebra.gcomp,AAL_Matrix.gcomp,AAL_Measurement.gcomp,AAL_Operations.gcomp,AAL_Polynomial.gcomp,AAL_Probability.gcomp,AAL_Resampling.gcomp,AAL_SML.gcomp,AAL_Statistics.gcomp,AAL_Support.gcomp,AAL_Transforms.gcomp,AAL_Windows.gcomp,AAL_Filtering.gcomp,AAL_BLAS.gcomp,AAL_Special_Func.gcomp,AAL_Differential_Equations.gcomp,AAL_Optimization.gcomp" Id="249" PackageInterfaceDefinitionEnvoyId="244" />
+				</PackageReferencesDefinition>
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="244" ModelDefinitionType="PackageInterfaceDefinition" Name="\1\.0\.1\.3" StoragePath="ref://NI/Analysis/Advanced-src/1.0.1.3" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="245" ModelDefinitionType="PackageInterfaceDefinition" Name="\1\.0\.1\.2" StoragePath="ref://NI/Analysis/Basic-src/1.0.1.2" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="246" ModelDefinitionType="PackageInterfaceDefinition" Name="\1\.0\.1\.0" StoragePath="ref://NI/Analysis/Control-src/1.0.1.0" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation Author="" ProjectIconBackgroundFilename="{D7561717-D660-4FB3-8F22-FA34432FBB21}" ProjectIconFilename="Empty.png" xmlns="http://www.ni.com/PlatformFramework">
+		<p.Description></p.Description>
+	</ProjectInformation>
+</SourceFile>
