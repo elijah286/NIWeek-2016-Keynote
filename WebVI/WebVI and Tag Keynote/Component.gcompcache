@@ -7,7 +7,7 @@
 	</SourceModelFeatureSet>
 	<UserSettingsDefinition Envoy="17" Name=":VireoBrowser:Interactive:Component:Function\.gvi">
 		<DefinitionCacheUserSetting Envoy="17" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<FunctionDefinitionSignatureCache CacheSignature="1D1E357C6A4BDB5" Height="40" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/MocCommon">
+			<FunctionDefinitionSignatureCache CacheSignature="1D1E3693D3ED726" Height="40" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/MocCommon">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -37,6 +37,10 @@
 				<CachedMethodCallDependency SourceId="59" TargetName="Component:Read\ Tag\ Waveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 			</FunctionDefinitionSignatureCache>
 		</DefinitionCacheUserSetting>
+		<ScrollAndZoomSettingCache Envoy="17" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
+			<ScrollAndZoomEditor EditorName="HtmlVIPanelControl" ScrollHorizontalOffset="0" ScrollVerticalOffset="0" Zoom="1" />
+			<ScrollAndZoomEditor EditorName="VIDiagramControl" ScrollHorizontalOffset="190" ScrollVerticalOffset="330" Zoom="1" />
+		</ScrollAndZoomSettingCache>
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="21" Name=":VireoBrowser:Interactive:Component:Read\ Tag\ Waveform\.gvi">
 		<DefinitionCacheUserSetting Envoy="21" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">

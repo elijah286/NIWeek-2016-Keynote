@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7DE2A085D50D7B779ED136EB5B30EEAB" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7E4947EB44D00DE79AE3DE9AB109153B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34702" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34702" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34702" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34702" FeatureSetName="Html VI" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34702" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
-		<ApplicationVersionInfo Build="4.7.1.34702" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="Html VI" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
+		<ApplicationVersionInfo Build="4.7.1.34708" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -80,7 +80,7 @@
 						</MethodCall>
 						<Wire Id="70" Joints="N(71:51)|(4,20) N(66:L0)|(150,20)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Literal Bounds="85 35 40 16" DataType="Double" Facade="Numeric" Id="75" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>0x3FF0000000000000</p.Data>
+							<p.Data>0x4000000000000000</p.Data>
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
 						<Wire Id="76" Joints="N(75:Out)|(125,40) N(66:L2)|(150,40)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -254,30 +254,30 @@
 			<Wire Id="560" Joints="N(79:Out)|(140,-125) h(25) B(1) N(335:o0)|(176,-125) B(1) v(290) N(333:o0)|(176,165)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
-			<HtmlCartesianGraph DataSource="{DataItemBinding Id=26}" Height="[float]280" Id="28" Label="[UIModel]37" Left="[float]84" TabIndex="[int]0" Top="[float]116" Width="[float]408" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<HtmlCartesianGraph DataSource="{DataItemBinding Id=26}" Height="[float]264" Id="28" Label="[UIModel]37" Left="[float]20" TabIndex="[int]0" Top="[float]123" Width="[float]328" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<HtmlAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="29" Label="[string]Time" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double" />
 				<HtmlAxis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="30" Label="[string]Amplitude" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" />
 				<HtmlPlot HorizontalScale="[UIModel]29" Id="31" Label="[string]Plot" VerticalScale="[UIModel]30">
 					<HtmlPlotRenderer Id="32" LineStroke="[SMSolidColorBrush]#ffff0000" LineThickness="[double]1" />
 				</HtmlPlot>
 			</HtmlCartesianGraph>
-			<HtmlPlotLegend Graph="[UIModel]28" Height="[float]28" Id="33" Left="[float]499" MinWidth="[float]145" Top="[float]116" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlCursorLegend Graph="[UIModel]28" Height="[float]202" Id="34" Left="[float]89" MinWidth="[float]270" Top="[float]425" Visible="[bool]False" Width="[float]270" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlScaleLegend Graph="[UIModel]28" Height="[float]60" Id="35" Left="[float]499" MinWidth="[float]145" Top="[float]294" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlGraphTools Graph="[UIModel]28" Height="[float]35" Id="36" Left="[float]89" Top="[float]403" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="37" LabelOwner="[UIModel]28" Left="[float]84" Text="[string]Graph" Top="[float]93" Visible="[bool]False" Width="[float]33" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Low" Height="[float]59" Id="41" IsMomentary="[bool]True" Label="[UIModel]42" Left="[float]116" TabIndex="[int]1" Top="[float]404" Value="{DataItemBinding Id=39}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="42" LabelOwner="[UIModel]41" Left="[float]116" Text="[string]Low" Top="[float]381" Visible="[bool]False" Width="[float]22" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]High" Height="[float]59" Id="44" IsMomentary="[bool]True" Label="[UIModel]45" Left="[float]387" TabIndex="[int]2" Top="[float]404" Value="{DataItemBinding Id=46}" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="45" LabelOwner="[UIModel]44" Left="[float]387" Text="[string]High" Top="[float]381" Visible="[bool]False" Width="[float]26" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="149" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]166" Left="[float]499" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]3" Top="[float]184" Value="{DataItemBinding Id=148}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="166" LabelOwner="[UIModel]149" Left="[float]499" Text="[string]Current Modulation" Top="[float]161" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="155" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]167" Left="[float]499" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]4" Top="[float]244" Value="{DataItemBinding Id=154}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="167" LabelOwner="[UIModel]155" Left="[float]499" Text="[string]Number of Updates" Top="[float]221" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="161" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]168" Left="[float]499" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]5" Top="[float]296" Value="{DataItemBinding Id=160}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="168" LabelOwner="[UIModel]161" Left="[float]499" Text="[string]Average" Top="[float]273" Width="[float]44" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="610" IsReadOnly="[bool]True" Label="[UIModel]611" Left="[float]499" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]6" Text="{DataItemBinding Id=608}" Top="[float]132" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]153" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="611" LabelOwner="[UIModel]610" Left="[float]499" Text="[string]Last Updated" Top="[float]109" Width="[float]71" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlPlotLegend Graph="[UIModel]28" Height="[float]28" Id="33" Left="[float]355" MinWidth="[float]145" Top="[float]123" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlCursorLegend Graph="[UIModel]28" Height="[float]202" Id="34" Left="[float]25" MinWidth="[float]270" Top="[float]416" Visible="[bool]False" Width="[float]270" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlScaleLegend Graph="[UIModel]28" Height="[float]60" Id="35" Left="[float]355" MinWidth="[float]145" Top="[float]285" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlGraphTools Graph="[UIModel]28" Height="[float]35" Id="36" Left="[float]25" Top="[float]394" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="37" LabelOwner="[UIModel]28" Left="[float]20" Text="[string]Graph" Top="[float]100" Visible="[bool]False" Width="[float]33" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Low" Height="[float]59" Id="41" IsMomentary="[bool]True" Label="[UIModel]42" Left="[float]36" TabIndex="[int]1" Top="[float]387" Value="{DataItemBinding Id=39}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="42" LabelOwner="[UIModel]41" Left="[float]36" Text="[string]Low" Top="[float]364" Visible="[bool]False" Width="[float]22" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]High" Height="[float]59" Id="44" IsMomentary="[bool]True" Label="[UIModel]45" Left="[float]243" TabIndex="[int]2" Top="[float]387" Value="{DataItemBinding Id=46}" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="45" LabelOwner="[UIModel]44" Left="[float]243" Text="[string]High" Top="[float]364" Visible="[bool]False" Width="[float]26" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="149" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]166" Left="[float]20" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]3" Top="[float]91" Value="{DataItemBinding Id=148}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="166" LabelOwner="[UIModel]149" Left="[float]20" Text="[string]Current Modulation" Top="[float]68" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="155" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]167" Left="[float]148" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]4" Top="[float]91" Value="{DataItemBinding Id=154}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="167" LabelOwner="[UIModel]155" Left="[float]148" Text="[string]Number of Updates" Top="[float]68" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="161" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]168" Left="[float]276" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]5" Top="[float]91" Value="{DataItemBinding Id=160}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="168" LabelOwner="[UIModel]161" Left="[float]276" Text="[string]Average" Top="[float]68" Width="[float]44" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="610" IsReadOnly="[bool]True" Label="[UIModel]611" Left="[float]20" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]6" Text="{DataItemBinding Id=608}" Top="[float]27" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]153" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="611" LabelOwner="[UIModel]610" Left="[float]20" Text="[string]Last Updated" Top="[float]4" Width="[float]71" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</HtmlFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="26" Name="Graph" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
