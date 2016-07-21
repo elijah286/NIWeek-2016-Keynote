@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D6D848489FBE152226735102A69C69F7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="05FE632B91740B1751794516634480D5" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.1" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.0" />
@@ -123,44 +123,44 @@
 				<Terminal DataType="Wfm(Double)[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<BuildArray Bounds="900 575 40 20" CanToggle="False" Id="15" Terminals="outArray=20, c0t0v=19, c1t0v" VerticalChunkCount="2" />
-			<Wire Id="18" Joints="N(27:Value)|(705,640) h(150) N(14:B0)|(855,600)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="19" Joints="N(14:R0)|(880,565) h(10) B(1) N(24:Value)|(1005,565) B(1) v(15) N(15:c0t0v)|(900,580)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="20" Joints="N(15:outArray)|(940,580) N(26:Value)|(1005,580)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="21" Joints="N(25:Value)|(709,565) N(14:L0)|(840,565)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="22" Joints="N(95:Value)|(820,575) N(14:L1)|(840,575)" xmlns="http://www.ni.com/PlatformFramework" />
+			<BuildArray Bounds="900 595 40 20" CanToggle="False" Id="15" Terminals="outArray=20, c0t0v=19, c1t0v" VerticalChunkCount="2" />
+			<Wire Id="18" Joints="N(27:Value)|(815,615) h(40) N(14:B0)|(855,600)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="19" Joints="N(14:R0)|(880,565) h(10) B(1) N(24:Value)|(958,565) B(1) v(35) N(15:c0t0v)|(900,600)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="20" Joints="N(15:outArray)|(940,600) N(26:Value)|(958,600)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="21" Joints="N(25:Value)|(815,555) h(5) v(10) N(14:L0)|(840,565)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="22" Joints="N(95:Value)|(815,575) N(14:L1)|(840,575)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="23" Joints="N(100:Value)|(815,595) h(15) v(-10) N(14:L2)|(840,585)" xmlns="http://www.ni.com/PlatformFramework" />
-			<DataAccessor Bounds="1002 560 40 15" DataItem="33" Id="24" Label="29" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="955 560 40 15" DataItem="33" Id="24" Label="29" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Wfm(Double)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<DataAccessor Bounds="669 560 40 15" DataItem="34" Id="25" Label="30" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="775 550 40 15" DataItem="34" Id="25" Label="30" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<DataAccessor Bounds="1002 575 40 15" DataItem="35" Id="26" Label="31" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="955 595 40 15" DataItem="35" Id="26" Label="31" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Wfm(Double)[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<DataAccessor Bounds="665 635 40 15" DataItem="36" Id="27" Label="32" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="775 610 40 15" DataItem="36" Id="27" Label="32" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="14" Bounds="840 539 332 18" Id="28" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Pitch Change</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="24" Bounds="1047 560 70 14" Id="29" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="24" Bounds="1000 560 70 14" Id="29" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Waveform_3</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="25" Bounds="569 560 95 14" Id="30" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="25" Bounds="675 550 95 14" Id="30" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>output waveform</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="26" Bounds="1047 575 30 14" Id="31" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="26" Bounds="1000 595 30 14" Id="31" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Array</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="27" Bounds="601 635 59 14" Id="32" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="27" Bounds="711 610 59 14" Id="32" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Pitch Ratio</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="780 570 40 15" DataItem="92" Id="95" Label="96" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="775 570 40 15" DataItem="92" Id="95" Label="96" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="95" Bounds="713 570 62 14" Id="96" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="95" Bounds="708 570 62 14" Id="96" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Frame Size</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="775 590 40 15" DataItem="97" Id="100" Label="101" xmlns="http://www.ni.com/MocCommon">
