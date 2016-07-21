@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0A1BA9526DF8722A5B80C53C15563513" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.7" />
+		<ApplicationVersionInfo Build="4.7.1.34468" Name="LabVIEW Conversion" Version="4.7.1.34468" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" LocalizationPolicy="Localize" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Configures a sound output device to generate data. Use the Sound Output Write VI to write the data to the device.</p.UserDescription>
+		<Icon Id="22" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="24" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="25" Left="[float]0" TemplateName="GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="26" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="27" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<LVImage Height="[float]30" Id="28" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADXSURBVEhL7dRhCsMgDIbhXmFn6eF2lt0pd2qjXxaiJmKE/Rj0pZRa9FE26HH9rIfu8umjTd4mc5axRUQyqO3pIV1OW8M2MgjCwi6f1tn8wDT0KDvf5m9oU33SKl0P0Z/6HWfn23xaF3BwZRAkK9tC2hYtnhds2CZvk20uW+kf6PF326RfNRnUoTyZdmgcUI8Z/c9puhMjl0vQrFSIvyflmqAoR6urdNnNhJkoRxOdRB9cHTSWo60OGne3BI2++qlopKdpDroVXX2H5tjquFHfpFd66KbrugGbp0hqEHN+YAAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="145" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="19" />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 50" Parameter="20" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 65" Parameter="14" />
+			<ConnectorPaneTerminal Hotspot="15 0" ListViewHotspot="0 110" Parameter="17" />
+			<ConnectorPaneTerminal Hotspot="25 0" ListViewHotspot="0 125" Parameter="18" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 80" Parameter="16" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 95" Parameter="15" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Height="[float]1600" Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" />
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="0 80 40 15" DataItem="14" Id="29" Label="30" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="29" Bounds="0 57 135 20" Id="30" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in (no error)</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="695 80 40 15" DataItem="15" Id="31" Label="32" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="31" Bounds="695 57 70 20" Id="32" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="695 155 40 15" DataItem="21" Id="33" Label="34" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@c67e17329b004664a359590f55bc725d" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="33" Bounds="695 132 170 20" Id="34" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>resulting sound format</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="695 310 40 15" DataItem="16" Id="35" Label="36" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@2e7cc7c7f7824f24b8207719bec840af" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="35" Bounds="695 287 55 20" Id="36" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>task ID</p.Text>
+			</NodeLabel>
+			<CaseStructure Bounds="185 30 460 325" DataType="Error" Id="37" Selected="38" UserSelectorBounds="0 0 0 0">
+				<CaseStructure.Case Bounds="5 5 450 315" Id="38" Pattern="No Error">
+					<DataAccessor Bounds="20 210 40 15" DataItem="17" Id="45" Label="46" xmlns="http://www.ni.com/MocCommon">
+						<Terminal DataType="@1e9e26af59234376ae4393990f46d2d5" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+					</DataAccessor>
+					<NodeLabel AttachedTo="45" Bounds="20 187 100 20" Id="46" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>sample mode</p.Text>
+					</NodeLabel>
+					<DataAccessor Bounds="20 80 40 15" DataItem="18" Id="47" Label="48" xmlns="http://www.ni.com/MocCommon">
+						<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+					</DataAccessor>
+					<NodeLabel AttachedTo="47" Bounds="20 57 170 20" Id="48" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>number of samples/ch</p.Text>
+					</NodeLabel>
+					<DataAccessor Bounds="20 40 40 15" DataItem="19" Id="49" Label="50" xmlns="http://www.ni.com/MocCommon">
+						<Terminal DataType="UInt32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+					</DataAccessor>
+					<NodeLabel AttachedTo="49" Bounds="20 17 70 20" Id="50" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>device ID</p.Text>
+					</NodeLabel>
+					<Literal Bounds="165 220 10 18" DataType="UInt32" Facade="Numeric" Id="51" Label="52" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G0" />
+					</Literal>
+					<NodeLabel AttachedTo="51" Bounds="165 199 31 18" Id="52" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>task</p.Text>
+					</NodeLabel>
+					<DataAccessor Bounds="20 120 40 15" DataItem="20" Id="53" Label="54" xmlns="http://www.ni.com/MocCommon">
+						<Terminal DataType="@c67e17329b004664a359590f55bc725d" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+					</DataAccessor>
+					<NodeLabel AttachedTo="53" Bounds="20 97 100 20" Id="54" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>sound format</p.Text>
+					</NodeLabel>
+					<PropertyNode Bounds="100 120 50 65" HasErrorTerminals="False" Id="55" InstanceDataType="@c67e17329b004664a359590f55bc725d" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
+						<PropertyItemTerminal DataType="Double" Hotspot="50 15" Id="c0t0v" Path="sample rate (S/s)" />
+						<PropertyItemTerminal DataType="Int32" Hotspot="50 30" Id="c1t0v" Path="number of channels" />
+						<PropertyItemTerminal DataType="Int32" Hotspot="50 45" Id="c2t0v" Path="bits per sample" />
+					</PropertyNode>
+					<MethodCall Bounds="200 100 40 90" DomainName="NI.LabVIEW.VI" Id="56" Target="lvsound2\.sli:SOConfigure" xmlns="http://www.ni.com/MocCommon">
+						<p.MethodDeclaration>
+							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+								<Parameter Id="L1" Desc="device in" />
+								<Parameter Id="L2" Desc="nSamples in" />
+								<Parameter Id="L3" Desc="rate in" />
+								<Parameter Id="L4" Desc="nChannels in" />
+								<Parameter Id="L5" Desc="bitDepth in" />
+								<Parameter Id="L6" Desc="mode in" />
+								<Parameter Id="L7" Desc="task in" />
+								<Parameter Id="L8" Desc="error in" />
+								<Parameter Id="R0" Desc="return" />
+								<Parameter Id="R1" Desc="device out" />
+								<Parameter Id="R2" Desc="nSamples out" />
+								<Parameter Id="R3" Desc="rate out" />
+								<Parameter Id="R4" Desc="nChannels out" />
+								<Parameter Id="R5" Desc="bitDepth out" />
+								<Parameter Id="R6" Desc="mode out" />
+								<Parameter Id="R7" Desc="task out" />
+								<Parameter Id="R8" Desc="error out" />
+							</MethodDeclaration>
+						</p.MethodDeclaration>
+						<Terminal DataType="Int32" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Double" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Input" Hotspot="0 55" Id="L5" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Input" Hotspot="0 65" Id="L6" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="UInt32" Direction="Input" Hotspot="0 75" Id="L7" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Input" Hotspot="0 85" Id="L8" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Double" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Output" Hotspot="40 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Output" Hotspot="40 55" Id="R5" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Output" Hotspot="40 65" Id="R6" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="UInt32" Direction="Output" Hotspot="40 75" Id="R7" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Output" Hotspot="40 85" Id="R8" xmlns="http://www.ni.com/PlatformFramework" />
+					</MethodCall>
+					<PropertyNode Bounds="305 120 50 65" HasErrorTerminals="False" Id="57" InstanceDataType="@0913ba560b4b4d688b4209a0a3ed483f" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
+						<PropertyItemTerminal Action="Write" DataType="Double" Hotspot="0 15" Id="c0t0v" Path="rate" />
+						<PropertyItemTerminal Action="Write" DataType="Int32" Hotspot="0 30" Id="c1t0v" Path="nChannels" />
+						<PropertyItemTerminal Action="Write" DataType="Int32" Hotspot="0 45" Id="c2t0v" Path="bitDepth" />
+					</PropertyNode>
+					<ClusterLiteral Bounds="293 120 12 10" DataType="@0913ba560b4b4d688b4209a0a3ed483f" Facade="DockedConstantFacade" Id="58" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>0x0_0_0_</p.Data>
+						<ClusterBehavior AutoArrange="ArrangeVertically" />
+						<Literal Bounds="5 20 40 16" DataType="Double" Facade="Numeric" Id="59" Label="60">
+							<p.Data>0x0</p.Data>
+							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+						</Literal>
+						<NodeLabel AttachedTo="59" Bounds="0 -15 30 15" Id="60" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>rate</p.Text>
+						</NodeLabel>
+						<Literal Bounds="5 50 40 16" DataType="Int32" Facade="Numeric" Id="61" Label="62">
+							<p.Data>0</p.Data>
+							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+						</Literal>
+						<NodeLabel AttachedTo="61" Bounds="0 -15 30 15" Id="62" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>nChannels</p.Text>
+						</NodeLabel>
+						<Literal Bounds="5 80 40 16" DataType="Int32" Facade="Numeric" Id="63" Label="64">
+							<p.Data>0</p.Data>
+							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+						</Literal>
+						<NodeLabel AttachedTo="63" Bounds="0 -15 30 15" Id="64" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>bitDepth</p.Text>
+						</NodeLabel>
+						<DockedConstantFacade UndockedSize="100 103" />
+					</ClusterLiteral>
+					<Wire Facade="WireInvisibleFacade" Id="65" Joints="N(58:Out)|(305,125) N(57:instance in)|(305,125)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+					<MethodCall Bounds="395 35 40 40" DomainName="NI.LabVIEW.VI" Id="66" Label="67" Target="Keynote\ _Get\ Sound\ Error\ From\ Return\ Value\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<p.MethodDeclaration>
+							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+								<Parameter Id="L0" Desc="Error Code" />
+								<Parameter Id="R1" Desc="error out" />
+							</MethodDeclaration>
+						</p.MethodDeclaration>
+						<Terminal DataType="Int32" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+					</MethodCall>
+					<NodeLabel AttachedTo="66" Bounds="395 14 355 18" Id="67" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Keynote _Get Sound Error From Return Value</p.Text>
+					</NodeLabel>
+					<Wire Id="127" Joints="N(56:R7)|(240,175) h(14) v(105) N(44:38)|(446,280)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="128" Joints="N(57:instance out)|(355,125) N(43:38)|(446,125)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="129" Joints="N(56:R5)|(240,155) h(60) v(10) N(57:c2t0v)|(305,165)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="130" Joints="N(56:R4)|(240,145) h(50) v(5) N(57:c1t0v)|(305,150)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="131" Joints="N(56:R3)|(240,135) N(57:c0t0v)|(305,135)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="132" Joints="N(55:c2t0v)|(150,165) h(43) v(-10) N(56:L5)|(200,155)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="133" Joints="N(55:c1t0v)|(150,150) h(13) v(-5) N(56:L4)|(200,145)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="134" Joints="N(55:c0t0v)|(150,135) N(56:L3)|(200,135)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="135" Joints="N(53:Value)|(60,125) N(55:instance in)|(100,125)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="136" Joints="N(51:Out)|(175,225) h(18) v(-50) N(56:L7)|(200,175)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="137" Joints="N(45:Value)|(60,215) h(126) v(-47) h(7) v(-3) N(56:L6)|(200,165)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="138" Joints="N(56:R0)|(240,105) h(150) v(-65) N(66:L0)|(395,40)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="139" Joints="N(66:R1)|(435,50) N(41:38)|(446,50)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="140" Joints="N(47:Value)|(60,85) h(133) v(40) N(56:L2)|(200,125)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="141" Joints="N(49:Value)|(60,45) h(63) v(70) N(56:L1)|(200,115)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 450 315" Id="39" Pattern="Error">
+					<Literal Bounds="365 275 10 18" DataType="UInt32" Facade="Numeric" Id="68" Label="69" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>0</p.Data>
+						<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G0" />
+					</Literal>
+					<NodeLabel AttachedTo="68" Bounds="365 254 31 18" Id="69" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>task</p.Text>
+					</NodeLabel>
+					<ClusterLiteral Bounds="315 120 58 86" DataType="@0913ba560b4b4d688b4209a0a3ed483f" Facade="Cluster" Id="70" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>0x0_0_0_</p.Data>
+						<ClusterBehavior AutoArrange="SizeToFit" />
+						<Literal Bounds="0 0 40 16" DataType="Double" Facade="Numeric" Id="71" Label="72">
+							<p.Data>0x0</p.Data>
+							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+						</Literal>
+						<NodeLabel AttachedTo="71" Bounds="-5 -35 30 15" Id="72" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>rate</p.Text>
+						</NodeLabel>
+						<Literal Bounds="0 30 40 16" DataType="Int32" Facade="Numeric" Id="73" Label="74">
+							<p.Data>0</p.Data>
+							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+						</Literal>
+						<NodeLabel AttachedTo="73" Bounds="-5 -35 30 15" Id="74" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>nChannels</p.Text>
+						</NodeLabel>
+						<Literal Bounds="0 60 40 16" DataType="Int32" Facade="Numeric" Id="75" Label="76">
+							<p.Data>0</p.Data>
+							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+						</Literal>
+						<NodeLabel AttachedTo="75" Bounds="-5 -35 30 15" Id="76" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>bitDepth</p.Text>
+						</NodeLabel>
+					</ClusterLiteral>
+					<Wire Id="142" Joints="N(68:Out)|(375,280) N(44:39)|(446,280)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="143" Joints="N(70:Out)|(373,125) N(43:39)|(446,125)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="144" Joints="N(42:39)|(4,50) N(41:39)|(446,50)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 70 13 10" Docking="Left" Id="40" Terminals="37=147, 38, 39" />
+				<CaseStructure.Tunnel Bounds="451 50 13 10" Docking="Right" Id="41" Terminals="37=148, 38=139, 39=144" />
+				<CaseStructure.Tunnel Bounds="-4 50 13 10" Docking="Left" Id="42" Terminals="37=147, 38, 39=144" />
+				<CaseStructure.Tunnel Bounds="451 125 13 10" Docking="Right" Id="43" Terminals="37=146, 38=128, 39=143" />
+				<CaseStructure.Tunnel Bounds="451 280 13 10" Docking="Right" Id="44" Terminals="37=145, 38=127, 39=142" />
+			</CaseStructure>
+			<Wire Id="145" Joints="N(44:37)|(649,315) N(35:Value)|(698,315)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="146" Joints="N(43:37)|(649,160) N(33:Value)|(698,160)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="147" Joints="N(29:Value)|(40,85) h(5) B(1) N(42:37)|(181,85) B(1) v(20) N(40:37)|(181,105)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="148" Joints="N(41:37)|(649,85) N(31:Value)|(698,85)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]165" Id="173" Label="[UIModel]180" Left="[float]25" TabIndex="[int]0" Top="[float]506" Value="{DataItemBinding Id=14}" Width="[float]138" p4:ControlDefinitionChecksum="iX7a0ao0/GEJRQDngT//Xw==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]17" Id="174" Label="[UIModel]175" Left="[float]5" MinHeight="[float]16" MinWidth="[float]16" TabIndex="[int]0" Top="[float]25" Value="{ClusterBinding FieldName=status}" Width="[float]19" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="175" LabelOwner="[UIModel]174" Left="[float]5" Text="[string]status" Top="[float]5" Width="[float]32" />
+				<NumericText Height="[float]22" Id="176" Label="[UIModel]177" Left="[float]50" MinHeight="[float]22" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]25" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="177" LabelOwner="[UIModel]176" Left="[float]50" Text="[string]code" Top="[float]5" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]80" Id="178" Label="[UIModel]179" Left="[float]5" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]72" Width="[float]120" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="179" LabelOwner="[UIModel]178" Left="[float]5" Text="[string]source" Top="[float]52" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="180" LabelOwner="[UIModel]173" Left="[float]25" Text="[string]error in (no error)" Top="[float]483" Width="[float]26" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]165" Id="182" Label="[UIModel]189" Left="[float]211" TabIndex="[int]1" Top="[float]506" Value="{DataItemBinding Id=15}" Width="[float]138" p4:ControlDefinitionChecksum="iX7a0ao0/GEJRQDngT//Xw==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]17" Id="183" IsReadOnly="[bool]True" Label="[UIModel]184" Left="[float]5" MinHeight="[float]16" MinWidth="[float]16" TabIndex="[int]0" Top="[float]25" Value="{ClusterBinding FieldName=status}" Width="[float]19" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="184" LabelOwner="[UIModel]183" Left="[float]5" Text="[string]status" Top="[float]5" Width="[float]32" />
+				<NumericText Height="[float]22" Id="185" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]186" Left="[float]50" MinHeight="[float]22" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]25" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="186" LabelOwner="[UIModel]185" Left="[float]50" Text="[string]code" Top="[float]5" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]80" Id="187" IsReadOnly="[bool]True" Label="[UIModel]188" Left="[float]5" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]72" Width="[float]120" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="188" LabelOwner="[UIModel]187" Left="[float]5" Text="[string]source" Top="[float]52" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="189" LabelOwner="[UIModel]182" Left="[float]211" Text="[string]error out" Top="[float]483" Width="[float]26" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Id="150" LabelOwner="[UIModel]149" Left="[float]204" Text="[string]task ID" Top="[float]145" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]26" Id="149" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]150" Left="[float]204" Maximum="[uint]255" MinHeight="[float]22" Minimum="[uint]0" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]2" Top="[float]168" Value="{DataItemBinding Id=16}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]@2e7cc7c7f7824f24b8207719bec840af" Width="[float]95" p4:ControlDefinitionChecksum="gbnw0J+bFWSXEgeqoZt1cA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Keynote\ Sound\ Output\ Task\ ID\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+			</NumericText>
+			<Label Id="153" LabelOwner="[UIModel]152" Left="[float]17" Text="[string]sample mode" Top="[float]345" xmlns="http://www.ni.com/PanelCommon" />
+			<RingSelector AllowNonSequentialValues="[bool]False" AllowUndefinedValueEntry="[bool]False" Height="[float]25" Id="152" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" Label="[UIModel]153" Left="[float]17" TabIndex="[int]3" Top="[float]368" Value="{DataItemBinding Id=17}" ValueFormatter="[string]LV:G0" ValueType="[Type]@1e9e26af59234376ae4393990f46d2d5" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]149" p4:ControlDefinitionChecksum="M+ZKHz4BZt2SfJLP+I0R1A==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Keynote\ Sampling\ Mode\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<RingSelectorInfo DisplayValue="[string]Finite Samples" Value="[int]0" ValueType="[Type]@1e9e26af59234376ae4393990f46d2d5" />
+				<RingSelectorInfo DisplayValue="[string]Continuous Samples" Value="[int]1" ValueType="[Type]@1e9e26af59234376ae4393990f46d2d5" />
+			</RingSelector>
+			<NumericText BaseName="[string]Numeric" Height="[float]26" Id="103" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]105" Left="[float]17" Maximum="[int]2147483647" MinHeight="[float]22" Minimum="[int]-2147483648" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]4" Top="[float]441" Value="{DataItemBinding Id=18}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]119" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">buffer size for sound output, in samples per channel</p.InfoTipDescription>
+			</NumericText>
+			<Label Id="105" LabelOwner="[UIModel]103" Left="[float]17" Text="[string]number of samples/ch" Top="[float]418" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]26" Id="106" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[uint]1" Label="[UIModel]108" Left="[float]17" Maximum="[uint]255" MinHeight="[float]22" Minimum="[uint]0" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]5" Top="[float]183" Value="{DataItemBinding Id=19}" ValueFormatter="[string]LV:G0" ValueType="[Type]UInt32" Width="[float]131" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;device ID&lt;/B&gt; is the input or output device you access for a sound operation. In general, most users should select the default value of 0.</p.InfoTipDescription>
+			</NumericText>
+			<Label Id="108" LabelOwner="[UIModel]106" Left="[float]17" Text="[string]device ID" Top="[float]160" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Id="162" LabelOwner="[UIModel]155" Left="[float]17" Text="[string]sound format" Top="[float]198" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster AutoArrange="[AutoArrange]None" ClusterType="[Type]@c67e17329b004664a359590f55bc725d" Height="[float]112" Id="155" Label="[UIModel]162" Left="[float]17" TabIndex="[int]6" Top="[float]221" Value="{DataItemBinding Id=20}" Width="[float]148" p4:ControlDefinitionChecksum="eQcfRDVa9XfoRmCb+5CCLQ==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Keynote\ Sound\ Data\ Format\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<NumericText BaseName="[string]Numeric" Height="[float]26" Id="156" Label="[UIModel]157" Left="[float]1" Maximum="[double]Infinity" MinHeight="[float]22" Minimum="[double]-Infinity" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" Top="[float]15" Value="{ClusterBinding FieldName=sample\ rate\ (S/s)}" ValueFormatter="[string]LV:G0" Width="[float]107" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Id="157" LabelOwner="[UIModel]156" Left="[float]1" Text="[string]sample rate (S/s)" Top="[float]-8" />
+				<NumericText BaseName="[string]Numeric" Height="[float]26" Id="158" Interval="[int]1" Label="[UIModel]159" Left="[float]1" Maximum="[int]2147483647" MinHeight="[float]22" Minimum="[int]-2147483648" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" Top="[float]50" Value="{ClusterBinding FieldName=number\ of\ channels}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]107" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Id="159" LabelOwner="[UIModel]158" Left="[float]1" Text="[string]number of channels" Top="[float]27" />
+				<NumericText BaseName="[string]Numeric" Height="[float]26" Id="160" Interval="[int]1" Label="[UIModel]161" Left="[float]1" Maximum="[int]2147483647" MinHeight="[float]22" Minimum="[int]-2147483648" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]2" Top="[float]86" Value="{ClusterBinding FieldName=bits\ per\ sample}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Id="161" LabelOwner="[UIModel]160" Left="[float]1" Text="[string]bits per sample" Top="[float]63" />
+			</Cluster>
+			<Label Id="171" LabelOwner="[UIModel]164" Left="[float]204" Text="[string]resulting sound format" Top="[float]198" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster AutoArrange="[AutoArrange]None" ClusterType="[Type]@c67e17329b004664a359590f55bc725d" Height="[float]112" Id="164" Label="[UIModel]171" Left="[float]204" TabIndex="[int]7" Top="[float]221" Value="{DataItemBinding Id=21}" Width="[float]148" p4:ControlDefinitionChecksum="eQcfRDVa9XfoRmCb+5CCLQ==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Keynote\ Sound\ Data\ Format\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<NumericText BaseName="[string]Numeric" Height="[float]26" Id="165" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]166" Left="[float]1" Maximum="[double]Infinity" MinHeight="[float]22" Minimum="[double]-Infinity" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" Top="[float]15" Value="{ClusterBinding FieldName=sample\ rate\ (S/s)}" ValueFormatter="[string]LV:G0" Width="[float]107" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Id="166" LabelOwner="[UIModel]165" Left="[float]1" Text="[string]sample rate (S/s)" Top="[float]-8" />
+				<NumericText BaseName="[string]Numeric" Height="[float]26" Id="167" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]168" Left="[float]1" Maximum="[int]2147483647" MinHeight="[float]22" Minimum="[int]-2147483648" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" Top="[float]50" Value="{ClusterBinding FieldName=number\ of\ channels}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]107" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Id="168" LabelOwner="[UIModel]167" Left="[float]1" Text="[string]number of channels" Top="[float]27" />
+				<NumericText BaseName="[string]Numeric" Height="[float]26" Id="169" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]170" Left="[float]1" Maximum="[int]2147483647" MinHeight="[float]22" Minimum="[int]-2147483648" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]2" Top="[float]86" Value="{ClusterBinding FieldName=bits\ per\ sample}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Id="170" LabelOwner="[UIModel]169" Left="[float]1" Text="[string]bits per sample" Top="[float]63" />
+			</Cluster>
+		</CPFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="3" DataType="Error" Id="14" Name="error in (no error)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Error\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error in&lt;/B&gt; describes error conditions that occur before this node runs. This input provides standard error in functionality.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="2" DataType="Error" Id="15" Name="error out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Error\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error out&lt;/B&gt; contains error information. This output provides standard error out functionality.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@2e7cc7c7f7824f24b8207719bec840af" Id="16" Name="task ID" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Keynote\ Sound\ Output\ Task\ ID\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;task ID&lt;/B&gt; returns an identification number associated with the configuration on the specified device. You can pass &lt;B&gt;task ID&lt;/B&gt; to other sound operation VIs.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="4" DataType="@1e9e26af59234376ae4393990f46d2d5" Id="17" Name="sample mode" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>1</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Keynote\ Sampling\ Mode\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;sample mode&lt;/B&gt; specifies whether you intend to write just once (&lt;B&gt;Finite Samples&lt;/B&gt;) or continuously (&lt;B&gt;Continuous Samples&lt;/B&gt;).</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="5" DataType="Int32" Id="18" Name="number of samples/ch" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>100000</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;number of samples/ch&lt;/B&gt; specifies the number of samples per channel in the buffer.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" DataType="UInt32" Id="19" Name="device ID" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;device ID&lt;/B&gt; is the input or output device you access for a sound operation. In general, most users should select the default value of 0.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="2" DataType="@c67e17329b004664a359590f55bc725d" Id="20" Name="sound format" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x40D5888000000000_2_16_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Keynote\ Sound\ Data\ Format\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;sound format&lt;/B&gt; sets the playing rate, the number of channels, and the bits per sample of the sound operation. The values for each of these controls is dependent on your sound card.</p.UserDescription>
+		</DataItem>
+		<DataItem DataType="@c67e17329b004664a359590f55bc725d" Id="21" Name="resulting sound format" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x40D5888000000000_2_16_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Keynote\ Sound\ Data\ Format\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="c67e17329b004664a359590f55bc725d">
+			<Typedef TypedefName="Keynote Sound Data Format.gtype" UnderlyingType="@a3ca89bae2aa451e8145feee66193c90" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="2e7cc7c7f7824f24b8207719bec840af">
+			<Typedef TypedefName="Keynote Sound Output Task ID.gtype" UnderlyingType="UInt32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1e9e26af59234376ae4393990f46d2d5">
+			<Typedef TypedefName="Keynote Sampling Mode.gtype" UnderlyingType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="0913ba560b4b4d688b4209a0a3ed483f">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="rate" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="nChannels" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="bitDepth" DataType="Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="a3ca89bae2aa451e8145feee66193c90">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="sample rate (S/s)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="number of channels" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="bits per sample" DataType="Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="lvsound2\.sli:SOConfigure">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]90" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]SOConfigure" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Verdana" FontSize="6" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate Height="[float]90" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]lvsound2.sli" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Keynote\ _Get\ Sound\ Error\ From\ Return\ Value\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<LVImage Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACpSURBVEhL7ZHBDsMgDEP5/59mAVeOMeEytTfeIbKd1Ehb659xq41R3do7D1hPXf3fY8fqmNyZpoCm2DUEeE7LabYMwZ4EGe1TRWDhaZLjWgW0JmYtAYt5l1ttjGr+/PP/yMfMKliBJ9rIah6VVkWg+sTSEuzflNsQQK2KoeFhQO4mqgEsckCred7ZWo+I3ZAyH0oXpgETiAA5gGWecyafcKuNW23c6oXef+f+ME/OeZvxAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>
