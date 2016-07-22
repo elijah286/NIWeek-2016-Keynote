@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3B6217B31533711495B1475472B0D6AF" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4C7E33F08DC6F3A4DD9A203CC050994A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="17.0.0.114" FeatureSetName="DAQmx" MinimumParsableVersion="1.0.0.0" MinimumSemanticallyEquivalentVersion="1.0.0.0" Name="http://www.ni.com/DAQmx" Version="1.0.0.1" />
@@ -430,7 +430,6 @@
 			</NodeLabel>
 			<Wire Id="2468" Joints="N(81:79)|(1075,255) N(2466:Value)|(1093,255)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="2775" Joints="N(762:Out)|(315,85) N(761:L2)|(340,85)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="2820" Joints="M(550,-210) h(20)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<Tank BaseName="[string]Tank" ControlDesignTuple="[ControlDesignPair]Flat,Flat Yellow" Height="[float]136" Id="16" InteractionMode="[NumericPointerInteractionModes]EditRange" IsInverted="[bool]False" Label="[UIModel]17" Left="[float]529" Maximum="[double]1000" MechanicalAction="[MechanicalAction]SwitchWhenReleased" MinHeight="[float]50" MinWidth="[float]50" Orientation="[SMOrientation]Vertical" ScaleVisibility="[SMVisibility]Collapsed" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=14}" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />

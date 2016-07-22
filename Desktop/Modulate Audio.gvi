@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="CD6AA205F2A97057D1E40E215E7E0C13" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E1E9D8C1EADEF78FFF2FA67400208C48" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -29,7 +29,7 @@
 				</Text>
 			</IconPanel>
 		</Icon>
-		<ConnectorPane Height="40" Id="9" ListViewHeight="160" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+		<ConnectorPane Height="40" Id="9" ListViewHeight="175" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
 			<ConnectorPaneTerminal ListViewHotspot="0 50" Parameter="44" />
 			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 140" Parameter="129" />
 			<ConnectorPaneTerminal Hotspot="0 25" />
@@ -41,7 +41,7 @@
 			<ConnectorPaneTerminal Hotspot="40 25" />
 			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 110" Parameter="41" />
 			<ConnectorPaneTerminal Hotspot="15 40" />
-			<ConnectorPaneTerminal Hotspot="25 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" ListViewHotspot="150 155" Parameter="377" />
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Height="[float]1600" Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
@@ -100,9 +100,7 @@
 			</Cluster>
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="123" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]124" Left="[float]271" MinHeight="[float]22" TabIndex="[int]6" Top="[float]167" Value="{DataItemBinding Id=122}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="124" LabelOwner="[UIModel]123" Left="[float]271" Text="[string]set pitch" Top="[float]144" Width="[float]46" xmlns="http://www.ni.com/PanelCommon" />
-			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="130" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]131" Left="[float]161" MinHeight="[float]22" TabIndex="[int]7" Top="[float]170" Value="{DataItemBinding Id=129}" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<Label Height="[float]16" Id="131" IsVisualChild="[bool]False" LabelOwner="[UIModel]130" Left="[float]161" Text="[string]Slice Set" Top="[float]147" Width="[float]45" xmlns="http://www.ni.com/PanelCommon" />
-			</NumericText>
+			<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="378" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Name="[string]Last Sample?" Shape="[LEDShape]Square" TabIndex="[int]7" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=377}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
 			<MethodCall Bounds="1250 325 40 40" DomainName="NI.MocCommon" Id="16" Target="Vocoder\ OLD\.gvi" xmlns="http://www.ni.com/MocCommon">
@@ -131,14 +129,14 @@
 			</MethodCall>
 			<Wire Id="17" Joints="N(16:R0)|(1290,330) h(10) v(-90) N(25:Value)|(1386,240)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="18" Joints="N(16:R1)|(1290,340) h(55) v(-45) N(26:Value)|(1388,295)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="23" Joints="N(16:R3)|(1290,360) N(27:Value)|(1388,360)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="23" Joints="N(16:R3)|(1290,360) h(10) v(125) N(27:Value)|(1388,485)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="1383 235 40 15" DataItem="39" Id="25" Label="32" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<DataAccessor Bounds="1385 290 40 15" DataItem="40" Id="26" Label="33" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Wfm(Double)[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<DataAccessor Bounds="1385 355 40 15" DataItem="41" Id="27" Label="34" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="1385 480 40 15" DataItem="41" Id="27" Label="34" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<DataAccessor Bounds="741 255 40 15" DataItem="42" Id="28" Label="35" xmlns="http://www.ni.com/MocCommon">
@@ -156,7 +154,7 @@
 			<NodeLabel AttachedTo="26" Bounds="1430 290 25 14" Id="33" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>data</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="27" Bounds="1430 355 42 14" Id="34" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="27" Bounds="1430 480 42 14" Id="34" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>error in</p.Text>
 			</NodeLabel>
 			<NodeLabel AttachedTo="28" Bounds="627 255 109 14" Id="35" xmlns="http://www.ni.com/PlatformFramework">
@@ -189,6 +187,7 @@
 						<Parameter Id="L3" Desc="Error" />
 						<Parameter Id="R0" Desc="Waveform_2" />
 						<Parameter Id="R3" Desc="Error_2" />
+						<Parameter Id="B1" Desc="Last Sample" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
 				<Terminal DataType="Wfm(Double)" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
@@ -196,14 +195,25 @@
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="25 40" Id="B1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="365" Joints="N(14:R0)|(1145,330) N(16:L0)|(1250,330)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="366" Joints="N(31:Value)|(780,360) N(14:L3)|(1105,360)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="367" Joints="N(14:R3)|(1145,360) N(16:L3)|(1250,360)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="368" Joints="N(133:Value)|(780,230) h(215) B(1) h(248) v(110) N(16:L1)|(1250,340) B(1) v(120) N(14:L2)|(1105,350)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="369" Joints="N(30:Value)|(780,290) h(256) v(40) N(14:L0)|(1105,330)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="1385 445 40 15" DataItem="377" Id="380" Label="381" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="380" Bounds="1430 445 74 14" Id="381" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Last Sample?</p.Text>
+			</NodeLabel>
+			<Wire Id="389" Joints="N(30:Value)|(780,290) h(256) v(40) N(14:L0)|(1105,330)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="390" Joints="N(133:Value)|(780,230) h(215) B(1) h(248) v(110) N(16:L1)|(1250,340) B(1) v(120) N(14:L2)|(1105,350)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="391" Joints="N(14:B1)|(1130,365) v(85) N(380:Value)|(1388,450)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
-		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" />
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="130" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]131" Left="[float]400" MinHeight="[float]22" TabIndex="[int]0" Top="[float]271" Value="{DataItemBinding Id=129}" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="131" LabelOwner="[UIModel]130" Left="[float]400" Text="[string]Slice Set" Top="[float]248" Width="[float]45" xmlns="http://www.ni.com/PanelCommon" />
+		</CPFrontPanel>
 		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="Double[]" Id="39" Name="x" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
 				<Array Lengths="0" />
@@ -254,7 +264,10 @@
 			<p.DefaultValue>0x0</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="4" DataType="Int32" Id="129" Name="Slice Set" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>1024</p.DefaultValue>
+			<p.DefaultValue>2048</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="3" DataType="Boolean" Id="377" Name="Last Sample?" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
