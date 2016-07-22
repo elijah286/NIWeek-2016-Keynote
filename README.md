@@ -24,7 +24,11 @@ Then use the nipkg command line to install ni-skyline-tag-labview-features-techp
 Copy `\\hades\ss\group\jprewitt\temp\skyline\niweek2016\MessageBusConfiguration.json` TO `C:\ProgramData\National Instruments\Skyline\`
 
 #Desktop VI
+`Desktop\*.lvproject`
+`Keynode Dashboard.gvi`
 
-#Web VI
+#Web VI on Stage
+`Web VI\WebVI and Tag Keynote\WebVI and Tag Keynote.lvproject`
 
 #Hosted Web VI
+`http://skyline.southcentralus.cloudapp.azure.com/packages/local/simplelvplugin/index.html`
