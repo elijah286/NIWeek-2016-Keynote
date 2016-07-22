@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="41C52158CFD48F04FD6B65AFBC63A3E5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3B6217B31533711495B1475472B0D6AF" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="17.0.0.114" FeatureSetName="DAQmx" MinimumParsableVersion="1.0.0.0" MinimumSemanticallyEquivalentVersion="1.0.0.0" Name="http://www.ni.com/DAQmx" Version="1.0.0.1" />
@@ -402,7 +402,7 @@
 			<Wire Id="811" Joints="N(765:R1)|(225,75) N(761:L1)|(340,75)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="1091" Joints="N(761:R1)|(390,75) N(2409:o0)|(406,75)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="1093" Joints="N(761:R0)|(390,65) N(2417:o0)|(406,65)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Literal Bounds="125 -135 165 15" DataType="Int32" Facade="Ring" Id="1659" xmlns="http://www.ni.com/MocCommon">
+			<Literal Bounds="10 -45 165 15" DataType="Int32" Facade="Ring" Id="1659" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>10123</p.Data>
 				<RingBehavior AllowNonSequentialValues="True" ValueFormatter="LV:G6">
 					<RingConstantInfo DisplayValue="Finite Samples" ValueType="Int32">
@@ -416,12 +416,12 @@
 					</RingConstantInfo>
 				</RingBehavior>
 			</Literal>
-			<Wire Id="1660" Joints="N(1659:Out)|(290,-130) h(65) N(761:T0)|(355,60)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Literal Bounds="125 -105 50 16" DataType="Int32" Facade="Numeric" Id="1908" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="1660" Joints="N(1659:Out)|(175,-40) h(180) N(761:T0)|(355,60)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="130 -80 50 16" DataType="Int32" Facade="Numeric" Id="1908" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>2048</p.Data>
 				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 			</Literal>
-			<Wire Id="2439" Joints="N(1908:Out)|(175,-100) h(75) B(1) h(115) N(761:T1)|(365,60) B(1) v(295) h(135) B(5) N(85:o0)|(406,195) B(5) N(123:T1)|(385,220)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="2439" Joints="N(1908:Out)|(180,-75) h(70) B(1) h(115) N(761:T1)|(365,60) B(1) v(270) h(135) B(5) N(85:o0)|(406,195) B(5) N(123:T1)|(385,220)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="1090 250 40 15" DataItem="2457" Id="2466" Label="2467" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
