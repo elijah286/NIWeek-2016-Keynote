@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="24650C2020610CB0640DD96721E48831" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0EBEFD7CBE1896196AD1DDDD8C78C7FE" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="17.0.0.114" FeatureSetName="DAQmx" MinimumParsableVersion="1.0.0.0" MinimumSemanticallyEquivalentVersion="1.0.0.0" Name="http://www.ni.com/DAQmx" Version="1.0.0.1" />
@@ -51,46 +51,45 @@
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="838" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Left="[float]0" MinHeight="[float]22" Name="[string]Number of Samples" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]1" Top="[float]0" UnitAnnotation="[string]" Value="{DataItemBinding Id=837}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
-			<DataAccessor Bounds="765 340 40 15" DataItem="60" Id="69" Label="70" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="1110 340 40 15" DataItem="60" Id="69" Label="70" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="69" Bounds="810 340 28 14" Id="70" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="69" Bounds="1155 340 28 14" Id="70" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Error</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="745 245 40 15" DataItem="35" Id="55" Label="56" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="1090 245 40 15" DataItem="35" Id="55" Label="56" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Wfm(Double)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="55" Bounds="790 245 25 14" Id="56" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="55" Bounds="1135 245 25 14" Id="56" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>data</p.Text>
 			</NodeLabel>
-			<Wire Id="557" Joints="N(821:663)|(724,250) N(55:Value)|(748,250)" xmlns="http://www.ni.com/PlatformFramework" />
-			<DataAccessor Bounds="-220 235 40 15" DataItem="558" Id="567" Label="568" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="557" Joints="N(821:663)|(1069,250) N(55:Value)|(1093,250)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="-290 235 40 15" DataItem="558" Id="567" Label="568" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="567" Bounds="-267 235 42 14" Id="568" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="567" Bounds="-337 235 42 14" Id="568" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>error in</p.Text>
 			</NodeLabel>
-			<Wire Id="660" Joints="N(567:Value)|(-180,240) N(666:663)|(-169,240)" xmlns="http://www.ni.com/PlatformFramework" />
-			<CaseStructure Bounds="-165 25 885 460" DataType="Error" Id="663" Selected="665" UserSelectorBounds="390 0 106 17">
-				<CaseStructure.Case Bounds="5 5 875 450" Id="664" Pattern="Error">
-					<Wire Id="833" Joints="N(666:664)|(4,210) h(406) v(105) N(834:664)|(871,315)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="660" Joints="N(567:Value)|(-250,240) N(666:663)|(-239,240)" xmlns="http://www.ni.com/PlatformFramework" />
+			<CaseStructure Bounds="-235 25 1300 460" DataType="Error" Id="663" Selected="665" UserSelectorBounds="597 0 106 17">
+				<CaseStructure.Case Bounds="5 5 1290 450" Id="664" Pattern="Error">
+					<Wire Id="833" Joints="N(666:664)|(4,210) h(476) v(105) N(834:664)|(1286,315)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 875 450" Id="665" Pattern="No Error">
-					<Wire Id="820" Joints="N(1227:o0)|(834,220) N(821:665)|(871,220)" xmlns="http://www.ni.com/PlatformFramework" />
+				<CaseStructure.Case Bounds="5 5 1290 450" Id="665" Pattern="No Error">
 					<Wire Id="823" Joints="N(666:665)|(4,210) N(1230:o0)|(51,210)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="836" Joints="N(1233:o0)|(834,315) N(834:665)|(871,315)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="836" Joints="N(1233:o0)|(904,315) N(834:665)|(1286,315)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="930" Joints="N(931:665)|(4,145) N(1236:o0)|(51,145)" xmlns="http://www.ni.com/PlatformFramework" />
-					<WhileLoop Bounds="55 35 775 375" DiagramId="938" Id="937">
+					<WhileLoop Bounds="55 35 845 375" DiagramId="938" Id="937">
 						<LoopIteration Bounds="5 345 15 15" Id="939" />
-						<LoopCondition Bounds="745 345 15 15" Id="940" />
-						<CaseStructure Bounds="95 30 505 305" Default="98" Id="97" Selected="99" UserSelectorBounds="208 0 88 17">
-							<CaseStructure.Case Bounds="5 5 495 295" Id="98" Pattern="False">
-								<Wire Id="832" Joints="N(661:98)|(4,135) N(830:98)|(491,135)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="936" Joints="N(929:98)|(4,70) N(934:98)|(491,70)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="1247" Joints="N(1246:98)|(4,125) N(492:98)|(491,125)" xmlns="http://www.ni.com/PlatformFramework" />
+						<LoopCondition Bounds="815 345 15 15" Id="940" />
+						<CaseStructure Bounds="70 30 600 305" Default="98" Id="97" Selected="99" UserSelectorBounds="256 0 88 17">
+							<CaseStructure.Case Bounds="5 5 590 295" Id="98" Pattern="False">
+								<Wire Id="832" Joints="N(661:98)|(4,135) N(830:98)|(586,135)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="936" Joints="N(929:98)|(4,70) N(934:98)|(586,70)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="1247" Joints="N(1246:98)|(4,125) N(492:98)|(586,125)" xmlns="http://www.ni.com/PlatformFramework" />
 							</CaseStructure.Case>
-							<CaseStructure.Case Bounds="5 5 495 295" Id="99" Pattern="True">
-								<DAQmxNode Bounds="155 120 50 50" DomainName="NI.DAQmx" Id="14" Target="DAQmx\ Create\ Task\.gvi" xmlns="http://www.ni.com/DAQmx">
+							<CaseStructure.Case Bounds="5 5 590 295" Id="99" Pattern="True">
+								<DAQmxNode Bounds="155 125 50 50" DomainName="NI.DAQmx" Id="14" Target="DAQmx\ Create\ Task\.gvi" xmlns="http://www.ni.com/DAQmx">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L1" Desc="error in" />
@@ -110,7 +109,7 @@
 									<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 									<Terminal DataType="@cd59b23409e9442d98a470892a1ff1bb" Direction="Output" Hotspot="50 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 								</DAQmxNode>
-								<ConfigureTiming Bounds="410 120 50 50" DomainName="NI.DAQmx" Id="15" Target="DAQmx\ Timing\ \(Sample\ Clock\)\.gvi" xmlns="http://www.ni.com/DAQmx">
+								<ConfigureTiming Bounds="410 125 50 50" DomainName="NI.DAQmx" Id="15" Target="DAQmx\ Timing\ \(Sample\ Clock\)\.gvi" xmlns="http://www.ni.com/DAQmx">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L1" Desc="error in" />
@@ -134,11 +133,11 @@
 									<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 									<Terminal DataType="@cd59b23409e9442d98a470892a1ff1bb" Direction="Output" Hotspot="50 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 								</ConfigureTiming>
-								<Literal Bounds="320 140 60 16" DataType="Double" Facade="Numeric" Id="17" xmlns="http://www.ni.com/MocCommon">
-									<p.Data>0x40D57C0000000000</p.Data>
+								<Literal Bounds="320 145 60 16" DataType="Double" Facade="Numeric" Id="17" xmlns="http://www.ni.com/MocCommon">
+									<p.Data>0x40E5888000000000</p.Data>
 									<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 								</Literal>
-								<CreateVirtualChannel Bounds="235 120 50 50" DomainName="NI.DAQmx" Id="29" Target="DAQmx\ Create\ Channel\ \(AI\-Voltage\-Basic\)\.gvi" xmlns="http://www.ni.com/DAQmx">
+								<CreateVirtualChannel Bounds="235 125 50 50" DomainName="NI.DAQmx" Id="29" Target="DAQmx\ Create\ Channel\ \(AI\-Voltage\-Basic\)\.gvi" xmlns="http://www.ni.com/DAQmx">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L1" Desc="error in" />
@@ -166,33 +165,31 @@
 									<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 									<Terminal DataType="@cd59b23409e9442d98a470892a1ff1bb" Direction="Output" Hotspot="50 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 								</CreateVirtualChannel>
-								<Literal Bounds="205 95 40 16" DataType="Double" Facade="Numeric" Id="74" xmlns="http://www.ni.com/MocCommon">
-									<p.Data>0x3FF0000000000000</p.Data>
+								<Literal Bounds="205 100 40 16" DataType="Double" Facade="Numeric" Id="74" xmlns="http://www.ni.com/MocCommon">
+									<p.Data>0x4000000000000000</p.Data>
 									<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 								</Literal>
-								<Literal Bounds="205 80 40 16" DataType="Double" Facade="Numeric" Id="76" xmlns="http://www.ni.com/MocCommon">
-									<p.Data>0xBFF0000000000000</p.Data>
+								<Literal Bounds="205 85 40 16" DataType="Double" Facade="Numeric" Id="76" xmlns="http://www.ni.com/MocCommon">
+									<p.Data>0xC000000000000000</p.Data>
 									<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 								</Literal>
-								<Wire Id="491" Joints="N(15:R0)|(460,125) N(492:99)|(491,125)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="494" Joints="N(32:Out)|(195,195) h(30) v(-50) N(29:L2)|(235,145)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="30" Joints="N(14:R0)|(205,125) N(29:L0)|(235,125)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="31" Joints="N(29:R0)|(285,125) N(15:L0)|(410,125)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="18" Joints="N(17:Out)|(380,145) N(15:L2)|(410,145)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="75" Joints="N(74:Out)|(245,100) h(5) N(29:T0)|(250,120)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="77" Joints="N(76:Out)|(245,85) h(15) N(29:T1)|(260,120)" xmlns="http://www.ni.com/PlatformFramework" />
-								<IONameConstant Bounds="10 190 185 27" DataType="@ff821ac705e04e94af8d87f690cc6383" Facade="IONameConstant" Id="32" UdrClass="Physical Channel" UdrNamespace="NIDAQ" xmlns="http://www.ni.com/MocCommon">
+								<Wire Id="494" Joints="N(32:Out)|(195,200) h(30) v(-50) N(29:L2)|(235,150)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="30" Joints="N(14:R0)|(205,130) N(29:L0)|(235,130)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="31" Joints="N(29:R0)|(285,130) N(15:L0)|(410,130)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="18" Joints="N(17:Out)|(380,150) N(15:L2)|(410,150)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="75" Joints="N(74:Out)|(245,105) h(5) N(29:T0)|(250,125)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="77" Joints="N(76:Out)|(245,90) h(15) N(29:T1)|(260,125)" xmlns="http://www.ni.com/PlatformFramework" />
+								<IONameConstant Bounds="10 195 185 27" DataType="@ff821ac705e04e94af8d87f690cc6383" Facade="IONameConstant" Id="32" UdrClass="Physical Channel" UdrNamespace="NIDAQ" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>myDAQ1/audioInputLeft</p.Data>
 									<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 										<TypeDefinitionTarget TargetName="NIDAQ:Physical\ Channel" />
 									</p.TypeDefinitionTargets>
 									<IONameConstantBehavior />
 								</IONameConstant>
-								<Wire Id="569" Joints="N(661:99)|(4,135) N(14:L1)|(155,135)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="826" Joints="N(14:R1)|(205,135) N(29:L1)|(235,135)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="828" Joints="N(29:R1)|(285,135) N(15:L1)|(410,135)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="829" Joints="N(15:R1)|(460,135) N(830:99)|(491,135)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Literal Bounds="240 45 165 15" DataType="Int32" Facade="Ring" Id="1248" xmlns="http://www.ni.com/MocCommon">
+								<Wire Id="569" Joints="N(661:99)|(4,135) h(146) v(5) N(14:L1)|(155,140)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="826" Joints="N(14:R1)|(205,140) N(29:L1)|(235,140)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="828" Joints="N(29:R1)|(285,140) N(15:L1)|(410,140)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Literal Bounds="255 85 165 15" DataType="Int32" Facade="Ring" Id="1248" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>10123</p.Data>
 									<RingBehavior AllowNonSequentialValues="True" ValueFormatter="LV:G6">
 										<RingConstantInfo DisplayValue="Finite Samples" ValueType="Int32">
@@ -206,26 +203,37 @@
 										</RingConstantInfo>
 									</RingBehavior>
 								</Literal>
-								<Wire Id="1249" Joints="N(1248:Out)|(405,50) h(20) N(15:T0)|(425,120)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="1250" Joints="N(929:99)|(4,70) h(351) B(1) N(934:99)|(491,70) B(1) v(10) N(1251:c0t0v)|(370,80)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Multiply Bounds="370 75 30 30" Id="1251" Terminals="o=1253, c0t0v=1250, c1t0v=1255" />
-								<Wire Id="1253" Joints="N(1251:o)|(400,90) h(35) N(15:T1)|(435,120)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Literal Bounds="300 90 40 16" DataType="Int32" Facade="Numeric" Id="1254" xmlns="http://www.ni.com/MocCommon">
-									<p.Data>1</p.Data>
-									<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-								</Literal>
-								<Wire Id="1255" Joints="N(1254:Out)|(340,95) N(1251:c1t0v)|(370,95)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="1249" Joints="N(1248:Out)|(420,90) h(5) N(15:T0)|(425,125)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="1256" Joints="N(929:99)|(4,70) N(934:99)|(586,70)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="1298" Joints="N(15:R0)|(460,130) N(1297:L0)|(500,130)" xmlns="http://www.ni.com/PlatformFramework" />
+								<DAQmxNode Bounds="500 125 50 50" DomainName="NI.DAQmx" Id="1297" Target="DAQmx\ Start\ Task\.gvi" xmlns="http://www.ni.com/DAQmx">
+									<p.MethodDeclaration>
+										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+											<Parameter Id="L1" Desc="error in" />
+											<Parameter Id="L0" Desc="task in" />
+											<Parameter Id="R1" Desc="error out" />
+											<Parameter Id="R0" Desc="task out" />
+										</MethodDeclaration>
+									</p.MethodDeclaration>
+									<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="@cd59b23409e9442d98a470892a1ff1bb" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="@cd59b23409e9442d98a470892a1ff1bb" Direction="Output" Hotspot="50 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+								</DAQmxNode>
+								<Wire Id="1300" Joints="N(1297:R0)|(550,130) h(31) v(-5) N(492:99)|(586,125)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="1302" Joints="N(15:R1)|(460,140) N(1297:L1)|(500,140)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="1303" Joints="N(1297:R1)|(550,140) h(28) v(-5) N(830:99)|(586,135)" xmlns="http://www.ni.com/PlatformFramework" />
 							</CaseStructure.Case>
 							<CaseStructure.Selector Bounds="-4 40 13 10" Docking="Left" Id="100" Terminals="97=555, 98, 99" />
-							<CaseStructure.Tunnel Bounds="496 125 13 10" DefaultIfUnwired="True" Docking="Right" Id="492" Terminals="97=26, 98=1247, 99=491" />
+							<CaseStructure.Tunnel Bounds="591 125 13 10" DefaultIfUnwired="True" Docking="Right" Id="492" Terminals="97=26, 98=1247, 99=1300" />
 							<CaseStructure.Tunnel Bounds="-4 135 13 10" Docking="Left" Id="661" Terminals="97=1229, 98=832, 99=569" />
-							<CaseStructure.Tunnel Bounds="496 135 13 10" Docking="Right" Id="830" Terminals="97=831, 98=832, 99=829" />
-							<CaseStructure.Tunnel Bounds="-4 70 13 10" Docking="Left" Id="929" Terminals="97=1235, 98=936, 99=1250" />
-							<CaseStructure.Tunnel Bounds="496 70 13 10" Docking="Right" Id="934" Terminals="97=933, 98=936, 99=1250" />
+							<CaseStructure.Tunnel Bounds="591 135 13 10" Docking="Right" Id="830" Terminals="97=831, 98=832, 99=1303" />
+							<CaseStructure.Tunnel Bounds="-4 70 13 10" Docking="Left" Id="929" Terminals="97=1235, 98=936, 99=1256" />
+							<CaseStructure.Tunnel Bounds="591 70 13 10" Docking="Right" Id="934" Terminals="97=933, 98=936, 99=1256" />
 							<CaseStructure.Tunnel Bounds="-4 125 13 10" Docking="Left" Id="1246" Terminals="97=1245, 98=1247, 99" />
 						</CaseStructure>
 						<IsFirstCall Bounds="45 70 15 15" Id="554" />
-						<Read Bounds="645 155 50 50" DomainName="NI.DAQmx" Id="25" Instance="ReadAnalog1ChanNSampWfm" Target="DAQmx\ Read\ \(Analog\ Wfm\ 1Chan\ NSamp\)\.gvi" xmlns="http://www.ni.com/DAQmx">
+						<Read Bounds="715 155 50 50" DomainName="NI.DAQmx" Id="25" Instance="ReadAnalog1ChanNSampWfm" Target="DAQmx\ Read\ \(Analog\ Wfm\ 1Chan\ NSamp\)\.gvi" xmlns="http://www.ni.com/DAQmx">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L1" Desc="error in" />
@@ -245,42 +253,43 @@
 							<Terminal DataType="@cd59b23409e9442d98a470892a1ff1bb" Direction="Output" Hotspot="50 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="50 25" Id="R2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 						</Read>
-						<Wire Id="1226" Joints="N(25:R2)|(695,180) N(1227:i0)|(761,180)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="1229" Joints="N(1230:i0)|(4,170) N(661:97)|(91,170)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="1232" Joints="N(25:R1)|(695,170) h(40) v(105) N(1233:i0)|(761,275)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="1235" Joints="N(1236:i0)|(4,105) N(929:97)|(91,105)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="555" Joints="N(554:First Call?: T/F)|(60,75) N(100:97)|(91,75)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="26" Joints="N(492:97)|(604,160) N(25:L0)|(645,160)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="831" Joints="N(830:97)|(604,170) N(25:L1)|(645,170)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="933" Joints="N(934:97)|(604,105) h(26) v(75) N(25:L2)|(645,180)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Literal Bounds="690 345 25 15" DataType="Boolean" Facade="True Constant" Id="1238" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="1226" Joints="N(25:R2)|(765,180) N(1227:i0)|(831,180)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="1229" Joints="N(1230:i0)|(4,170) N(661:97)|(66,170)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="1232" Joints="N(25:R1)|(765,170) h(40) v(105) N(1233:i0)|(831,275)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="1235" Joints="N(1236:i0)|(4,105) N(929:97)|(66,105)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="555" Joints="N(554:First Call?: T/F)|(60,75) N(100:97)|(66,75)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="26" Joints="N(492:97)|(674,160) N(25:L0)|(715,160)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="831" Joints="N(830:97)|(674,170) N(25:L1)|(715,170)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="933" Joints="N(934:97)|(674,105) h(26) v(75) N(25:L2)|(715,180)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Literal Bounds="760 345 25 15" DataType="Boolean" Facade="True Constant" Id="1238" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
-						<Wire Id="1239" Joints="N(1238:Out)|(715,350) N(940:Input)|(745,350)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="1240" Joints="N(25:R0)|(695,160) N(1242:938)|(761,160)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="1245" Joints="N(1244:i0)|(4,160) N(1246:97)|(91,160)" xmlns="http://www.ni.com/PlatformFramework" />
-						<LoopTunnel Bounds="766 180 13 10" Docking="Right" Id="1227" Terminals="o0=820, i0=1226" />
+						<Wire Id="1239" Joints="N(1238:Out)|(785,350) N(940:Input)|(815,350)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="1240" Joints="N(25:R0)|(765,160) N(1242:938)|(831,160)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="1245" Joints="N(1244:i0)|(4,160) N(1246:97)|(66,160)" xmlns="http://www.ni.com/PlatformFramework" />
+						<LoopTunnel Bounds="836 180 13 10" Docking="Right" Id="1227" Terminals="o0=1286, i0=1226" />
 						<LoopTunnel Bounds="-4 170 13 10" Docking="Left" Id="1230" Terminals="o0=823, i0=1229" />
-						<LoopTunnel Bounds="766 275 13 10" Docking="Right" Id="1233" Terminals="o0=836, i0=1232" />
+						<LoopTunnel Bounds="836 275 13 10" Docking="Right" Id="1233" Terminals="o0=836, i0=1232" />
 						<LoopTunnel Bounds="-4 105 13 10" Docking="Left" Id="1236" Terminals="o0=930, i0=1235" />
-						<RightShiftRegister Bounds="766 160 13 10" Docking="Right" Id="1242" Terminals="937, 938=1240" />
+						<RightShiftRegister Bounds="836 160 13 10" Docking="Right" Id="1242" Terminals="937, 938=1240" />
 						<LeftShiftRegister Bounds="-4 160 13 10" Docking="Left" Id="1244" RightRegister="1242" Terminals="o0, i0=1245" />
 					</WhileLoop>
+					<Wire Id="1286" Joints="N(1227:o0)|(904,220) N(821:665)|(1286,220)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
 				<CaseStructure.Selector Bounds="-4 210 13 10" Docking="Left" Id="666" Terminals="663=660, 664=833, 665=823" />
-				<CaseStructure.Tunnel Bounds="876 220 13 10" DefaultIfUnwired="True" Docking="Right" Id="821" Terminals="663=557, 664, 665=820" />
-				<CaseStructure.Tunnel Bounds="876 315 13 10" Docking="Right" Id="834" Terminals="663=835, 664=833, 665=836" />
+				<CaseStructure.Tunnel Bounds="1291 220 13 10" DefaultIfUnwired="True" Docking="Right" Id="821" Terminals="663=557, 664, 665=1286" />
+				<CaseStructure.Tunnel Bounds="1291 315 13 10" Docking="Right" Id="834" Terminals="663=835, 664=833, 665=836" />
 				<CaseStructure.Tunnel Bounds="-4 145 13 10" Docking="Left" Id="931" Terminals="663=928, 664, 665=930" />
 			</CaseStructure>
-			<Wire Id="835" Joints="N(834:663)|(724,345) N(69:Value)|(768,345)" xmlns="http://www.ni.com/PlatformFramework" />
-			<DataAccessor Bounds="-215 170 40 15" DataItem="837" Id="840" Label="841" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="835" Joints="N(834:663)|(1069,345) N(69:Value)|(1113,345)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="-285 170 40 15" DataItem="837" Id="840" Label="841" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="840" Bounds="-330 170 110 14" Id="841" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="840" Bounds="-400 170 110 14" Id="841" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Number of Samples</p.Text>
 			</NodeLabel>
-			<Wire Id="928" Joints="N(840:Value)|(-175,175) N(931:663)|(-169,175)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="928" Joints="N(840:Value)|(-245,175) N(931:663)|(-239,175)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=35}" DataSourceType="[Type]Wfm(Double)" Height="[float]296" Id="36" IncludeInCapture="[bool]True" Label="[UIModel]58" Left="[float]133" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]40" Width="[float]392" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
@@ -292,13 +301,13 @@
 				<PlotRenderer Id="42" LineStroke="[SMSolidColorBrush]#ffa08bb0" />
 				<PlotRenderer Id="43" LineStroke="[SMSolidColorBrush]#ff7f7f7f" />
 				<PlotRenderer Id="44" LineStroke="[SMSolidColorBrush]#ff91685c" />
-				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="45" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]48" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 0.024, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="45" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]48" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 0.04, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="48" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 				</Axis>
-				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="46" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]49" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.5, 0.5, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="46" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]49" Orientation="[SMOrientation]Vertical" Range="[IRange]0.000539, 0.00056, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="49" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 				</Axis>
-				<Plot HorizontalScale="[UIModel]45" Id="47" Label="[string]myDAQ1/audioInputLeft" VerticalScale="[UIModel]46" Visibility="[SMVisibility]Visible" />
+				<Plot HorizontalScale="[UIModel]45" Id="47" Label="[string]cDAQ2Mod1/ai0" VerticalScale="[UIModel]46" Visibility="[SMVisibility]Visible" />
 			</Graph>
 			<Label Height="[float]16" Id="58" LabelOwner="[UIModel]36" Left="[float]133" Text="[string]data" Top="[float]17" Width="[float]24" xmlns="http://www.ni.com/PanelCommon" />
 			<PlotLegend Graph="[UIModel]36" Height="[float]26" Id="50" Left="[float]532" Top="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -1665,6 +1674,23 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]DAQmx Create Channel (AI-Voltage-Basic)" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
 									<FontSetting FontFamily="Verdana" FontSize="6" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="DAQmx\ Start\ Task\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]DAQmx Start Task" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Verdana" FontSize="6.75" />
 								</FileNameText>
 							</IconTemplate>
 						</IconPanel>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D7BD2DD01D5AEB0E5E4C958A15F50DDD" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="374657F4C1F2469993A3A7951FAAC2E4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.1" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.0" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.1" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.1" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.7" />
-		<ApplicationVersionInfo Build="4.7.1.34468" Name="Next Generation LabVIEW Features" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
+		<ApplicationVersionInfo Build="4.7.1.34638" Name="Next Generation LabVIEW Features" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" InlineIntoCaller="True" Reentrancy="Stateless" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="20" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -245,7 +245,7 @@
 			<p.DefaultValue>2048</p.DefaultValue>
 		</DataItem>
 		<DataItem CallDirection="Input" CallIndex="3" DataType="Int32" Id="15" Name="Overlap" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>32</p.DefaultValue>
+			<p.DefaultValue>16</p.DefaultValue>
 		</DataItem>
 		<DataItem CallDirection="Input" CallIndex="5" DataType="Double" Id="16" Name="PitchRatio" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>

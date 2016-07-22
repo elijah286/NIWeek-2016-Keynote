@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="35851D8C9D9AB9A43035A7C6A4520754" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3A3B78913BC29D1FAF8FFBF7B9242F00" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -66,7 +66,7 @@
 				<DataAccessor Bounds="470 175 40 15" DataItem="14" Id="49" Label="50" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="49" Bounds="470 158 64 14" Id="50" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="49" Bounds="470 158 63 14" Id="50" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Weaveform</p.Text>
 				</NodeLabel>
 				<Literal Bounds="178 130 12 10" DataType="Double" Facade="DockedConstantFacade" Id="51" Label="52" xmlns="http://www.ni.com/MocCommon">
@@ -105,7 +105,7 @@
 				<DataAccessor Bounds="175 170 40 15" DataItem="18" Id="61" Label="62" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="61" Bounds="175 153 46 14" Id="62" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="61" Bounds="175 153 45 14" Id="62" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Average</p.Text>
 				</NodeLabel>
 				<DataAccessor Bounds="175 210 40 15" DataItem="19" Id="63" Label="64" xmlns="http://www.ni.com/MocCommon">
@@ -222,9 +222,9 @@
 							<Parameter Id="B2" Desc="aggregate values" />
 						</MethodDeclaration>
 					</p.MethodDeclaration>
-					<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Double" Direction="Output" Hotspot="50 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Timestamp" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
@@ -244,11 +244,11 @@
 							<Parameter Id="R1" Desc="error out" />
 						</MethodDeclaration>
 					</p.MethodDeclaration>
-					<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="String" Direction="Input" Hotspot="0 35" Id="L3" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Timestamp" Direction="Input" Hotspot="0 45" Id="L4" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
 				<LoopTunnel Bounds="-4 90 13 10" Docking="Left" Id="46" Terminals="o0=268, i0=310" />
@@ -265,7 +265,6 @@
 			<Wire Id="262" Joints="N(193:error out)|(300,310) N(282:L1)|(320,310)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="263" Joints="N(272:R1)|(170,310) N(193:error in)|(190,310)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="264" Joints="N(30:Out)|(155,355) h(25) v(-35) N(193:c0t0v)|(190,320)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="266" Joints="N(272:R0)|(170,300) N(193:instance in)|(190,300)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="267" Joints="N(28:Out)|(500,355) N(276:L0)|(530,355)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="268" Joints="N(314:R0)|(650,355) h(10) v(-175) N(46:o0)|(671,180)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="269" Joints="N(276:R1)|(580,365) N(314:L1)|(600,365)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -280,7 +279,7 @@
 				</p.MethodDeclaration>
 				<Terminal DataType="String" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="273" Joints="N(27:Out)|(100,300) N(272:L0)|(120,300)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -295,7 +294,7 @@
 				</p.MethodDeclaration>
 				<Terminal DataType="String" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="281" Joints="N(276:R0)|(580,355) N(314:L0)|(600,355)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -308,9 +307,9 @@
 						<Parameter Id="R1" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="285" Joints="N(193:instance out)|(300,300) N(282:L0)|(320,300)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -323,9 +322,9 @@
 						<Parameter Id="R1" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<MethodCall Bounds="390 295 50 50" DomainName="NI.MocCommon" Id="292" Target="Write\ Double\ Tag\.gvi" xmlns="http://www.ni.com/MocCommon">
@@ -339,11 +338,11 @@
 						<Parameter Id="R1" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Input" Hotspot="0 35" Id="L3" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Timestamp" Direction="Input" Hotspot="0 45" Id="L4" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="296" Joints="N(292:R0)|(440,300) N(291:L0)|(460,300)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -359,11 +358,12 @@
 						<Parameter Id="R1" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@6220be0d0010472fb9367697df330c0d" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dffd671b12d746c19b21708d39e40936" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
+			<Wire Id="316" Joints="N(272:R0)|(170,300) N(193:instance in)|(190,300)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<Graph DataSource="{DataItemBinding Id=14}" Height="[float]216" Id="198" Label="[UIModel]212" Left="[float]133" TabIndex="[int]0" Top="[float]77" Width="[float]336" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
@@ -439,7 +439,14 @@
 			</Enumeration>
 		</p.TypeReference>
 		<p.TypeReference TypeId="532a20018e5c43f589ed373396e2c714">
-			<Typedef TypedefName="Aggregates Double.gtype" UnderlyingType="@37e4475e5adc4dfcb9f9f995c072fa97" />
+			<Typedef TypedefName="Aggregates Double.gtype" UnderlyingType="@72d7635d60014ed4b18f13e4b1c75b0c" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="dffd671b12d746c19b21708d39e40936">
+			<Attributed AttributedType="@e9c488811c4d4f76bc2ee7e604ebe5dd">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]niTag" />
+				</AttributeValues>
+			</Attributed>
 		</p.TypeReference>
 		<p.TypeReference TypeId="6220be0d0010472fb9367697df330c0d">
 			<Attributed AttributedType="@4bb05585ebf74aefa05d5594b5287309">
@@ -448,7 +455,7 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="37e4475e5adc4dfcb9f9f995c072fa97">
+		<p.TypeReference TypeId="72d7635d60014ed4b18f13e4b1c75b0c">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="count" DataType="Int32" />
@@ -459,8 +466,20 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
+		<p.TypeReference TypeId="e9c488811c4d4f76bc2ee7e604ebe5dd">
+			<Typedef TypedefName="niTag" UnderlyingType="@37b333316313430aad16736cc1e80da2" />
+		</p.TypeReference>
 		<p.TypeReference TypeId="4bb05585ebf74aefa05d5594b5287309">
 			<Typedef TypedefName="niTag" UnderlyingType="@cac2eec711ce4ac2abab8075c72db5f6" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="37b333316313430aad16736cc1e80da2">
+			<Attributed AttributedType="@508d17ffb9d54bd488ba18c15dda7a71">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]niTag" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]niTag" />
+				</AttributeValues>
+			</Attributed>
 		</p.TypeReference>
 		<p.TypeReference TypeId="cac2eec711ce4ac2abab8075c72db5f6">
 			<Attributed AttributedType="@d86b42bd7b674c46a0865a37ea6c51aa">
@@ -470,6 +489,9 @@
 					<AttributeValue Name="NI_UdrNamespace" Value="[string]niTag" />
 				</AttributeValues>
 			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="508d17ffb9d54bd488ba18c15dda7a71">
+			<Composite Id="1" Name="niTag" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="d86b42bd7b674c46a0865a37ea6c51aa">
 			<Composite Id="1" Name="niTag" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
