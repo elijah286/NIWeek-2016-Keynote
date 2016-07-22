@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0EBEFD7CBE1896196AD1DDDD8C78C7FE" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6EA55E6CB832FA5502726A6C2F5D4D09" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="17.0.0.114" FeatureSetName="DAQmx" MinimumParsableVersion="1.0.0.0" MinimumSemanticallyEquivalentVersion="1.0.0.0" Name="http://www.ni.com/DAQmx" Version="1.0.0.1" />
@@ -9,7 +9,7 @@
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
 		<ApplicationVersionInfo Build="4.7.1.34638" Name="Next Generation LabVIEW Features" Version="0.1.0" />
 	</SourceModelFeatureSet>
-	<VirtualInstrument Id="1" InlineIntoCaller="True" Reentrancy="Stateless" xmlns="http://www.ni.com/LabVIEW.VI">
+	<VirtualInstrument Id="1" InlineIntoCaller="True" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
@@ -51,19 +51,19 @@
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="838" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Left="[float]0" MinHeight="[float]22" Name="[string]Number of Samples" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]1" Top="[float]0" UnitAnnotation="[string]" Value="{DataItemBinding Id=837}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
-			<DataAccessor Bounds="1110 340 40 15" DataItem="60" Id="69" Label="70" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="855 340 40 15" DataItem="60" Id="69" Label="70" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="69" Bounds="1155 340 28 14" Id="70" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="69" Bounds="900 340 28 14" Id="70" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Error</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="1090 245 40 15" DataItem="35" Id="55" Label="56" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="835 245 40 15" DataItem="35" Id="55" Label="56" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Wfm(Double)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="55" Bounds="1135 245 25 14" Id="56" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="55" Bounds="880 245 25 14" Id="56" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>data</p.Text>
 			</NodeLabel>
-			<Wire Id="557" Joints="N(821:663)|(1069,250) N(55:Value)|(1093,250)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="557" Joints="N(821:663)|(814,250) N(55:Value)|(838,250)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="-290 235 40 15" DataItem="558" Id="567" Label="568" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
@@ -71,13 +71,13 @@
 				<p.Text>error in</p.Text>
 			</NodeLabel>
 			<Wire Id="660" Joints="N(567:Value)|(-250,240) N(666:663)|(-239,240)" xmlns="http://www.ni.com/PlatformFramework" />
-			<CaseStructure Bounds="-235 25 1300 460" DataType="Error" Id="663" Selected="665" UserSelectorBounds="597 0 106 17">
-				<CaseStructure.Case Bounds="5 5 1290 450" Id="664" Pattern="Error">
-					<Wire Id="833" Joints="N(666:664)|(4,210) h(476) v(105) N(834:664)|(1286,315)" xmlns="http://www.ni.com/PlatformFramework" />
+			<CaseStructure Bounds="-235 25 1045 460" DataType="Error" Id="663" Selected="665" UserSelectorBounds="470 0 106 17">
+				<CaseStructure.Case Bounds="5 5 1035 450" Id="664" Pattern="Error">
+					<Wire Id="833" Joints="N(666:664)|(4,210) h(476) v(105) N(834:664)|(1031,315)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 1290 450" Id="665" Pattern="No Error">
+				<CaseStructure.Case Bounds="5 5 1035 450" Id="665" Pattern="No Error">
 					<Wire Id="823" Joints="N(666:665)|(4,210) N(1230:o0)|(51,210)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="836" Joints="N(1233:o0)|(904,315) N(834:665)|(1286,315)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="836" Joints="N(1233:o0)|(904,315) N(834:665)|(1031,315)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="930" Joints="N(931:665)|(4,145) N(1236:o0)|(51,145)" xmlns="http://www.ni.com/PlatformFramework" />
 					<WhileLoop Bounds="55 35 845 375" DiagramId="938" Id="937">
 						<LoopIteration Bounds="5 345 15 15" Id="939" />
@@ -275,14 +275,14 @@
 						<RightShiftRegister Bounds="836 160 13 10" Docking="Right" Id="1242" Terminals="937, 938=1240" />
 						<LeftShiftRegister Bounds="-4 160 13 10" Docking="Left" Id="1244" RightRegister="1242" Terminals="o0, i0=1245" />
 					</WhileLoop>
-					<Wire Id="1286" Joints="N(1227:o0)|(904,220) N(821:665)|(1286,220)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="1286" Joints="N(1227:o0)|(904,220) N(821:665)|(1031,220)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
 				<CaseStructure.Selector Bounds="-4 210 13 10" Docking="Left" Id="666" Terminals="663=660, 664=833, 665=823" />
-				<CaseStructure.Tunnel Bounds="1291 220 13 10" DefaultIfUnwired="True" Docking="Right" Id="821" Terminals="663=557, 664, 665=1286" />
-				<CaseStructure.Tunnel Bounds="1291 315 13 10" Docking="Right" Id="834" Terminals="663=835, 664=833, 665=836" />
+				<CaseStructure.Tunnel Bounds="1036 220 13 10" DefaultIfUnwired="True" Docking="Right" Id="821" Terminals="663=557, 664, 665=1286" />
+				<CaseStructure.Tunnel Bounds="1036 315 13 10" Docking="Right" Id="834" Terminals="663=835, 664=833, 665=836" />
 				<CaseStructure.Tunnel Bounds="-4 145 13 10" Docking="Left" Id="931" Terminals="663=928, 664, 665=930" />
 			</CaseStructure>
-			<Wire Id="835" Joints="N(834:663)|(1069,345) N(69:Value)|(1113,345)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="835" Joints="N(834:663)|(814,345) N(69:Value)|(858,345)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="-285 170 40 15" DataItem="837" Id="840" Label="841" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
