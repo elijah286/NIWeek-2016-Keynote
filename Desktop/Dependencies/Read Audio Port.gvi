@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6EA55E6CB832FA5502726A6C2F5D4D09" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="DBDB6A1FD39C3CB4C027AE922EF8E678" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="17.0.0.114" FeatureSetName="DAQmx" MinimumParsableVersion="1.0.0.0" MinimumSemanticallyEquivalentVersion="1.0.0.0" Name="http://www.ni.com/DAQmx" Version="1.0.0.1" />
@@ -204,7 +204,7 @@
 									</RingBehavior>
 								</Literal>
 								<Wire Id="1249" Joints="N(1248:Out)|(420,90) h(5) N(15:T0)|(425,125)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="1256" Joints="N(929:99)|(4,70) N(934:99)|(586,70)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="1256" Joints="N(929:99)|(4,70) h(434) B(1) N(934:99)|(586,70) B(1) v(-25) N(1304:c1t0v)|(445,45)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="1298" Joints="N(15:R0)|(460,130) N(1297:L0)|(500,130)" xmlns="http://www.ni.com/PlatformFramework" />
 								<DAQmxNode Bounds="500 125 50 50" DomainName="NI.DAQmx" Id="1297" Target="DAQmx\ Start\ Task\.gvi" xmlns="http://www.ni.com/DAQmx">
 									<p.MethodDeclaration>
@@ -223,6 +223,13 @@
 								<Wire Id="1300" Joints="N(1297:R0)|(550,130) h(31) v(-5) N(492:99)|(586,125)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="1302" Joints="N(15:R1)|(460,140) N(1297:L1)|(500,140)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="1303" Joints="N(1297:R1)|(550,140) h(28) v(-5) N(830:99)|(586,135)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Multiply Bounds="445 25 30 30" Id="1304" Terminals="o=1306, c0t0v=1308, c1t0v=1256" />
+								<Wire Id="1306" Joints="N(1304:o)|(475,40) h(5) v(80) h(-45) N(15:T1)|(435,125)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Literal Bounds="375 25 40 16" DataType="Int32" Facade="Numeric" Id="1307" xmlns="http://www.ni.com/MocCommon">
+									<p.Data>2</p.Data>
+									<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+								</Literal>
+								<Wire Id="1308" Joints="N(1307:Out)|(415,30) N(1304:c0t0v)|(445,30)" xmlns="http://www.ni.com/PlatformFramework" />
 							</CaseStructure.Case>
 							<CaseStructure.Selector Bounds="-4 40 13 10" Docking="Left" Id="100" Terminals="97=555, 98, 99" />
 							<CaseStructure.Tunnel Bounds="591 125 13 10" DefaultIfUnwired="True" Docking="Right" Id="492" Terminals="97=26, 98=1247, 99=1300" />
