@@ -12,6 +12,5 @@ NationalInstruments.HtmlVI.outputDataItem['di_608']='String';
 NationalInstruments.HtmlVI.outputDataItem['di_26']='Array';
 NationalInstruments.HtmlVI.outputDataItem['di_160']='Number';
 NationalInstruments.HtmlVI.outputDataItem['di_154']='Number';
-NationalInstruments.HtmlVI.outputDataItem['di_148']='Number';
 NationalInstruments.HtmlVI.outputDataItem['di_626']='Boolean';
 NationalInstruments.HtmlVI.outputDataItem['di_627']='Boolean';
