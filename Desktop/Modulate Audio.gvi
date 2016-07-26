@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6E507DDD212F7BCC2C74D193572B0426" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8E7D645A36CC721A6A0BD6EEBC35B79F" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -9,39 +9,45 @@
 		<ApplicationVersionInfo Build="4.7.1.34638" Name="Next Generation LabVIEW Features" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" InlineIntoCaller="True" Reentrancy="Stateless" xmlns="http://www.ni.com/LabVIEW.VI">
-		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
-			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Center" Id="115" Left="[float]0" TemplateName="Gray" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
-					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="116" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="117" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+		<Icon Id="2" ListViewIconCrop="0 0 50 50" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]50" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" HorizontalAlignment="[HorizontalAlignment]Center" Id="814" Left="[float]0" TemplateName="Banner" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]50">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="815" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffebebeb" Id="816" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" Top="[float]0" />
+					<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.9 0.9,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Id="817" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+					<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" Id="818" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
+					<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.9 1.1,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" Id="819" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 				</IconTemplate>
-				<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8cdfff" Height="[float]40" Id="114" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff3d3eb2" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
-				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,12 L 0,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffee1c25" Height="[float]12" Id="105" Left="[float]12" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]5" Width="[float]0" />
-				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 4.700001,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffee1c25" Height="[float]0" Id="106" Left="[float]12" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]6" Width="[float]4.700001" />
-				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 4.700001,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffee1c25" Height="[float]0" Id="107" Left="[float]12" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]9" Width="[float]4.700001" />
-				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,12 L 0,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]12" Id="109" Left="[float]26" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]8" Width="[float]0" />
-				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 4.700001,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]0" Id="110" Left="[float]26" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]9" Width="[float]4.700001" />
-				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 4.700001,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]0" Id="111" Left="[float]25" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]13" Width="[float]4.700001" />
-				<Ellipse EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff000000" Height="[float]5" Id="112" IsCircle="[bool]True" Left="[float]22" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]2" Top="[float]18" Width="[float]5" />
-				<Ellipse EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffee1c25" Height="[float]5" Id="113" IsCircle="[bool]True" Left="[float]8" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ffee1c25" StrokeThickness="[float]2" Top="[float]13" Width="[float]5" />
-				<Text Id="120" Left="[float]8" Text="[string]Shift" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
-					<FontSetting FontFamily="Verdana" FontSize="7" Id="121" />
+				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,12 L 0,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffee1c25" Height="[float]12" Id="105" Left="[float]18" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]17" Width="[float]0" />
+				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 4.700001,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffee1c25" Height="[float]0" Id="106" Left="[float]18" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]18" Width="[float]4.700001" />
+				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 4.700001,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffee1c25" Height="[float]0" Id="107" Left="[float]18" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]21" Width="[float]4.700001" />
+				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,12 L 0,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]12" Id="109" Left="[float]32" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]20" Width="[float]0" />
+				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 4.700001,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]0" Id="110" Left="[float]32" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]21" Width="[float]4.700001" />
+				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 4.700001,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]0" Id="111" Left="[float]31" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]25" Width="[float]4.700001" />
+				<Ellipse EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff000000" Height="[float]5" Id="112" IsCircle="[bool]True" Left="[float]28" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]2" Top="[float]30" Width="[float]5" />
+				<Ellipse EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffee1c25" Height="[float]5" Id="113" IsCircle="[bool]True" Left="[float]14" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ffee1c25" StrokeThickness="[float]2" Top="[float]25" Width="[float]5" />
+				<Text Foreground="[SMColor]#ffffffff" Height="[float]12" Id="822" Left="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Shift" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]2" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]28">
+					<FontSetting FontFamily="Verdana" FontSize="6" Id="823" />
 				</Text>
 			</IconPanel>
 		</Icon>
-		<ConnectorPane Height="40" Id="9" ListViewHeight="160" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+		<ConnectorPane Height="50" Id="9" ListViewHeight="160" ListViewWidth="150" Width="50" xmlns="http://www.ni.com/PlatformFramework">
 			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="44" />
 			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 110" Parameter="129" />
 			<ConnectorPaneTerminal Hotspot="0 25" />
-			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 50" Parameter="45" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
 			<ConnectorPaneTerminal Hotspot="15 0" ListViewHotspot="0 95" Parameter="122" />
 			<ConnectorPaneTerminal Hotspot="25 0" />
-			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 140" Parameter="737" />
-			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 65" Parameter="40" />
-			<ConnectorPaneTerminal Hotspot="40 25" />
-			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 80" Parameter="41" />
-			<ConnectorPaneTerminal Hotspot="15 40" />
-			<ConnectorPaneTerminal Hotspot="25 40" ListViewHotspot="150 125" Parameter="377" />
+			<ConnectorPaneTerminal Hotspot="50 5" ListViewHotspot="150 140" Parameter="737" />
+			<ConnectorPaneTerminal Hotspot="50 15" ListViewHotspot="150 65" Parameter="40" />
+			<ConnectorPaneTerminal Hotspot="50 25" />
+			<ConnectorPaneTerminal Hotspot="50 35" />
+			<ConnectorPaneTerminal Hotspot="15 50" ListViewHotspot="150 125" Parameter="377" />
+			<ConnectorPaneTerminal Hotspot="25 50" />
+			<ConnectorPaneTerminal Hotspot="50 45" ListViewHotspot="150 80" Parameter="41" />
+			<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 50" Parameter="45" />
+			<ConnectorPaneTerminal Hotspot="35 0" />
+			<ConnectorPaneTerminal Hotspot="35 50" />
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Height="[float]1600" Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
