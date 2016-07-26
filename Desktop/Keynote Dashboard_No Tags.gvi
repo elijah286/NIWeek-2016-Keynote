@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="9DE9E0DAD9B1A2E80631E3F35B2FFA65" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="732218750413295B21CB991A3BE80DDF" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -201,13 +201,13 @@
 			</Literal>
 			<Wire Id="2790" Joints="N(1908:Out)|(205,185) h(45) B(1) N(6184:o0)|(361,185) B(1) v(-330) N(4667:o0)|(376,-145) B(1) N(123:T1)|(250,205)" xmlns="http://www.ni.com/PlatformFramework" />
 			<ClusterLiteral Bounds="115 225 83 60" DataType="@f3544215010640da860f6e0110f8a1c6" Facade="Cluster" Id="3845" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>0x40E5888000000000_1_16_</p.Data>
+				<p.Data>0x40D5888000000000_1_16_</p.Data>
 				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 					<TypeDefinitionTarget TargetName="Sound\ Data\ Format\.gtype" />
 				</p.TypeDefinitionTargets>
 				<ClusterBehavior AutoArrange="ArrangeVertically" />
 				<Literal Bounds="5 2 60 16" DataType="Double" Facade="Numeric" Id="3846" Label="3847">
-					<p.Data>0x40E5888000000000</p.Data>
+					<p.Data>0x40D5888000000000</p.Data>
 					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 				</Literal>
 				<NodeLabel AttachedTo="3846" Bounds="5 -16 30 15" Id="3847" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -422,12 +422,12 @@
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=24}" DataSourceType="[Type]Wfm(Double)" Height="[float]222" Id="26" Label="[UIModel]48" Left="[float]76" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]264" Width="[float]949" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<Axis Adjuster="[RangeAdjuster]FitLoosely" HighLimit="[UIModel]39" Id="27" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" LowLimit="[UIModel]40" MajorDivisions="[UIModel]38" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 0.024, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitLoosely" HighLimit="[UIModel]39" Id="27" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" LowLimit="[UIModel]40" MajorDivisions="[UIModel]38" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 0.05, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="38" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 					<RangeLimit Enabled="[bool]False" Fill="[SMSolidColorBrush]#ffee1c24" Id="39" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ffee1c24" Value="[double]90" />
 					<RangeLimit Enabled="[bool]False" Fill="[SMSolidColorBrush]#ff00a64e" Id="40" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ff00a64e" Value="[double]10" />
 				</Axis>
-				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" HighLimit="[UIModel]42" Id="28" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" LowLimit="[UIModel]43" MajorDivisions="[UIModel]41" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.018000000000000002, -0.008, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" HighLimit="[UIModel]42" Id="28" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" LowLimit="[UIModel]43" MajorDivisions="[UIModel]41" Orientation="[SMOrientation]Vertical" Range="[IRange]0.0002, 0.0029000000000000002, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="41" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 					<RangeLimit Enabled="[bool]False" Fill="[SMSolidColorBrush]#ffee1c24" Id="42" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ffee1c24" Value="[double]9" />
 					<RangeLimit Enabled="[bool]False" Fill="[SMSolidColorBrush]#ff00a64e" Id="43" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ff00a64e" Value="[double]1" />
@@ -582,20 +582,20 @@
 			<Composite Id="1" Name="niTag" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="Read" Name="Path_0" DataType="String" />
-					<Field FieldAccessPolicy="Read" Name="Data Type_1" DataType="@2731ea27344c4a7ab0fcd27b1b95d4f2" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Properties_2" DataType="@fa6a06814f5b45bea97f86e53d9b7223" />
+					<Field FieldAccessPolicy="Read" Name="Data Type_1" DataType="@2675f66f7e004e568ca3a416946a0eef" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Properties_2" DataType="@bcacaee4d3124589ba7c97346d148922" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Keywords_3" DataType="String[]" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Collect Aggregates_4" DataType="Boolean" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="2731ea27344c4a7ab0fcd27b1b95d4f2">
-			<Typedef TypedefName="DataType.gtype" UnderlyingType="@a678a3b84f654363a1dff78768192a1f" />
+		<p.TypeReference TypeId="2675f66f7e004e568ca3a416946a0eef">
+			<Typedef TypedefName="DataType.gtype" UnderlyingType="@c224e188e1fc4e22a444683cadd94d10" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="fa6a06814f5b45bea97f86e53d9b7223">
-			<VariableArray DereferenceType="@68b1dfe8f8554fa69d06a73a502e17a2" />
+		<p.TypeReference TypeId="bcacaee4d3124589ba7c97346d148922">
+			<VariableArray DereferenceType="@322e07de70794a0281181084b5ae5f6e" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="a678a3b84f654363a1dff78768192a1f">
+		<p.TypeReference TypeId="c224e188e1fc4e22a444683cadd94d10">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Double" />
@@ -605,10 +605,10 @@
 				<DataType>UInt32</DataType>
 			</Enumeration>
 		</p.TypeReference>
-		<p.TypeReference TypeId="68b1dfe8f8554fa69d06a73a502e17a2">
-			<Typedef TypedefName="Property.gtype" UnderlyingType="@fed0528fe8fc4f07b0622bfe9bac4505" />
+		<p.TypeReference TypeId="322e07de70794a0281181084b5ae5f6e">
+			<Typedef TypedefName="Property.gtype" UnderlyingType="@87b2f5faf14a4e389b5c239698a580a1" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="fed0528fe8fc4f07b0622bfe9bac4505">
+		<p.TypeReference TypeId="87b2f5faf14a4e389b5c239698a580a1">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="key" DataType="String" />
