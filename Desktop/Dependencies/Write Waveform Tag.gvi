@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7E2598EE8D77822465C29100BC338F0D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3FFEBE4AB4B5C9E06C543EF61C66E0F8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -75,7 +75,7 @@
 				<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<FlattenToJSON Bounds="760 430 40 40" Id="164" />
-			<MethodCall Bounds="835 320 50 50" DomainName="NI.MocCommon" Id="170" Target="Write\ String\ Tag\.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="940 450 50 50" DomainName="NI.MocCommon" Id="170" Target="Write\ String\ Tag\.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="tag reference in" />
@@ -86,12 +86,12 @@
 						<Parameter Id="R1" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@7f4c1fa1b4de4504a62e96c5fe3cb13b" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="String" Direction="Input" Hotspot="0 35" Id="L3" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@7f4c1fa1b4de4504a62e96c5fe3cb13b" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Input" Hotspot="0 35" Id="L3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Timestamp" Direction="Input" Hotspot="0 45" Id="L4" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@7f4c1fa1b4de4504a62e96c5fe3cb13b" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@7f4c1fa1b4de4504a62e96c5fe3cb13b" Direction="Output" Hotspot="50 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<NodeLabel AttachedTo="163" Bounds="750 393 63 14" Id="171" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Weaveform</p.Text>
@@ -102,9 +102,9 @@
 			<NodeLabel AttachedTo="101" Bounds="319 420 56 14" Id="104" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Waveform</p.Text>
 			</NodeLabel>
-			<Wire Id="167" Joints="N(164:error out)|(800,465) h(25) v(-130) N(170:L1)|(835,335)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="168" Joints="N(164:JSON string)|(800,435) h(20) v(-80) N(170:L3)|(835,355)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="398" Joints="N(395:Value)|(720,325) N(170:L0)|(835,325)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="167" Joints="N(164:error out)|(800,465) N(170:L1)|(940,465)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="168" Joints="N(164:JSON string)|(800,435) h(20) v(50) N(170:L3)|(940,485)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="398" Joints="N(395:Value)|(720,325) h(155) v(130) N(170:L0)|(940,455)" xmlns="http://www.ni.com/PlatformFramework" />
 			<MethodCall Bounds="485 420 50 50" DomainName="NI.MocCommon" Id="399" Target="NI:Analysis:Resampling:Decimate\ \(single\ shot\,\ DBL\)\.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -132,8 +132,8 @@
 			<Wire Id="406" Joints="N(405:Out)|(465,440) h(5) v(-5) N(399:L1)|(485,435)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
-			<Waveform BaseName="[string]Waveform" Height="[float]136" Id="102" Label="[UIModel]103" Left="[float]418" TabIndex="[int]0" Top="[float]137" WaveformData="{DataItemBinding Id=100}" WaveformDataType="[Type]Double" Width="[float]264" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="103" LabelOwner="[UIModel]102" Left="[float]418" Text="[string]Waveform" Top="[float]114" Width="[float]55" xmlns="http://www.ni.com/PanelCommon" />
+			<Waveform BaseName="[string]Waveform" Height="[float]136" Id="102" Label="[UIModel]103" Left="[float]278" TabIndex="[int]0" Top="[float]286" WaveformData="{DataItemBinding Id=100}" WaveformDataType="[Type]Double" Width="[float]264" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="103" LabelOwner="[UIModel]102" Left="[float]278" Text="[string]Waveform" Top="[float]263" Width="[float]55" xmlns="http://www.ni.com/PanelCommon" />
 		</CPFrontPanel>
 		<DataItem CallDirection="Input" CallIndex="0" DataType="Wfm(Double)" Id="100" Name="Waveform" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>

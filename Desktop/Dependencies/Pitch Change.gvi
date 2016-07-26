@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="374657F4C1F2469993A3A7951FAAC2E4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B45EEEF12A49A83708924D6E28DCE5CA" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -162,7 +162,7 @@
 					<Wire Id="105" Joints="N(80:o)|(155,90) h(18) v(-35) N(72:67)|(178,55)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="106" Joints="N(79:i0)|(6,175) h(104) v(-80) N(80:c1t0v)|(125,95)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="107" Joints="N(73:i0)|(6,55) h(5) B(1) N(83:c0t0v)|(125,55) B(1) v(25) N(80:c0t0v)|(125,80)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="108" Joints="N(81:R0)|(90,100) h(10) v(-35) N(83:c0new)|(125,65)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="108" Joints="N(81:R0)|(90,100) h(15) v(-35) N(83:c0new)|(125,65)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="109" Joints="N(83:outArray)|(165,35) N(70:67)|(178,35)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="110" Joints="N(71:i0)|(6,35) N(83:inArray)|(125,35)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="114" Joints="N(75:i0)|(65,6) N(81:T0)|(65,95)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -179,7 +179,7 @@
 					<LoopTunnel Bounds="62 -5 10 13" Docking="Top" Id="75" Terminals="o0=130, i0=114" />
 					<LoopTunnel Bounds="-5 142 13 10" Docking="Left" Id="76" Terminals="o0=129, i0=139" />
 					<LoopTunnel Bounds="-5 202 13 10" Docking="Left" Id="77" Terminals="o0=118, i0=137" />
-					<LoopTunnel Bounds="-5 107 13 10" Docking="Left" Id="78" Terminals="o0=128, i0=143" />
+					<LoopTunnel Bounds="-5 107 13 10" Docking="Left" Id="78" Terminals="o0=337, i0=143" />
 					<LoopTunnel Bounds="-5 172 13 10" Docking="Left" Id="79" Terminals="o0=125, i0=106" />
 				</ForLoop>
 				<Multiply Bounds="655 130 30 30" Id="84" Terminals="o=119, c0t0v=120, c1t0v=116" />
@@ -198,7 +198,6 @@
 				<Wire Id="125" Joints="N(63:floor(x/y\))|(155,275) h(50) B(1) h(55) B(2) N(79:o0)|(418,275) B(2) v(-45) N(65:c1t0v)|(285,230) B(1) v(-55) N(64:y)|(215,220)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="126" Joints="N(43:Out)|(410,155) N(73:o0)|(418,155)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="127" Joints="N(58:53)|(314,135) N(71:o0)|(418,135)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="128" Joints="N(37:Value)|(55,345) h(333) v(-135) N(78:o0)|(418,210)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="129" Joints="N(33:Value)|(55,255) h(10) B(1) v(-10) N(76:o0)|(418,245) B(1) v(5) N(63:x)|(125,260)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="130" Joints="N(52:o)|(165,45) h(5) B(1) h(320) N(75:o0)|(490,93) B(1) v(45) N(56:53)|(181,90)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="131" Joints="N(65:outArray)|(325,200) N(74:o0)|(418,200)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -207,6 +206,18 @@
 				<Wire Id="134" Joints="N(50:size(s\))|(165,160) h(6) B(1) v(-5) N(57:53)|(181,155) B(1) v(45) N(64:x)|(215,205)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="135" Joints="N(51:First Call?: T/F)|(100,50) N(52:c1t0v)|(142,50)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="136" Joints="N(39:Value)|(90,40) N(52:c0t0v)|(142,40)" xmlns="http://www.ni.com/PlatformFramework" />
+				<MethodCall Bounds="210 340 50 20" DomainName="NI.MocCommon" Id="334" Target="Scale\ Pitch\.gvi" xmlns="http://www.ni.com/MocCommon">
+					<p.MethodDeclaration>
+						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+							<Parameter Id="L0" Desc="set pitch" />
+							<Parameter Id="R0" Desc="Numeric" />
+						</MethodDeclaration>
+					</p.MethodDeclaration>
+					<Terminal DataType="Double" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Double" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				</MethodCall>
+				<Wire Id="336" Joints="N(37:Value)|(55,345) N(334:L0)|(210,345)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="337" Joints="N(334:R0)|(260,345) h(128) v(-135) N(78:o0)|(418,210)" xmlns="http://www.ni.com/PlatformFramework" />
 				<RightShiftRegister Bounds="911 135 13 10" Docking="Right" Id="31" Terminals="27, 28=119" />
 				<LeftShiftRegister Bounds="-4 135 13 10" Docking="Left" Id="32" RightRegister="31" Terminals="o0, i0=124" />
 				<LoopTunnel Bounds="911 90 13 10" Docking="Right" Id="307" Terminals="o0=306, i0=122" />
@@ -291,11 +302,31 @@
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
 						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="GrayNoText" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="Gray" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]False" Foreground="[SMColor]#ff000000" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Pitch Change " TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Verdana" FontSize="6.75" />
+								</FileNameText>
+							</IconTemplate>
+							<Path Data="[PathGeometry]M 19,0 C 22.109,0 22.92,2.762 23.457,4.59 C 24.039,6.572 24.312,7 25,7 L 26,7 L 26,10 L 25,10 C 21.919,10 21.112,7.253 20.578,5.435 C 19.99,3.433 19.71,3 19,3 C 18.271,3 18.006,3.408 17.424,5.427 C 16.898,7.246 16.105,9.995 13.002,10 L 12.994,10 C 9.88,10 9.1,7.255 8.582,5.439 C 8.007,3.415 7.739,3.005 6.989,3 L 6.974,3 C 6.302,3 6.029,3.313 5.423,5.419 C 4.898,7.243 4.105,10 1,10 L 0,10 L 0,7 L 1,7 C 1.696,7 1.97,6.572 2.54,4.59 C 3.066,2.761 3.861,0 6.973,0 L 7.011,0 C 10.16,0.022 10.947,2.787 11.468,4.617 C 12.06,6.701 12.327,7 12.994,7 L 12.998,7 C 13.696,6.999 13.971,6.572 14.541,4.595 C 15.069,2.765 15.866,0 19,0 " EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#ff3d3eb2" Left="[float]7" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]26" Width="[float]26" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Scale\ Pitch\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 20">
+						<IconPanel Height="[float]20" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]20" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]50">
 								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
-							<Path Data="[PathGeometry]M 19,0 C 22.109,0 22.92,2.762 23.457,4.59 C 24.039,6.572 24.312,7 25,7 L 26,7 L 26,10 L 25,10 C 21.919,10 21.112,7.253 20.578,5.435 C 19.99,3.433 19.71,3 19,3 C 18.271,3 18.006,3.408 17.424,5.427 C 16.898,7.246 16.105,9.995 13.002,10 L 12.994,10 C 9.88,10 9.1,7.255 8.582,5.439 C 8.007,3.415 7.739,3.005 6.989,3 L 6.974,3 C 6.302,3 6.029,3.313 5.423,5.419 C 4.898,7.243 4.105,10 1,10 L 0,10 L 0,7 L 1,7 C 1.696,7 1.97,6.572 2.54,4.59 C 3.066,2.761 3.861,0 6.973,0 L 7.011,0 C 10.16,0.022 10.947,2.787 11.468,4.617 C 12.06,6.701 12.327,7 12.994,7 L 12.998,7 C 13.696,6.999 13.971,6.572 14.541,4.595 C 15.069,2.765 15.866,0 19,0 " EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Left="[float]7" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]19" Width="[float]26" />
+							<Text Left="[float]9" Text="[string]Scale" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]2" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+								<FontSetting FontFamily="Verdana" FontSize="9" />
+							</Text>
 						</IconPanel>
 					</Icon>
 				</MergeItem>

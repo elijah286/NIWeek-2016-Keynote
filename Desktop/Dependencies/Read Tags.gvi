@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B91F448F59BE90EC3D534BB2F47DEAD3" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F6D8EED0A44DDE9E28E685C0645EC402" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -48,7 +48,7 @@
 			<Tank BaseName="[string]Tank" Height="[float]136" Id="68" InteractionMode="[NumericPointerInteractionModes]EditRange" IsInverted="[bool]False" Label="[UIModel]69" Left="[float]497" Maximum="[double]1000" MechanicalAction="[MechanicalAction]SwitchWhenReleased" MinHeight="[float]50" MinWidth="[float]50" Orientation="[SMOrientation]Vertical" ScaleVisibility="[SMVisibility]Collapsed" TabIndex="[int]2" Top="[float]73" Value="{DataItemBinding Id=64}" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="69" LabelOwner="[UIModel]68" Left="[float]497" Text="[string]Low" Top="[float]50" Width="[float]22" xmlns="http://www.ni.com/PanelCommon" />
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="91" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Left="[float]0" MinHeight="[float]22" Name="[string]Responses" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]3" Top="[float]0" Value="{DataItemBinding Id=90}" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<IONameControl AllowUndefinedValues="[bool]True" BaseName="[string]Name" DataType="[Type]@dffd671b12d746c19b21708d39e40936" Height="[float]22" Id="734" Label="[UIModel]737" Left="[float]12" SelectedResource="{DataItemBinding Id=733}" TabIndex="[int]4" Top="[float]51" UdrClass="[string]niTag" UdrNamespace="[string]niTag" Width="[float]150" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<IONameControl AllowUndefinedValues="[bool]True" BaseName="[string]Name" DataType="[Type]@d53c330398214ca8abe568260ec1562f" Height="[float]22" Id="734" Label="[UIModel]737" Left="[float]12" SelectedResource="{DataItemBinding Id=733}" TabIndex="[int]4" Top="[float]51" UdrClass="[string]niTag" UdrNamespace="[string]niTag" Width="[float]150" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 					<TypeDefinitionTarget TargetName="niTag:niTag:ControlDefinition" />
 				</p.TypeDefinitionTargets>
@@ -58,7 +58,7 @@
 			<Label Id="737" LabelOwner="[UIModel]734" Left="[float]12" Text="[string]tag reference in" Top="[float]28" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
-			<DataAccessor Bounds="1540 0 40 15" DataItem="62" Id="56" Label="59" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="1710 0 40 15" DataItem="62" Id="56" Label="59" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<DataAccessor Bounds="1545 -75 40 15" DataItem="63" Id="57" Label="60" xmlns="http://www.ni.com/MocCommon">
@@ -70,7 +70,7 @@
 			<DataAccessor Bounds="1540 15 40 15" DataItem="90" Id="93" Label="94" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<PropertyNode Bounds="1385 -10 105 50" HasErrorTerminals="False" Id="152" InstanceDataType="@532a20018e5c43f589ed373396e2c714" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
+			<PropertyNode Bounds="1385 -10 105 50" HasErrorTerminals="False" Id="152" InstanceDataType="@5036cda70eea4895bc6d725570d62b84" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
 				<PropertyItemTerminal DataType="Double" Hotspot="105 15" Id="c0t0v" Path="mean" Usage="Optional" />
 				<PropertyItemTerminal DataType="Int32" Hotspot="105 30" Id="c1t0v" Path="count" Usage="Optional" />
 			</PropertyNode>
@@ -92,9 +92,9 @@
 				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Output" Hotspot="50 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Timestamp" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@532a20018e5c43f589ed373396e2c714" Direction="Output" Hotspot="35 50" Id="B2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@5036cda70eea4895bc6d725570d62b84" Direction="Output" Hotspot="35 50" Id="B2" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<NodeLabel AttachedTo="56" Bounds="1585 0 59 14" Id="59" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="56" Bounds="1755 0 59 14" Id="59" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Pitch Ratio</p.Text>
 			</NodeLabel>
 			<NodeLabel AttachedTo="57" Bounds="1590 -75 26 14" Id="60" xmlns="http://www.ni.com/PlatformFramework">
@@ -106,7 +106,6 @@
 			<NodeLabel AttachedTo="93" Bounds="1585 15 59 14" Id="94" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Responses</p.Text>
 			</NodeLabel>
-			<Wire Id="156" Joints="N(152:c0t0v)|(1490,5) N(56:Value)|(1543,5)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="157" Joints="N(152:c1t0v)|(1490,20) N(93:Value)|(1543,20)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="155" Joints="N(153:B2)|(1355,-50) v(45) N(152:instance in)|(1385,-5)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="1250 -100 40 15" DataItem="733" Id="739" Label="740" xmlns="http://www.ni.com/MocCommon">
@@ -116,6 +115,14 @@
 				<p.Text>tag reference in</p.Text>
 			</NodeLabel>
 			<Wire Id="741" Joints="N(739:Value)|(1290,-95) N(153:L0)|(1320,-95)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Multiply Bounds="1535 110 30 30" Id="742" Terminals="o=745, c0t0v=744, c1t0v=747" />
+			<Wire Id="744" Joints="N(152:c0t0v)|(1490,5) h(38) v(110) N(742:c0t0v)|(1535,115)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="745" Joints="N(742:o)|(1565,125) h(140) v(-120) N(56:Value)|(1713,5)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="1465 125 40 16" DataType="Double" Facade="Numeric" Id="746" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x4014000000000000</p.Data>
+				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+			</Literal>
+			<Wire Id="747" Joints="N(746:Out)|(1505,130) N(742:c1t0v)|(1535,130)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" />
 		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="2" DataType="Double" Id="62" Name="Pitch Ratio" xmlns="http://www.ni.com/MocCommon">
@@ -138,15 +145,15 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="dffd671b12d746c19b21708d39e40936">
-			<Attributed AttributedType="@e9c488811c4d4f76bc2ee7e604ebe5dd">
+		<p.TypeReference TypeId="d53c330398214ca8abe568260ec1562f">
+			<Attributed AttributedType="@4dc5a9ac0f3d48edb0ddb13f3756309c">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]niTag" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="532a20018e5c43f589ed373396e2c714">
-			<Typedef TypedefName="Aggregates Double.gtype" UnderlyingType="@72d7635d60014ed4b18f13e4b1c75b0c" />
+		<p.TypeReference TypeId="5036cda70eea4895bc6d725570d62b84">
+			<Typedef TypedefName="Aggregates Double.gtype" UnderlyingType="@374e707a68e8403d8339f47ce4c1fbdc" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="7f4c1fa1b4de4504a62e96c5fe3cb13b">
 			<Attributed AttributedType="@4bb05585ebf74aefa05d5594b5287309">
@@ -155,10 +162,10 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e9c488811c4d4f76bc2ee7e604ebe5dd">
-			<Typedef TypedefName="niTag" UnderlyingType="@37b333316313430aad16736cc1e80da2" />
+		<p.TypeReference TypeId="4dc5a9ac0f3d48edb0ddb13f3756309c">
+			<Typedef TypedefName="niTag" UnderlyingType="@dceeb98c42e4404daf1840d64cd12825" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="72d7635d60014ed4b18f13e4b1c75b0c">
+		<p.TypeReference TypeId="374e707a68e8403d8339f47ce4c1fbdc">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="count" DataType="Int32" />
@@ -172,8 +179,8 @@
 		<p.TypeReference TypeId="4bb05585ebf74aefa05d5594b5287309">
 			<Typedef TypedefName="niTag" UnderlyingType="@cac2eec711ce4ac2abab8075c72db5f6" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="37b333316313430aad16736cc1e80da2">
-			<Attributed AttributedType="@508d17ffb9d54bd488ba18c15dda7a71">
+		<p.TypeReference TypeId="dceeb98c42e4404daf1840d64cd12825">
+			<Attributed AttributedType="@db176f27ae934385926a6350c5855192">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
 					<AttributeValue Name="NI_UdrClass" Value="[string]niTag" />
@@ -190,7 +197,7 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="508d17ffb9d54bd488ba18c15dda7a71">
+		<p.TypeReference TypeId="db176f27ae934385926a6350c5855192">
 			<Composite Id="1" Name="niTag" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="d86b42bd7b674c46a0865a37ea6c51aa">
