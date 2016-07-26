@@ -1,4 +1,6 @@
 *.lvcodedb
+*.tdms
+*.tdms_index
 *.gcompcache
 *.lvprojectcache
 Desktop/Converted Code.lvprojectcache
