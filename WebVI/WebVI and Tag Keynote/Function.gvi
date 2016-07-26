@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A65B84F898E023261A0E804BFB8426AC" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F0CBD1A8E081336FB2A792F5A2F60906" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="Html VI" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49153" />
-		<ApplicationVersionInfo Build="4.7.1.34759" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34732" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34732" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34732" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34732" FeatureSetName="Html VI" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34732" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
+		<ApplicationVersionInfo Build="4.7.1.34732" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -35,7 +35,20 @@
 			<ConnectorPaneTerminal Hotspot="25 40" />
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
-		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0">
+			<HtmlCartesianGraph DataSource="{DataItemBinding Id=26}" Height="[float]264" Id="28" Label="[UIModel]37" Left="[float]20" PlotAreaMargin="[SMThickness]NaN,NaN,NaN,NaN" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]116" Width="[float]328" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<HtmlAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="29" Label="[string]Time" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double" />
+				<HtmlAxis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="30" Label="[string]Amplitude" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" />
+				<HtmlPlot HorizontalScale="[UIModel]29" Id="31" Label="[string]Plot" VerticalScale="[UIModel]30">
+					<HtmlPlotRenderer Id="32" LineStroke="[SMSolidColorBrush]#ffff0000" LineThickness="[double]1" />
+				</HtmlPlot>
+				<HtmlLabel Height="[float]16" Id="37" IsVisualChild="[bool]False" LabelOwner="[UIModel]28" Left="[float]20" Text="[string]Graph" Top="[float]93" Visible="[bool]False" Width="[float]33" />
+			</HtmlCartesianGraph>
+			<HtmlPlotLegend Graph="[UIModel]28" Height="[float]28" Id="33" Left="[float]355" MinWidth="[float]145" Top="[float]116" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlCursorLegend Graph="[UIModel]28" Height="[float]202" Id="34" Left="[float]25" MinWidth="[float]270" Top="[float]409" Visible="[bool]False" Width="[float]270" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlScaleLegend Graph="[UIModel]28" Height="[float]60" Id="35" Left="[float]355" MinWidth="[float]145" Top="[float]278" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlGraphTools Graph="[UIModel]28" Height="[float]35" Id="36" Left="[float]25" Top="[float]387" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
 			<WhileLoop Bounds="190 -40 680 385" DiagramId="16" Id="15">
 				<LoopIteration Bounds="5 355 15 15" Id="17" />
@@ -311,30 +324,18 @@
 			<Wire Id="560" Joints="N(79:Out)|(165,195) h(15) B(1) N(333:o0)|(186,195) B(1) v(-330) N(335:o0)|(286,-135)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
-			<HtmlCartesianGraph DataSource="{DataItemBinding Id=26}" Height="[float]264" Id="28" Label="[UIModel]37" Left="[float]20" PlotAreaMargin="[SMThickness]NaN,NaN,NaN,NaN" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]116" Width="[float]328" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<HtmlAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="29" Label="[string]Time" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double" />
-				<HtmlAxis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="30" Label="[string]Amplitude" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" />
-				<HtmlPlot HorizontalScale="[UIModel]29" Id="31" Label="[string]Plot" VerticalScale="[UIModel]30">
-					<HtmlPlotRenderer Id="32" LineStroke="[SMSolidColorBrush]#ffff0000" LineThickness="[double]1" />
-				</HtmlPlot>
-			</HtmlCartesianGraph>
-			<HtmlPlotLegend Graph="[UIModel]28" Height="[float]28" Id="33" Left="[float]355" MinWidth="[float]145" Top="[float]116" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlCursorLegend Graph="[UIModel]28" Height="[float]202" Id="34" Left="[float]25" MinWidth="[float]270" Top="[float]409" Visible="[bool]False" Width="[float]270" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlScaleLegend Graph="[UIModel]28" Height="[float]60" Id="35" Left="[float]355" MinWidth="[float]145" Top="[float]278" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlGraphTools Graph="[UIModel]28" Height="[float]35" Id="36" Left="[float]25" Top="[float]387" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="37" LabelOwner="[UIModel]28" Left="[float]20" Text="[string]Graph" Top="[float]93" Visible="[bool]False" Width="[float]33" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Low" Height="[float]59" Id="41" IsMomentary="[bool]True" Label="[UIModel]42" Left="[float]36" TabIndex="[int]1" Top="[float]387" Value="{DataItemBinding Id=39}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Low" Height="[float]59" Id="41" IsMomentary="[bool]True" Label="[UIModel]42" Left="[float]36" TabIndex="[int]0" Top="[float]387" Value="{DataItemBinding Id=39}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="42" LabelOwner="[UIModel]41" Left="[float]36" Text="[string]Low" Top="[float]364" Visible="[bool]False" Width="[float]22" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]High" Height="[float]59" Id="44" IsMomentary="[bool]True" Label="[UIModel]45" Left="[float]243" TabIndex="[int]2" Top="[float]387" Value="{DataItemBinding Id=46}" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]High" Height="[float]59" Id="44" IsMomentary="[bool]True" Label="[UIModel]45" Left="[float]243" TabIndex="[int]1" Top="[float]387" Value="{DataItemBinding Id=46}" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="45" LabelOwner="[UIModel]44" Left="[float]243" Text="[string]High" Top="[float]364" Visible="[bool]False" Width="[float]26" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="155" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]167" Left="[float]59" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]3" Top="[float]84" Value="{DataItemBinding Id=154}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="167" LabelOwner="[UIModel]155" Left="[float]59" Text="[string]Number of Votes" Top="[float]61" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="161" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]168" Left="[float]264" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]4" Top="[float]84" Value="{DataItemBinding Id=160}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="155" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]167" Left="[float]59" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]2" Top="[float]84" Value="{DataItemBinding Id=154}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="167" LabelOwner="[UIModel]155" Left="[float]59" Text="[string]Number of Votes" Top="[float]61" Width="[float]91" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="161" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]168" Left="[float]264" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]3" Top="[float]84" Value="{DataItemBinding Id=160}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="168" LabelOwner="[UIModel]161" Left="[float]264" Text="[string]Average" Top="[float]61" Width="[float]44" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="610" IsReadOnly="[bool]True" Label="[UIModel]611" Left="[float]59" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]5" Text="{DataItemBinding Id=608}" Top="[float]32" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]136" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="610" IsReadOnly="[bool]True" Label="[UIModel]611" Left="[float]59" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]4" Text="{DataItemBinding Id=608}" Top="[float]32" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]136" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="611" LabelOwner="[UIModel]610" Left="[float]59" Text="[string]Last Updated" Top="[float]9" Width="[float]71" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlBooleanLED BaseName="[string]LED" ClickMode="[ClickMode]Press" FalseContent="[string]Off" Height="[float]16" Id="622" IsMomentary="[bool]False" Label="[UIModel]624" Left="[float]119" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]6" Top="[float]392" TrueContent="[string]On" Value="{DataItemBinding Id=626}" Width="[float]16" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlBooleanLED BaseName="[string]LED" ClickMode="[ClickMode]Press" FalseContent="[string]Off" Height="[float]16" Id="623" IsMomentary="[bool]False" Label="[UIModel]625" Left="[float]328" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]7" Top="[float]391" TrueContent="[string]On" Value="{DataItemBinding Id=627}" Width="[float]16" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlBooleanLED BaseName="[string]LED" ClickMode="[ClickMode]Press" FalseContent="[string]Off" Height="[float]16" Id="622" IsMomentary="[bool]False" Label="[UIModel]624" Left="[float]119" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]5" Top="[float]392" TrueContent="[string]On" Value="{DataItemBinding Id=626}" Width="[float]16" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlBooleanLED BaseName="[string]LED" ClickMode="[ClickMode]Press" FalseContent="[string]Off" Height="[float]16" Id="623" IsMomentary="[bool]False" Label="[UIModel]625" Left="[float]328" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]6" Top="[float]391" TrueContent="[string]On" Value="{DataItemBinding Id=627}" Width="[float]16" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="624" LabelOwner="[UIModel]622" Left="[float]119" Text="[string]Low Hit" Top="[float]369" Visible="[bool]False" Width="[float]41" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="625" LabelOwner="[UIModel]623" Left="[float]328" Text="[string]High Hit" Top="[float]368" Visible="[bool]False" Width="[float]45" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</HtmlFrontPanel>
