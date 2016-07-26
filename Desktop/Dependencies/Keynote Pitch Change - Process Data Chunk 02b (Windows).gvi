@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8E18AF6378011276F3B84387FA7837B7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3874B70B4A9B15DD1FF2A74F60E17EE8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -364,7 +364,7 @@
 						<Wire Id="217" Joints="N(62:c7t0v)|(345,480) N(81:o0)|(988,480)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="218" Joints="N(62:c6t0v)|(345,465) h(626) v(-30) h(659) v(245) N(110:inArray)|(1635,680)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="219" Joints="N(62:c5t0v)|(345,450) h(1415) v(250) N(111:c0t0v)|(1770,700)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="220" Joints="N(62:c1t0v)|(345,390) h(90) v(-280) N(116:length0)|(2000,110)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="220" Joints="N(62:c1t0v)|(345,390) h(10) v(-280) N(116:length0)|(2000,110)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="221" Joints="N(62:c0t0v)|(345,375) h(25) B(1) h(1755) v(-290) N(118:n)|(2140,85) B(1) v(-57) h(-4) v(-153) N(64:n)|(385,165)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="222" Joints="N(111:outArray)|(1810,680) N(112:L0)|(1825,680)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="223" Joints="N(109:x - iy)|(1755,735) h(10) v(-25) N(111:c0new)|(1770,710)" xmlns="http://www.ni.com/PlatformFramework" />
