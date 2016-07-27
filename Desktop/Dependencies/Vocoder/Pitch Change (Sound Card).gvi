@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C4E13E81E9885039727AAA16F6CD0AED" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6FDF66E25A66BE37745872318C7FAFBC" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.1" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.0" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.1" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.1" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.7" />
-		<ApplicationVersionInfo Build="4.7.1.34468" Name="Next Generation LabVIEW Features" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
+		<ApplicationVersionInfo Build="4.7.1.34638" Name="Next Generation LabVIEW Features" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
 		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">"This VI plays a sound file continuously, reading the sound file in pieces, and playing each piece at a time.\n\nInstructions:  \n1.  Specify the path of a valid WAV file in the Path.\n2.  Specify the Device ID and # of samples per iteration, if necessary.\n3.  Run this VI\n4.  Use the volume knob to dynamically change the volume"</p.UserDescription>
@@ -76,8 +76,8 @@
 							<Parameter Id="L0" Desc="Waveform in" />
 							<Parameter Id="L1" Desc="Frame size" />
 							<Parameter Id="L2" Desc="Overlap" />
-							<Parameter Id="T0" Desc="Reset" />
-							<Parameter Id="B0" Desc="PitchRatio" />
+							<Parameter Id="B0" Desc="Reset" />
+							<Parameter Id="T0" Desc="PitchRatio" />
 							<Parameter Id="R1" Desc="Array of Waveform" />
 							<Parameter Id="R0" Desc="Waveform out" />
 						</MethodDeclaration>
@@ -85,22 +85,21 @@
 					<Terminal DataType="Wfm(Double)" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Int32" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="Boolean" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="Double" Direction="Input" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Boolean" Direction="Input" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Double" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Wfm(Double)[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
 				<NodeLabel AttachedTo="72" Bounds="405 54 332 18" Id="73" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Pitch Change</p.Text>
 				</NodeLabel>
-				<PropertyNode Bounds="590 250 55 10" HasErrorTerminals="False" Id="76" InstanceDataType="Error" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
+				<PropertyNode Bounds="590 250 55 35" HasErrorTerminals="False" Id="76" InstanceDataType="Error" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
 					<PropertyItemTerminal DataType="Boolean" Hotspot="55 15" Id="c0t0v" Path="status" Usage="Optional" />
 				</PropertyNode>
 				<LogicalOr Bounds="685 305 25 20" Id="77" Terminals="o=143, c0t0v=144, c1t0v=302" />
 				<Wire Id="133" Joints="N(65:Value)|(365,120) h(30) v(-30) N(72:L1)|(405,90)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="134" Joints="N(67:Value)|(365,160) h(35) v(-60) N(72:L2)|(405,100)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="137" Joints="N(54:i0)|(4,225) N(183:L0)|(525,225)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="139" Joints="N(312:Value)|(365,205) h(55) N(72:B0)|(420,115)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="143" Joints="N(77:o)|(710,315) h(25) v(-10) N(49:Input)|(740,305)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="144" Joints="N(76:c0t0v)|(645,265) h(15) v(45) N(77:c0t0v)|(687,310)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="151" Joints="N(183:R0)|(565,225) N(53:48)|(766,225)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -128,7 +127,7 @@
 				<Wire Id="216" Joints="N(183:R3)|(565,255) N(76:instance in)|(590,255)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="217" Joints="N(76:instance out)|(645,255) N(51:48)|(766,255)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="219" Joints="N(52:i0)|(4,255) N(183:L3)|(525,255)" xmlns="http://www.ni.com/PlatformFramework" />
-				<PropertyNode Bounds="20 30 50 10" HasErrorTerminals="False" Id="226" InstanceDataType="Wfm(Double)" Mode="InstanceProperties" Template="List">
+				<PropertyNode Bounds="20 30 50 65" HasErrorTerminals="False" Id="226" InstanceDataType="Wfm(Double)" Mode="InstanceProperties" Template="List">
 					<PropertyItemTerminal DataType="Double[]" Hotspot="50 15" Id="c0t0v" Path="Y" Usage="Optional" />
 					<PropertyItemTerminal DataType="Timestamp" Hotspot="50 30" Id="c1t0v" Path="t0" Usage="Optional" />
 					<PropertyItemTerminal DataType="Double" Hotspot="50 45" Id="c2t0v" Path="dt" Usage="Optional" />
@@ -145,12 +144,13 @@
 				<Add Bounds="625 120 30 30" Id="298" Terminals="o=301, c0t0v=232, c1t0v=290" />
 				<Wire Id="301" Joints="N(298:o)|(655,135) N(289:48)|(766,135)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="302" Joints="N(59:Value)|(650,330) h(5) v(-10) N(77:c1t0v)|(687,320)" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="325 200 40 15" DataItem="311" Id="312" Label="315" xmlns="http://www.ni.com/MocCommon">
+				<DataAccessor Bounds="315 35 40 15" DataItem="311" Id="312" Label="315" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="312" Bounds="291 200 29 14" Id="315" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="312" Bounds="281 35 29 14" Id="315" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Knob</p.Text>
 				</NodeLabel>
+				<Wire Id="345" Joints="N(312:Value)|(355,40) h(65) N(72:T0)|(420,75)" xmlns="http://www.ni.com/PlatformFramework" />
 				<RightShiftRegister Bounds="771 255 13 10" Docking="Right" Id="51" Terminals="47, 48=217" />
 				<LeftShiftRegister Bounds="-4 255 13 10" Docking="Left" Id="52" RightRegister="51" Terminals="o0=166, i0=219" />
 				<RightShiftRegister Bounds="771 225 13 10" Docking="Right" Id="53" Terminals="47, 48=151" />
@@ -309,18 +309,18 @@
 						</Array>
 					</Data>
 					<Attributes>
+						<Attribute Name="NI_LV_DataItem_GRAPH_VIEW_CAPTURE_OPTIONS_PlotColorARGB" DataType="String">#FFCCCC00</Attribute>
 						<Attribute Name="NI_LV_DataItem_GRAPH_VIEW_CAPTURE_OPTIONS_PlotMinimum" DataType="Double">0xC000000000000000</Attribute>
 						<Attribute Name="NI_LV_DataItem_GRAPH_VIEW_CAPTURE_OPTIONS_FormatFactoryIdentifier" DataType="String">{5D2CAE8E-815A-45DD-916D-F2E1456952FD}</Attribute>
 						<Attribute Name="NI_LV_DataItem_GRAPH_VIEW_CAPTURE_OPTIONS_PlotMaximum" DataType="Double">0x4000000000000000</Attribute>
 						<Attribute Name="NI_LV_DataItem_FormatVersion" DataType="Int32">32768</Attribute>
 						<Attribute Name="NI_LV_DataItem_GRAPH_VIEW_CAPTURE_OPTIONS_FormatFactoryParameters" DataType="String">"{\r\n  "FormatterIdentifier": "{4B751ECC-EA82-47CA-954A-E28A3A7B3C40}",\r\n  "formatMode": 1,\r\n  "digits": 5,\r\n  "showTrailingZeros": true,\r\n  "unitNumerator": 1,\r\n  "unitDenominator": 0,\r\n  "unitPin": false\r\n}"</Attribute>
-						<Attribute Name="NI_UnitDescription" DataType="String">V</Attribute>
 						<Attribute Name="NI_LV_DataItem_GRAPH_VIEW_CAPTURE_OPTIONS_BaseUnit" DataType="String">Volts</Attribute>
 						<Attribute Name="NI_LV_DataItem_TD" DataType="String">AAAAAQAcQFQAAxREb3VibGVBbmFsb2dXYXZlZm9ybQAAAQAA</Attribute>
-						<Attribute Name="NI_LV_DataItem_Name" DataType="String">Sensor 0</Attribute>
+						<Attribute Name="NI_UnitDescription" DataType="String">V</Attribute>
 						<Attribute Name="NI_LV_DataItem_TDVersion" DataType="UInt32">352354304</Attribute>
 						<Attribute Name="NI_ChannelName" DataType="String">Sensor 0</Attribute>
-						<Attribute Name="NI_LV_DataItem_GRAPH_VIEW_CAPTURE_OPTIONS_PlotColorARGB" DataType="String">#FFCCCC00</Attribute>
+						<Attribute Name="NI_LV_DataItem_Name" DataType="String">Sensor 0</Attribute>
 					</Attributes>
 				</Waveform>
 			</p.DefaultValue>

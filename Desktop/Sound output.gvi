@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0EF6354ED92C83A98302386C69C63172" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BA5C58974E8C29E9790842B821C53488" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -11,6 +11,7 @@
 	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 50 50" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]50" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+				<Ellipse EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]20" Id="376" IsCircle="[bool]True" Left="[float]23" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]20" Width="[float]20" />
 				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" HorizontalAlignment="[HorizontalAlignment]Center" Id="314" Left="[float]0" TemplateName="Banner" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]50">
 					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="315" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
 					<Rectangle Fill="[SMSolidColorBrush]#ffebebeb" Id="316" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" Top="[float]0" />
@@ -21,21 +22,25 @@
 				<Text Foreground="[SMColor]#ffffffff" Id="320" Left="[float]5" Text="[string]Audio Out" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]2" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
 					<FontSetting FontFamily="Verdana" FontSize="6" Id="321" />
 				</Text>
+				<Ellipse EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Id="377" IsCircle="[bool]True" Left="[float]25" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]22" />
+				<Ellipse EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]25" Id="379" IsCircle="[bool]True" Left="[float]21" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]18" Width="[float]25" />
+				<Ellipse EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]20" Id="380" IsCircle="[bool]True" Left="[float]23" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]20" Width="[float]20" />
+				<Path Data="[PathGeometry]M 16.07692,0 C 18.70761,0 19.39385,2.762 19.84823,4.59 C 20.34069,6.572 20.57169,7 21.15385,7 L 22,7 L 22,10 L 21.15385,10 C 18.54685,10 17.864,7.253 17.41215,5.435 C 16.91462,3.433 16.67769,3 16.07692,3 C 15.46008,3 15.23585,3.408 14.74338,5.427 C 14.29831,7.246 13.62731,9.995 11.00169,10 L 10.99492,10 C 8.360001,10 7.7,7.255 7.261692,5.439 C 6.775154,3.415 6.548385,3.005 5.913769,3 L 5.901077,3 C 5.332462,3 5.101461,3.313 4.588692,5.419 C 4.144461,7.243 3.473462,10 0.8461539,10 L 0,10 L 0,7 L 0.8461539,7 C 1.435077,7 1.666923,6.572 2.149231,4.59 C 2.594308,2.761 3.267,0 5.900231,0 L 5.932385,0 C 8.596923,0.022 9.262846,2.787 9.703692,4.617 C 10.20462,6.701 10.43054,7 10.99492,7 L 10.99831,7 C 11.58892,6.999 11.82162,6.572 12.30392,4.595 C 12.75069,2.765 13.42508,0 16.07692,0 " EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Id="381" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]15" Width="[float]22" />
 			</IconPanel>
 		</Icon>
 		<ConnectorPane Height="50" Id="9" ListViewHeight="70" ListViewWidth="150" Width="50" xmlns="http://www.ni.com/PlatformFramework">
 			<ConnectorPaneTerminal ListViewHotspot="0 50" Parameter="347" />
 			<ConnectorPaneTerminal Hotspot="0 15" />
-			<ConnectorPaneTerminal Hotspot="0 25" />
-			<ConnectorPaneTerminal Hotspot="0 35" />
 			<ConnectorPaneTerminal Hotspot="15 0" />
 			<ConnectorPaneTerminal Hotspot="25 0" />
 			<ConnectorPaneTerminal Hotspot="50 5" ListViewHotspot="150 35" Parameter="322" />
 			<ConnectorPaneTerminal Hotspot="50 15" />
-			<ConnectorPaneTerminal Hotspot="50 25" />
-			<ConnectorPaneTerminal Hotspot="50 35" />
 			<ConnectorPaneTerminal Hotspot="15 50" />
 			<ConnectorPaneTerminal Hotspot="25 50" />
+			<ConnectorPaneTerminal Hotspot="50 25" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="50 35" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
 			<ConnectorPaneTerminal Hotspot="50 45" />
 			<ConnectorPaneTerminal Hotspot="0 45" />
 			<ConnectorPaneTerminal Hotspot="35 0" />
@@ -150,13 +155,13 @@
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<ClusterLiteral Bounds="65 95 83 60" DataType="@f3544215010640da860f6e0110f8a1c6" Facade="Cluster" Id="20" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>0x40D5888000000000_1_16_</p.Data>
+							<p.Data>0x40E57C0000000000_1_16_</p.Data>
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="Sound\ Data\ Format\.gtype" />
 							</p.TypeDefinitionTargets>
 							<ClusterBehavior AutoArrange="ArrangeVertically" />
 							<Literal Bounds="5 2 60 16" DataType="Double" Facade="Numeric" Id="21" Label="22">
-								<p.Data>0x40D5888000000000</p.Data>
+								<p.Data>0x40E57C0000000000</p.Data>
 								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 							</Literal>
 							<NodeLabel AttachedTo="21" Bounds="5 -16 30 15" Id="22" Visible="False" xmlns="http://www.ni.com/PlatformFramework">

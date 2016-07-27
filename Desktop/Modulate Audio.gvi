@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="9DCE90D0EF7FE44A50B5E28609F7ED5B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="D042195D32D9F0D1A05D840CD0714617" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -34,9 +34,9 @@
 		<ConnectorPane Height="50" Id="9" ListViewHeight="160" ListViewWidth="150" Width="50" xmlns="http://www.ni.com/PlatformFramework">
 			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="44" />
 			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 110" Parameter="129" />
-			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 95" Parameter="122" />
 			<ConnectorPaneTerminal Hotspot="0 35" />
-			<ConnectorPaneTerminal Hotspot="15 0" ListViewHotspot="0 95" Parameter="122" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
 			<ConnectorPaneTerminal Hotspot="25 0" />
 			<ConnectorPaneTerminal Hotspot="50 5" ListViewHotspot="150 140" Parameter="737" />
 			<ConnectorPaneTerminal Hotspot="50 15" ListViewHotspot="150 65" Parameter="40" />
@@ -97,10 +97,8 @@
 				<StringControl AcceptsReturn="[bool]True" Height="[float]80" Id="86" Label="[UIModel]87" Left="[float]5" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]72" Width="[float]120" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				<p4:Label Height="[float]16" Id="87" LabelOwner="[UIModel]86" Left="[float]5" Text="[string]source" Top="[float]52" Width="[float]35" />
 			</Cluster>
-			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="123" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]124" Left="[float]271" MinHeight="[float]22" TabIndex="[int]4" Top="[float]167" Value="{DataItemBinding Id=122}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="124" LabelOwner="[UIModel]123" Left="[float]271" Text="[string]set pitch" Top="[float]144" Width="[float]46" xmlns="http://www.ni.com/PanelCommon" />
-			<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="378" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Name="[string]Last Sample?" Shape="[LEDShape]Square" TabIndex="[int]5" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=377}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=737}" DataSourceType="[Type]Wfm(Double)" Height="[float]400" Id="738" Left="[float]0" MetadataAlwaysOverridesPlotNames="[bool]True" Name="[string]Waveform" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]6" Top="[float]0" Width="[float]600" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="378" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Name="[string]Last Sample?" Shape="[LEDShape]Square" TabIndex="[int]4" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=377}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=737}" DataSourceType="[Type]Wfm(Double)" Height="[float]400" Id="738" Left="[float]0" MetadataAlwaysOverridesPlotNames="[bool]True" Name="[string]Waveform" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]5" Top="[float]0" Width="[float]600" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<PlotRenderer Id="739" LineStroke="[SMSolidColorBrush]#ff962428" />
 				<PlotRenderer Id="740" LineStroke="[SMSolidColorBrush]#ff008ee4" />
 				<PlotRenderer Id="741" LineStroke="[SMSolidColorBrush]#ffe2b683" />
@@ -297,6 +295,8 @@
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="130" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]131" Left="[float]400" MinHeight="[float]22" TabIndex="[int]0" Top="[float]271" Value="{DataItemBinding Id=129}" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="131" LabelOwner="[UIModel]130" Left="[float]400" Text="[string]Slice Set" Top="[float]248" Width="[float]45" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="123" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]124" Left="[float]400" Maximum="[double]10" MinHeight="[float]22" Minimum="[double]0" TabIndex="[int]1" Top="[float]117" Value="{DataItemBinding Id=122}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="124" LabelOwner="[UIModel]123" Left="[float]400" Text="[string]set pitch" Top="[float]94" Width="[float]46" xmlns="http://www.ni.com/PanelCommon" />
 		</CPFrontPanel>
 		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="1" DataType="Wfm(Double)[]" Id="40" Name="data" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
@@ -337,7 +337,7 @@
 			</p.TypeDefinitionTargets>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="Double" Id="122" Name="set pitch" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>0x0</p.DefaultValue>
+			<p.DefaultValue>0x4014000000000000</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="4" DataType="Int32" Id="129" Name="Slice Set" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>2048</p.DefaultValue>
