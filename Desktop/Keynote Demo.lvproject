@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8C901176AA68369D6ABE3A300940CCDD" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="30D8BBFDB110F26E79F34CA96E5477F3" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Data" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Data" Version="4.5.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="GComponentFeatureSet" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/GComponent.xsd" Version="4.7.0.49152" />
@@ -1887,69 +1887,6 @@
 		</NameScopingEnvoy>
 		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="66" ModelDefinitionType="DataDepot" Name="DataDepot">
 			<DataDepot />
-			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="1230" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root">
-				<TDMSRootDefinition StoragePath="Data-2016-07-19 211903 2250-2016-07-21 195341 962.tdms" xmlns="http://www.ni.com/Data" />
-				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="1231" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP">
-					<TDMSGroupDefinition GroupName="Capture 1" Source="Keynote Dashboard.gvi" SourceType="" Timestamp="07/19/2016 21:19:03" xmlns="http://www.ni.com/Data" />
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="1232" ModelDefinitionType="TDMSDataItemDefinition" Name="output\ waveform">
-						<TDMSDataItemDefinition DataName="output waveform" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-				</EmbeddedDefinitionReference>
-			</EmbeddedDefinitionReference>
-			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="1233" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_2">
-				<TDMSRootDefinition StoragePath="Recording-2016-07-15 000640 4270-2016-07-19 190412 5100-2016-07-21 195346 707.tdms" xmlns="http://www.ni.com/Data" />
-				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="1234" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_2">
-					<TDMSGroupDefinition GroupName="Recording 1" Source="Sensor Measurement.task" SourceType="" Timestamp="07/15/2016 00:06:40" xmlns="http://www.ni.com/Data" />
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="1235" ModelDefinitionType="TDMSDataItemDefinition" Name="Sensor\ 0">
-						<TDMSDataItemDefinition DataName="Sensor 0" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-				</EmbeddedDefinitionReference>
-			</EmbeddedDefinitionReference>
-			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2073" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_3">
-				<TDMSRootDefinition StoragePath="Recording-2016-07-22 032733 759.tdms" xmlns="http://www.ni.com/Data" />
-				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2074" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_3">
-					<TDMSGroupDefinition GroupName="Me Too" Source="Sensor Measurement.task" SourceType="NationalInstruments.InstrumentFramework.Sensor" Timestamp="07/22/2016 03:27:33" xmlns="http://www.ni.com/Data" />
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2075" ModelDefinitionType="TDMSDataItemDefinition" Name="Sensor\ 0_2">
-						<TDMSDataItemDefinition DataName="Sensor 0" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-				</EmbeddedDefinitionReference>
-			</EmbeddedDefinitionReference>
-			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2904" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_4">
-				<TDMSRootDefinition StoragePath="Data-2016-07-22 160832 979.tdms" xmlns="http://www.ni.com/Data" />
-				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2905" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_4">
-					<TDMSGroupDefinition GroupName="Capture 2" Source="Keynote Dashboard.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="07/22/2016 16:08:32" xmlns="http://www.ni.com/Data" />
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2906" ModelDefinitionType="TDMSDataItemDefinition" Name="Chart">
-						<TDMSDataItemDefinition DataName="Chart" DataType="Wfm(Double)[]" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-				</EmbeddedDefinitionReference>
-			</EmbeddedDefinitionReference>
-			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2915" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_5">
-				<TDMSRootDefinition StoragePath="Data-2016-07-22 162049 441.tdms" xmlns="http://www.ni.com/Data" />
-				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2916" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_5">
-					<TDMSGroupDefinition GroupName="Capture 3" Source="Keynote Dashboard.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="07/22/2016 16:20:49" xmlns="http://www.ni.com/Data" />
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2917" ModelDefinitionType="TDMSDataItemDefinition" Name="Graph">
-						<TDMSDataItemDefinition DataName="Graph" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-				</EmbeddedDefinitionReference>
-			</EmbeddedDefinitionReference>
-			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2928" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_6">
-				<TDMSRootDefinition StoragePath="Data-2016-07-22 162457 863.tdms" xmlns="http://www.ni.com/Data" />
-				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2929" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_6">
-					<TDMSGroupDefinition GroupName="Capture 4" Source="Keynote Dashboard.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="07/22/2016 16:24:57" xmlns="http://www.ni.com/Data" />
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2930" ModelDefinitionType="TDMSDataItemDefinition" Name="Graph_2">
-						<TDMSDataItemDefinition DataName="Graph" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-				</EmbeddedDefinitionReference>
-			</EmbeddedDefinitionReference>
-			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2932" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_7">
-				<TDMSRootDefinition StoragePath="Data-2016-07-22 162639 939.tdms" xmlns="http://www.ni.com/Data" />
-				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2933" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_7">
-					<TDMSGroupDefinition GroupName="Capture 5" Source="Analysis Panel: Filter" SourceType="" Timestamp="07/22/2016 16:26:39" xmlns="http://www.ni.com/Data" />
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2934" ModelDefinitionType="TDMSDataItemDefinition" Name="filtered\ signal">
-						<TDMSDataItemDefinition DataName="filtered signal" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-				</EmbeddedDefinitionReference>
-			</EmbeddedDefinitionReference>
 			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="3717" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_8">
 				<TDMSRootDefinition StoragePath="Data-2016-07-24 150750 939.tdms" xmlns="http://www.ni.com/Data" />
 				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="3718" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_8">
