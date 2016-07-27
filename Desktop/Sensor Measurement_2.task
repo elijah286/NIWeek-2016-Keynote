@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F39AB6C3D06A78C471058B7A5C3C6594" xmlns="http://www.ni.com/PlatformFramework">
-	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="17.0.0.101" FeatureSetName="Task" Name="http://www/ni.com/SoftFrontPanel" Version="1.0.0.0" />
-		<ApplicationVersionInfo Build="4.7.1.34638" Name="Next Generation LabVIEW Features" Version="0.1.0" />
-	</SourceModelFeatureSet>
-	<Task DeviceNames="myDAQ1,NIWEEK2016-3" DriverName="DAQmx" Id="1" InstrumentName="NationalInstruments.InstrumentFramework.Sensor" xmlns="http://www/ni.com/SoftFrontPanel" />
-</SourceFile>

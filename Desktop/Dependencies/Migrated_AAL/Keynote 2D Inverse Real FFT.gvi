@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F3818E1D08D1A216E1BCF9852E20CE0A" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34468" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.7" />
+		<ApplicationVersionInfo Build="4.7.1.34468" Name="LabVIEW Conversion" Version="4.7.1.34468" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" InlineIntoCaller="True" LocalizationPolicy="Localize" OverloadGroup="Keynote Inverse FFT" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Computes the inverse discrete Fourier transform (IDFT) of the input sequence &lt;B&gt;FFT {X}&lt;/B&gt;. You must manually select the polymorphic instance you want to use.</p.UserDescription>
+		<Icon Id="18" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="20" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="21" Left="[float]0" TemplateName="GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="22" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="23" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<LVImage Height="[float]30" Id="24" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADUSURBVEhLzZIBDsMgDAP32r52f2KsZp6bBMiQUHeKlNQOFq36KOW5qebRx3FMlbAm0TUljPair1E0IgaYfVPd6Hb6fT6gecP0O26NCiNC0dckulYYbZSw5tHLtTN6I+1v2sB/RP/6itntha933631sovRjMAAYBEoXifG+sbpYGbiFYMuXFbPtO5hdVMzGqBBW6GbndEqUElTBdVTMxqgQZvAqrRnUSpNuq5dIqiGqJua0YAaHnVTMxpQw6NuakYDVHtkFrjzaSKNGawZKxW3xrboUl76EGhvbYQHoAAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="14" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="17" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="15" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 80" Parameter="16" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Height="[float]1600" Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" />
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="365 20 40 15" DataItem="14" Id="25" Label="26" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="ComplexDouble[,]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="25" Bounds="365 -3 60 20" Id="26" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>FFT {X}</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="365 65 40 15" DataItem="17" Id="27" Label="28" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="27" Bounds="365 42 40 20" Id="28" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>shift?</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="595 75 40 15" DataItem="15" Id="29" Label="30" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double[,]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="29" Bounds="595 52 15 20" Id="30" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>X</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="595 45 40 15" DataItem="16" Id="31" Label="32" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="31" Bounds="595 22 40 20" Id="32" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error</p.Text>
+			</NodeLabel>
+			<BooleanToInteger Bounds="435 65 30 10" Id="33" />
+			<MethodCall Bounds="520 45 40 50" DomainName="NI.LabVIEW.VI" Id="34" Label="35" Target="lvanlys\.sli:ReInvFFT2D_H_IDP" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L1" Desc="xH in" />
+						<Parameter Id="L2" Desc="shifted in" />
+						<Parameter Id="L3" Desc="yH in" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="return type" />
+						<Parameter Id="R1" Desc="xH out" />
+						<Parameter Id="R2" Desc="shifted out" />
+						<Parameter Id="R3" Desc="yH out" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="ComplexDouble[,]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double[,]" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="ComplexDouble[,]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double[,]" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<NodeLabel AttachedTo="34" Bounds="520 24 218 18" Id="35" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>ReInvFFT2D_H_IDP</p.Text>
+			</NodeLabel>
+			<Wire Id="47" Joints="N(34:R3)|(560,80) N(29:Value)|(598,80)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="48" Joints="N(34:R0)|(560,50) N(31:Value)|(598,50)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="49" Joints="N(33:0, 1)|(465,70) N(34:L2)|(520,70)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="50" Joints="N(27:Value)|(405,70) N(33:Boolean)|(438,70)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="51" Joints="N(25:Value)|(405,25) h(75) v(35) N(34:L1)|(520,60)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
+			<Label Id="37" LabelOwner="[UIModel]36" Left="[float]84" Text="[string]FFT {X}" Top="[float]60" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]38" Columns="[int]1" Dimensions="[int]2" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="36" IndexVisibility="[Visibility]Visible" Label="[UIModel]37" Left="[float]84" Rows="[int]1" TabIndex="[int]0" Top="[float]83" Value="{DataItemBinding Id=14}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]76" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0x0;0x0</p.DefaultElementValue>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;FFT {X}&lt;/B&gt; is the complex valued input sequence, which should be conjugated centrosymmetric except for the first row and column. This instance uses only the upper half of &lt;B&gt;FFT {X}&lt;/B&gt;.</p.InfoTipDescription>
+				<NumericText BaseName="[string]Numeric" Height="[float]26" Id="38" Interval="[ComplexDouble]1 + 0i" Left="[float]45" Maximum="[ComplexDouble]Infinity + 0i" MinHeight="[float]22" Minimum="[ComplexDouble]-Infinity + 0i" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" Top="[float]23" ValueFormatter="[string]LV:G0" ValueType="[Type]ComplexDouble" Width="[float]68" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<Label Id="40" LabelOwner="[UIModel]39" Left="[float]264" Text="[string]X" Top="[float]37" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]41" Columns="[int]1" Dimensions="[int]2" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="39" IndexVisibility="[Visibility]Visible" Label="[UIModel]40" Left="[float]264" Rows="[int]1" TabIndex="[int]1" Top="[float]60" Value="{DataItemBinding Id=15}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]62" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0x0</p.DefaultElementValue>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;X&lt;/B&gt; is the inverse real FFT of &lt;B&gt;FFT{X}&lt;/B&gt;.</p.InfoTipDescription>
+				<NumericText BaseName="[string]Numeric" Height="[float]25" Id="41" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]45" Maximum="[double]Infinity" MinHeight="[float]22" Minimum="[double]-Infinity" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" Top="[float]19" ValueFormatter="[string]LV:G0" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<NumericText BaseName="[string]Numeric" Height="[float]25" Id="42" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]44" Left="[float]264" Maximum="[int]2147483647" MinHeight="[float]22" Minimum="[int]-2147483648" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]2" Top="[float]156" Value="{DataItemBinding Id=16}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error&lt;/B&gt; returns any error or warning from the VI. You can wire &lt;B&gt;error&lt;/B&gt; to the Error Cluster From Error Code VI to convert the error code or warning into an error cluster.</p.InfoTipDescription>
+			</NumericText>
+			<Label Id="44" LabelOwner="[UIModel]42" Left="[float]264" Text="[string]error" Top="[float]133" xmlns="http://www.ni.com/PanelCommon" />
+			<Button ClickMode="[ClickMode]Press" Content="[string]OFF" ContentVisibility="[Visibility]Collapsed" Height="[float]21" Id="45" IsMomentary="[bool]False" IsReadOnly="[bool]False" Label="[UIModel]46" Left="[float]48" TabIndex="[int]3" Top="[float]156" Value="{DataItemBinding Id=17}" Width="[float]50" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;shift?&lt;/B&gt; specifies whether the DC component is at the center of &lt;B&gt;FFT {X}&lt;/B&gt;. The default is FALSE.</p.InfoTipDescription>
+			</Button>
+			<Label Id="46" LabelOwner="[UIModel]45" Left="[float]48" Text="[string]shift?" Top="[float]133" xmlns="http://www.ni.com/PanelCommon" />
+		</CPFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="1" DataType="ComplexDouble[,]" Id="14" Name="FFT {X}" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;FFT {X}&lt;/B&gt; is the complex valued input sequence, which should be conjugated centrosymmetric except for the first row and column. This instance uses only the upper half of &lt;B&gt;FFT {X}&lt;/B&gt;.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="Double[,]" Id="15" Name="X" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;X&lt;/B&gt; is the inverse real FFT of &lt;B&gt;FFT{X}&lt;/B&gt;.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="2" DataType="Int32" Id="16" Name="error" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error&lt;/B&gt; returns any error or warning from the VI. You can wire &lt;B&gt;error&lt;/B&gt; to the Error Cluster From Error Code VI to convert the error code or warning into an error cluster.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="2" DataType="Boolean" Id="17" Name="shift?" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;shift?&lt;/B&gt; specifies whether the DC component is at the center of &lt;B&gt;FFT {X}&lt;/B&gt;. The default is FALSE.</p.UserDescription>
+		</DataItem>
+	</VirtualInstrument>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="lvanlys\.sli:ReInvFFT2D_H_IDP">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]50" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]ReInvFFT2D_H_IDP" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Verdana" FontSize="6" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]lvanlys.sli" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>
