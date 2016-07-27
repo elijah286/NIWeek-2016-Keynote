@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="048E2A43BD98F37DE3BB10487A4B694A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="FA5FAD3C0630FEB55B80378D8D807D32" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34821" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34821" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -41,7 +41,7 @@
 		<BlockDiagram Id="12">
 			<Multiply Bounds="900 190 30 30" Id="14" Terminals="o=20, c0t0v=18, c1t0v=16" />
 			<Literal Bounds="915 165 40 16" DataType="Double" Facade="Numeric" Id="15" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>0x3FE6666666666666</p.Data>
+				<p.Data>0x3FE0000000000000</p.Data>
 				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 			</Literal>
 			<Wire Id="16" Joints="N(24:Value)|(759,210) N(14:c1t0v)|(900,210)" xmlns="http://www.ni.com/PlatformFramework" />
