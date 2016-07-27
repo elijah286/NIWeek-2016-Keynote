@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D042195D32D9F0D1A05D840CD0714617" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BB13616703FA7DA036E45908A03BF405" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34638" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
-		<ApplicationVersionInfo Build="4.7.1.34638" Name="Next Generation LabVIEW Features" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34821" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34821" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34821" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34821" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/PanelCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34821" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49153" />
+		<ApplicationVersionInfo Build="4.7.1.34821" Name="Next Generation LabVIEW Features" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" InlineIntoCaller="True" Reentrancy="Stateless" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 50 50" xmlns="http://www.ni.com/PlatformFramework">
@@ -217,6 +217,11 @@
 					<Wire Id="734" Joints="N(727:R1)|(170,155) h(75) v(-45) N(706:405)|(291,110)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="735" Joints="N(727:R0)|(170,145) h(65) v(-90) N(703:405)|(291,55)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="736" Joints="N(715:405)|(4,295) N(709:405)|(291,295)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="60 160 40 16" DataType="Int32" Facade="Numeric" Id="826" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>32</p.Data>
+						<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G0" />
+					</Literal>
+					<Wire Id="827" Joints="N(826:Out)|(100,165) N(727:L2)|(130,165)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 295 310" Id="406" Pattern="False">
 					<MethodCall Bounds="160 130 40 40" DomainName="NI.MocCommon" Id="16" Target="Vocoder\ OLD\.gvi" xmlns="http://www.ni.com/MocCommon">
@@ -272,7 +277,7 @@
 					<Wire Id="365" Joints="N(14:R0)|(100,135) N(16:L0)|(160,135)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="367" Joints="N(14:R3)|(100,165) N(16:L3)|(160,165)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Selector Bounds="-4 260 13 10" Docking="Left" Id="407" Terminals="404=726, 405, 406" />
+				<CaseStructure.Selector Bounds="-4 260 13 10" Docking="Left" Id="407" Terminals="404=825, 405, 406" />
 				<CaseStructure.Tunnel Bounds="296 55 13 10" Docking="Right" Id="703" Terminals="404=759, 405=735, 406=702" />
 				<CaseStructure.Tunnel Bounds="296 110 13 10" Docking="Right" Id="706" Terminals="404=18, 405=734, 406=705" />
 				<CaseStructure.Tunnel Bounds="296 295 13 10" Docking="Right" Id="709" Terminals="404=23, 405=736, 406=708" />
@@ -282,7 +287,6 @@
 				<CaseStructure.Tunnel Bounds="-4 65 13 10" Docking="Left" Id="721" Terminals="404=390, 405=731, 406=720" />
 				<CaseStructure.Tunnel Bounds="296 220 13 10" Docking="Right" Id="724" Terminals="404=391, 405=733, 406=723" />
 			</CaseStructure>
-			<Wire Id="726" Joints="N(395:x = y?)|(1060,445) N(407:404)|(1086,445)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="1425 235 40 15" DataItem="737" Id="757" Label="758" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Wfm(Double)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
@@ -291,6 +295,11 @@
 			</NodeLabel>
 			<Wire Id="759" Joints="N(703:404)|(1399,240) N(757:Value)|(1428,240)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="802" Joints="N(126:Value)|(780,210) N(712:404)|(1086,210)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="1031 410 25 15" DataType="Boolean" Facade="True Constant" Id="824" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>True</p.Data>
+				<BooleanBehavior />
+			</Literal>
+			<Wire Id="825" Joints="N(824:Out)|(1056,415) h(5) v(30) N(407:404)|(1086,445)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="130" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]131" Left="[float]400" MinHeight="[float]22" TabIndex="[int]0" Top="[float]271" Value="{DataItemBinding Id=129}" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
