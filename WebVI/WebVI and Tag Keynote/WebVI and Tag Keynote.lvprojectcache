@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SourceFile xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34732" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/ExtCodeInterface" Version="4.5.0.49153" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34732" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34732" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
-		<ApplicationVersionInfo Build="4.7.1.34732" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.2031" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/ExtCodeInterface" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.2031" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.2031" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49153" />
+		<ApplicationVersionInfo Build="4.7.0.2031" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<UserSettingsDefinition Envoy="1" Name=":ZProjectSettings">
-		<ProjectLayoutUserSetting Envoy="1" Layout="&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;\r\n&lt;SandDockLayout LayoutVersion=&quot;1&quot; Version=&quot;4.7.1.0&quot; IncludeDocuments=&quot;True&quot;&gt;\r\n  &lt;Window Guid=&quot;5ff24aa0-3f64-4fdb-862b-d12100fb1e3d&quot; ContentSize=&quot;329&quot; LastFocused=&quot;-8587320392262834609&quot; DockedContentSize=&quot;337&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;504ad6eb-e2de-4412-8803-a506cdb62faf&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;1&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;ef8e9c49-58c8-42f3-b808-8b7ae53b5293&quot; ContentSize=&quot;240&quot; LastFocused=&quot;-8587399846493369941&quot; DockedContentSize=&quot;337&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;dbf0af84-a5e1-44e4-9eea-8e729e96b259&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;be3e01c3-0792-4c1c-b1a2-70e3bb642ab1&quot; ContentSize=&quot;305&quot; LastFocused=&quot;-8587324056954845343&quot; DockedContentSize=&quot;313&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Right&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;a8cc50a5-962e-4277-9713-2405b90eef69&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;668f5cee-765e-4a0a-b915-ab1ed88cdf68&quot; ContentSize=&quot;305&quot; LastFocused=&quot;-8587323852920834646&quot; DockedContentSize=&quot;313&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Right&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;a8cc50a5-962e-4277-9713-2405b90eef69&quot; DockedIndexInWindowGroup=&quot;1&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;93f86101-6c34-42ed-8688-9d7c421b8a81&quot; ContentSize=&quot;240&quot; LastFocused=&quot;-8587320392153890325&quot; DockedContentSize=&quot;337&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;dbf0af84-a5e1-44e4-9eea-8e729e96b259&quot; DockedIndexInWindowGroup=&quot;1&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;a0a0b4cf-3538-4178-9e6f-a9f961db6963&quot; ContentSize=&quot;240&quot; LastFocused=&quot;-8587399846506495692&quot; DockedContentSize=&quot;337&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;dbf0af84-a5e1-44e4-9eea-8e729e96b259&quot; DockedIndexInWindowGroup=&quot;2&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;72562866-aa95-49b2-be38-4c78fe7c2b1a&quot; ContentSize=&quot;225&quot; LastFocused=&quot;-8587324975894982557&quot; DockedContentSize=&quot;200&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Bottom&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;8c3e8685-6f0f-49e2-a703-00864f2e46ab&quot; DockedIndexInWindowGroup=&quot;1&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;f847a3c9-11c3-48da-8524-af86770691c5&quot; ContentSize=&quot;225&quot; LastFocused=&quot;-8587324979283596374&quot; DockedContentSize=&quot;200&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Bottom&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;4,4&quot; FloatingSize=&quot;640,350&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;8c3e8685-6f0f-49e2-a703-00864f2e46ab&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;a37870c5-44a1-485b-be69-7b0f518af075&quot; ContentSize=&quot;225&quot; LastFocused=&quot;-8587320392212805908&quot; DockedContentSize=&quot;225&quot; LastOpenDockSituation=&quot;Document&quot; LastFixedDockSituation=&quot;Document&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;&quot; FloatingSize=&quot;550,380&quot; LastDockContainerCount=&quot;0&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;240,180&quot; DockedWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;a6082aed-dc18-4e4f-91c2-567f037b0f6f&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;DockedSplitContainer Dock=&quot;Left&quot; ContentSize=&quot;337&quot; SplitterOrientation=&quot;Horizontal&quot;&gt;\r\n    &lt;WindowGroup WorkingSize=&quot;100,70&quot; Pinned=&quot;True&quot; SelectedWindow=&quot;93f86101-6c34-42ed-8688-9d7c421b8a81&quot; Guid=&quot;dbf0af84-a5e1-44e4-9eea-8e729e96b259&quot;&gt;\r\n      &lt;Window Guid=&quot;ef8e9c49-58c8-42f3-b808-8b7ae53b5293&quot; /&gt;\r\n      &lt;Window Guid=&quot;93f86101-6c34-42ed-8688-9d7c421b8a81&quot; /&gt;\r\n      &lt;Window Guid=&quot;a0a0b4cf-3538-4178-9e6f-a9f961db6963&quot; /&gt;\r\n    &lt;/WindowGroup&gt;\r\n    &lt;WindowGroup WorkingSize=&quot;100,70&quot; Pinned=&quot;False&quot; SelectedWindow=&quot;5ff24aa0-3f64-4fdb-862b-d12100fb1e3d&quot; Guid=&quot;504ad6eb-e2de-4412-8803-a506cdb62faf&quot;&gt;\r\n      &lt;Window Guid=&quot;5ff24aa0-3f64-4fdb-862b-d12100fb1e3d&quot; /&gt;\r\n    &lt;/WindowGroup&gt;\r\n  &lt;/DockedSplitContainer&gt;\r\n  &lt;DockedSplitContainer Dock=&quot;Bottom&quot; ContentSize=&quot;200&quot; SplitterOrientation=&quot;Vertical&quot;&gt;\r\n    &lt;WindowGroup WorkingSize=&quot;100,70&quot; Pinned=&quot;False&quot; SelectedWindow=&quot;72562866-aa95-49b2-be38-4c78fe7c2b1a&quot; Guid=&quot;8c3e8685-6f0f-49e2-a703-00864f2e46ab&quot;&gt;\r\n      &lt;Window Guid=&quot;f847a3c9-11c3-48da-8524-af86770691c5&quot; /&gt;\r\n      &lt;Window Guid=&quot;72562866-aa95-49b2-be38-4c78fe7c2b1a&quot; /&gt;\r\n    &lt;/WindowGroup&gt;\r\n  &lt;/DockedSplitContainer&gt;\r\n  &lt;DockedSplitContainer Dock=&quot;Right&quot; ContentSize=&quot;313&quot; SplitterOrientation=&quot;Horizontal&quot;&gt;\r\n    &lt;WindowGroup WorkingSize=&quot;100,70&quot; Pinned=&quot;True&quot; SelectedWindow=&quot;668f5cee-765e-4a0a-b915-ab1ed88cdf68&quot; Guid=&quot;a8cc50a5-962e-4277-9713-2405b90eef69&quot;&gt;\r\n      &lt;Window Guid=&quot;be3e01c3-0792-4c1c-b1a2-70e3bb642ab1&quot; /&gt;\r\n      &lt;Window Guid=&quot;668f5cee-765e-4a0a-b915-ab1ed88cdf68&quot; /&gt;\r\n    &lt;/WindowGroup&gt;\r\n  &lt;/DockedSplitContainer&gt;\r\n  &lt;DocumentSplitContainer&gt;\r\n    &lt;WindowGroup WorkingSize=&quot;240,180&quot; Pinned=&quot;True&quot; SelectedWindow=&quot;a37870c5-44a1-485b-be69-7b0f518af075&quot; Guid=&quot;a6082aed-dc18-4e4f-91c2-567f037b0f6f&quot;&gt;\r\n      &lt;Window Guid=&quot;a37870c5-44a1-485b-be69-7b0f518af075&quot; /&gt;\r\n    &lt;/WindowGroup&gt;\r\n  &lt;/DocumentSplitContainer&gt;\r\n&lt;/SandDockLayout&gt;&quot;" Target="Project" xmlns="http://www.ni.com/PlatformFramework" />
+		<ProjectLayoutUserSetting Envoy="1" Layout="&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;\r\n&lt;SandDockLayout LayoutVersion=&quot;1&quot; Version=&quot;4.7.0.0&quot; IncludeDocuments=&quot;True&quot;&gt;\r\n  &lt;Window Guid=&quot;5ff24aa0-3f64-4fdb-862b-d12100fb1e3d&quot; ContentSize=&quot;329&quot; LastFocused=&quot;-8587320392262834609&quot; DockedContentSize=&quot;337&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;504ad6eb-e2de-4412-8803-a506cdb62faf&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;1&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;ef8e9c49-58c8-42f3-b808-8b7ae53b5293&quot; ContentSize=&quot;240&quot; LastFocused=&quot;-8587399846493369941&quot; DockedContentSize=&quot;337&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;dbf0af84-a5e1-44e4-9eea-8e729e96b259&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;be3e01c3-0792-4c1c-b1a2-70e3bb642ab1&quot; ContentSize=&quot;305&quot; LastFocused=&quot;-8587317806667508557&quot; DockedContentSize=&quot;313&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Right&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;a8cc50a5-962e-4277-9713-2405b90eef69&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;668f5cee-765e-4a0a-b915-ab1ed88cdf68&quot; ContentSize=&quot;305&quot; LastFocused=&quot;-8587317806736957462&quot; DockedContentSize=&quot;313&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Right&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;a8cc50a5-962e-4277-9713-2405b90eef69&quot; DockedIndexInWindowGroup=&quot;1&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;93f86101-6c34-42ed-8688-9d7c421b8a81&quot; ContentSize=&quot;240&quot; LastFocused=&quot;-8587317806796265163&quot; DockedContentSize=&quot;337&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;dbf0af84-a5e1-44e4-9eea-8e729e96b259&quot; DockedIndexInWindowGroup=&quot;1&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;a0a0b4cf-3538-4178-9e6f-a9f961db6963&quot; ContentSize=&quot;240&quot; LastFocused=&quot;-8587399846506495692&quot; DockedContentSize=&quot;337&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;dbf0af84-a5e1-44e4-9eea-8e729e96b259&quot; DockedIndexInWindowGroup=&quot;2&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;72562866-aa95-49b2-be38-4c78fe7c2b1a&quot; ContentSize=&quot;225&quot; LastFocused=&quot;-8587317810576646910&quot; DockedContentSize=&quot;200&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Bottom&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;74,0&quot; FloatingSize=&quot;250,370&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;8c3e8685-6f0f-49e2-a703-00864f2e46ab&quot; DockedIndexInWindowGroup=&quot;1&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;f847a3c9-11c3-48da-8524-af86770691c5&quot; ContentSize=&quot;225&quot; LastFocused=&quot;-8587324979283596374&quot; DockedContentSize=&quot;200&quot; LastOpenDockSituation=&quot;Docked&quot; LastFixedDockSituation=&quot;Docked&quot; DockedPosition=&quot;Bottom&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;4,4&quot; FloatingSize=&quot;640,350&quot; LastDockContainerCount=&quot;1&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;100,70&quot; DockedWindowGroupGuid=&quot;8c3e8685-6f0f-49e2-a703-00864f2e46ab&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;772c6ab3-7582-44c0-97d9-9381959b46f3&quot; ContentSize=&quot;225&quot; LastFocused=&quot;-8587317806826803970&quot; DockedContentSize=&quot;225&quot; LastOpenDockSituation=&quot;Document&quot; LastFixedDockSituation=&quot;Document&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;&quot; FloatingSize=&quot;550,380&quot; LastDockContainerCount=&quot;0&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;240,180&quot; DockedWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;dffd90da-46cf-4236-87bd-035059a86b67&quot; DocumentIndexInWindowGroup=&quot;0&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;Window Guid=&quot;12c1b3ee-22f3-449b-9de1-1f9c1130e1be&quot; ContentSize=&quot;225&quot; LastFocused=&quot;-8587317806532800853&quot; DockedContentSize=&quot;225&quot; LastOpenDockSituation=&quot;Document&quot; LastFixedDockSituation=&quot;Document&quot; DockedPosition=&quot;Left&quot; LastFloatingWindowGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingLocation=&quot;&quot; FloatingSize=&quot;550,380&quot; LastDockContainerCount=&quot;0&quot; LastDockContainerIndex=&quot;0&quot; DockedWorkingSize=&quot;240,180&quot; DockedWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; DockedIndexInWindowGroup=&quot;0&quot; DockedSplitPath=&quot;0&quot; DocumentWorkingSize=&quot;240,180&quot; DocumentWindowGroupGuid=&quot;dffd90da-46cf-4236-87bd-035059a86b67&quot; DocumentIndexInWindowGroup=&quot;1&quot; DocumentSplitPath=&quot;0&quot; FloatingWorkingSize=&quot;240,180&quot; FloatingWindowGroupGuid=&quot;00000000-0000-0000-0000-000000000000&quot; FloatingIndexInWindowGroup=&quot;0&quot; FloatingSplitPath=&quot;0&quot; /&gt;\r\n  &lt;DockedSplitContainer Dock=&quot;Left&quot; ContentSize=&quot;337&quot; SplitterOrientation=&quot;Horizontal&quot;&gt;\r\n    &lt;WindowGroup WorkingSize=&quot;100,70&quot; Pinned=&quot;True&quot; SelectedWindow=&quot;93f86101-6c34-42ed-8688-9d7c421b8a81&quot; Guid=&quot;dbf0af84-a5e1-44e4-9eea-8e729e96b259&quot;&gt;\r\n      &lt;Window Guid=&quot;ef8e9c49-58c8-42f3-b808-8b7ae53b5293&quot; /&gt;\r\n      &lt;Window Guid=&quot;93f86101-6c34-42ed-8688-9d7c421b8a81&quot; /&gt;\r\n      &lt;Window Guid=&quot;a0a0b4cf-3538-4178-9e6f-a9f961db6963&quot; /&gt;\r\n    &lt;/WindowGroup&gt;\r\n    &lt;WindowGroup WorkingSize=&quot;100,70&quot; Pinned=&quot;False&quot; SelectedWindow=&quot;5ff24aa0-3f64-4fdb-862b-d12100fb1e3d&quot; Guid=&quot;504ad6eb-e2de-4412-8803-a506cdb62faf&quot;&gt;\r\n      &lt;Window Guid=&quot;5ff24aa0-3f64-4fdb-862b-d12100fb1e3d&quot; /&gt;\r\n    &lt;/WindowGroup&gt;\r\n  &lt;/DockedSplitContainer&gt;\r\n  &lt;DockedSplitContainer Dock=&quot;Bottom&quot; ContentSize=&quot;200&quot; SplitterOrientation=&quot;Vertical&quot;&gt;\r\n    &lt;WindowGroup WorkingSize=&quot;100,70&quot; Pinned=&quot;False&quot; SelectedWindow=&quot;72562866-aa95-49b2-be38-4c78fe7c2b1a&quot; Guid=&quot;8c3e8685-6f0f-49e2-a703-00864f2e46ab&quot;&gt;\r\n      &lt;Window Guid=&quot;f847a3c9-11c3-48da-8524-af86770691c5&quot; /&gt;\r\n      &lt;Window Guid=&quot;72562866-aa95-49b2-be38-4c78fe7c2b1a&quot; /&gt;\r\n    &lt;/WindowGroup&gt;\r\n  &lt;/DockedSplitContainer&gt;\r\n  &lt;DockedSplitContainer Dock=&quot;Right&quot; ContentSize=&quot;313&quot; SplitterOrientation=&quot;Horizontal&quot;&gt;\r\n    &lt;WindowGroup WorkingSize=&quot;100,70&quot; Pinned=&quot;True&quot; SelectedWindow=&quot;be3e01c3-0792-4c1c-b1a2-70e3bb642ab1&quot; Guid=&quot;a8cc50a5-962e-4277-9713-2405b90eef69&quot;&gt;\r\n      &lt;Window Guid=&quot;be3e01c3-0792-4c1c-b1a2-70e3bb642ab1&quot; /&gt;\r\n      &lt;Window Guid=&quot;668f5cee-765e-4a0a-b915-ab1ed88cdf68&quot; /&gt;\r\n    &lt;/WindowGroup&gt;\r\n  &lt;/DockedSplitContainer&gt;\r\n  &lt;DocumentSplitContainer&gt;\r\n    &lt;WindowGroup WorkingSize=&quot;240,180&quot; Pinned=&quot;True&quot; SelectedWindow=&quot;12c1b3ee-22f3-449b-9de1-1f9c1130e1be&quot; Guid=&quot;dffd90da-46cf-4236-87bd-035059a86b67&quot;&gt;\r\n      &lt;Window Guid=&quot;772c6ab3-7582-44c0-97d9-9381959b46f3&quot; /&gt;\r\n      &lt;Window Guid=&quot;12c1b3ee-22f3-449b-9de1-1f9c1130e1be&quot; /&gt;\r\n    &lt;/WindowGroup&gt;\r\n  &lt;/DocumentSplitContainer&gt;\r\n&lt;/SandDockLayout&gt;&quot;" Target="Project" xmlns="http://www.ni.com/PlatformFramework" />
 		<OpenDocumentManager Envoy="1" MainWindowId="{6eff14a2-cab9-41ad-97e8-21e4355ac039}" Target="Project" xmlns="http://www.ni.com/PlatformFramework">
-			<OpenDocument ActiveDocument="True" ActiveEditor="NationalInstruments.Restricted.LabVIEW.HtmlVI.Design.HtmlVIPanelControl" Envoy="17" FloatingWindowId="{6eff14a2-cab9-41ad-97e8-21e4355ac039}" Title="Function.gvi" WindowId="{a37870c5-44a1-485b-be69-7b0f518af075}" />
+			<OpenDocument ActiveEditor="NationalInstruments.ComponentEditor.Design.ComponentDocumentEditControl" Envoy="237" FloatingWindowId="{6eff14a2-cab9-41ad-97e8-21e4355ac039}" Title="Component.gcomp" WindowId="{772c6ab3-7582-44c0-97d9-9381959b46f3}" />
 		</OpenDocumentManager>
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="2" Name=":ProjectExplorer">
@@ -17,7 +17,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="426" Name=":VireoBrowser:Interactive:WebVI_Get\.gvi">
 		<DefinitionCacheUserSetting Envoy="426" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<FunctionDefinitionSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="40" ListViewHeight="150" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/MocCommon">
+			<FunctionDefinitionSignatureCache CacheSignature="1D1E5E792968880" Height="40" ListViewHeight="150" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/MocCommon">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -74,7 +74,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="429" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_Open">
 		<DefinitionCacheUserSetting Envoy="429" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="90" IsReentrant="True" ListViewHeight="280" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="90" IsReentrant="True" ListViewHeight="280" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -89,13 +89,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]84" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]90" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -148,7 +141,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="430" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_Get">
 		<DefinitionCacheUserSetting Envoy="430" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="90" IsReentrant="True" ListViewHeight="310" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="90" IsReentrant="True" ListViewHeight="310" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -162,13 +155,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]84" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]90" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -227,7 +213,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="431" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_Head">
 		<DefinitionCacheUserSetting Envoy="431" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="90" IsReentrant="True" ListViewHeight="250" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="90" IsReentrant="True" ListViewHeight="250" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -241,13 +227,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]84" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]90" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -294,7 +273,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="432" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_Close">
 		<DefinitionCacheUserSetting Envoy="432" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="60" IsReentrant="True" ListViewHeight="160" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="60" IsReentrant="True" ListViewHeight="160" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -308,13 +287,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]54" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]60" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -343,7 +315,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="433" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_Put">
 		<DefinitionCacheUserSetting Envoy="433" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="100" IsReentrant="True" ListViewHeight="340" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="100" IsReentrant="True" ListViewHeight="340" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -357,13 +329,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]94" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]100" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -428,7 +393,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="434" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_Post">
 		<DefinitionCacheUserSetting Envoy="434" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="100" IsReentrant="True" ListViewHeight="340" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="100" IsReentrant="True" ListViewHeight="340" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -442,13 +407,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]94" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]100" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -513,7 +471,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="435" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_Delete">
 		<DefinitionCacheUserSetting Envoy="435" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="90" IsReentrant="True" ListViewHeight="310" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="90" IsReentrant="True" ListViewHeight="310" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -527,13 +485,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]84" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]90" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -592,7 +543,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="436" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_AddHeader">
 		<DefinitionCacheUserSetting Envoy="436" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="70" IsReentrant="True" ListViewHeight="220" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="70" IsReentrant="True" ListViewHeight="220" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -606,13 +557,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]64" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]70" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -653,7 +597,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="437" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_RemoveHeader">
 		<DefinitionCacheUserSetting Envoy="437" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="70" IsReentrant="True" ListViewHeight="190" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="70" IsReentrant="True" ListViewHeight="190" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -667,13 +611,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]64" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]70" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -708,7 +645,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="438" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_GetHeader">
 		<DefinitionCacheUserSetting Envoy="438" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="60" IsReentrant="True" ListViewHeight="220" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="60" IsReentrant="True" ListViewHeight="220" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -722,13 +659,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]54" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]60" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -775,7 +705,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="439" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_HeaderExist">
 		<DefinitionCacheUserSetting Envoy="439" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="70" IsReentrant="True" ListViewHeight="250" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="70" IsReentrant="True" ListViewHeight="250" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -789,13 +719,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]64" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]70" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -842,7 +765,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="440" Name=":VireoBrowser:Interactive:WebVI_Communication\.sli:HttpClient_ListHeaders">
 		<DefinitionCacheUserSetting Envoy="440" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="60" IsReentrant="True" ListViewHeight="190" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
+			<SharedLibraryEntryPointSignatureCache CacheSignature="1D1E5E792968880" Height="60" IsReentrant="True" ListViewHeight="190" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/ExtCodeInterface">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -856,13 +779,6 @@
 										</FileNameText>
 									</IconTemplate>
 									<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]54" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
-									<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]60" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]WebVI_Communication.sli" Top="[float]0" Width="[float]40">
-										<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-										<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-										<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]WebVI_Communication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-											<FontSetting FontFamily="Segoe UI" FontSize="6" />
-										</FileNameText>
-									</IconTemplate>
 								</IconPanel>
 							</Icon>
 						</MergeItem>
@@ -897,7 +813,7 @@
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="441" Name=":VireoBrowser:Interactive:WebVI_PutBuffer\.gvi">
 		<DefinitionCacheUserSetting Envoy="441" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<FunctionDefinitionSignatureCache CacheSignature="1D1E3B3ABB6F380" Height="50" ListViewHeight="165" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/MocCommon">
+			<FunctionDefinitionSignatureCache CacheSignature="1D1E5E792968880" Height="50" ListViewHeight="165" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/MocCommon">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
