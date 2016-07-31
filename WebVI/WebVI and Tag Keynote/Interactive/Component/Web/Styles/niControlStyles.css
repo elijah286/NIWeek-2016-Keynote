@@ -67,6 +67,7 @@ ni-tab-item[data-ni-base-style="uninitialized"] {
 **************************************/
 ni-array-viewer {
     display: inline-block;
+    outline: 1px solid #C5C5C5;
 }
 
 /*************************************
@@ -202,7 +203,6 @@ ni-boolean-switch[shape="slider"] .ni-off-label {
 * Cartesian Graph
 **************************************/
 ni-cartesian-graph {
-    display: inline-block;
     min-height: 20px;
 }
 
@@ -210,7 +210,6 @@ ni-cartesian-graph {
 * Chart
 **************************************/
 ni-chart {
-    display: inline-block;
     min-height: 20px;
 }
 
@@ -683,7 +682,6 @@ ni-image .ni-stretch-fill {
 * Intensity Graph
 **************************************/
 ni-intensity-graph {
-    display: inline-block;
     min-height: 20px;
 }
 
@@ -764,11 +762,11 @@ ni-path-selector .ni-text-field {
     float: right;
 }
 
-ni-path-selector[read-only="true"] .ni-text-field {
+ni-path-selector[read-only] .ni-text-field {
     background-color: #efefef;
 }
 
-ni-path-selector[read-only="true"] .ni-selector-button {
+ni-path-selector[read-only] .ni-selector-button {
     background-color: #efefef;
 }
 
@@ -1166,6 +1164,10 @@ ni-text {
 **************************************/
 ni-time-stamp-text-box {
     display: inline-block;
+}
+
+ni-time-stamp-text-box .ni-disable {
+    pointer-events: none;
 }
 
 /*************************************
