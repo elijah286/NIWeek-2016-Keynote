@@ -4,13 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <title>
-        This title needs to be updated programmatically
     </title>
-
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
     <script src="jsResources/coherent.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="jsResources/ckeditor/ckeditor.js"></script>
     <script>
+        var FPSource = {};
+        FPSource.baseHeight = 0;
         $(document).ready(function () {
             engine.call('DocumentReady');
             CKEDITOR.replace('Source', {
@@ -21,7 +27,7 @@
                 title: false,
                 extraPlugins: 'codemirror,selectall',
                 enableTabKeyTools: false,
-                height: $('body').height() + 'px',                            
+                height: $('body').height() + 'px',
                 // Configuration for codemirror plug-in
                 codemirror: {
                     lineNumbers: false, // Whether or not you want to show line numbers
@@ -37,6 +43,7 @@
                     showAutoCompleteButton: false // Whether or not to show the showAutoCompleteButton button on the toolbar
                 }
             });
+            FPSource.baseHeight = $('body').height();
         });
     </script>
     <script type="text/javascript">
@@ -63,6 +70,20 @@
 	            ch: 0
 	        });
 	    }
+	    var pageSize = 250;
+	    var data = editor.getData();
+	    var i, lineCount = 0;
+	    for (i = 0; i < data.length; i++) {
+	        if (data[i] === '\n') {
+	            lineCount++;
+	        }
+	    }
+	    if (lineCount >= pageSize) {
+	        var newHeight = FPSource.baseHeight * Math.round(lineCount / pageSize + 1);
+	        editor.resize('100%', newHeight, true);
+	    } else {
+	        editor.resize('100%', FPSource.baseHeight, true);
+        }
 	},
 	AppendTextArea = function(s) { 
 		var a = CKEDITOR.instances['Source'].getData();
