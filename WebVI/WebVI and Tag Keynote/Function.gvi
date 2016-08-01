@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="1F0478B60700D77F272F2BCFB4879BCC" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="AE961F1A3554C1AB2AE8293FC7E38E32" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
@@ -101,7 +101,7 @@
 						<Wire Id="687" Joints="N(676:Out)|(120,55) N(630:Value)|(153,55)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wait Bounds="155 15 30 30" Id="698" />
 						<Literal Bounds="85 25 45 16" DataType="UInt32" Facade="Numeric" Id="699" Label="701" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>100</p.Data>
+							<p.Data>500</p.Data>
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
 						<Wire Id="700" Joints="N(699:Out)|(130,30) N(698:time to wait)|(155,30)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -166,7 +166,7 @@
 						<Wire Id="686" Joints="N(632:Out)|(90,55) N(628:Value)|(138,55)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wait Bounds="140 15 30 30" Id="694" />
 						<Literal Bounds="55 25 45 16" DataType="UInt32" Facade="Numeric" Id="695" Label="697" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>100</p.Data>
+							<p.Data>500</p.Data>
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
 						<Wire Id="696" Joints="N(695:Out)|(100,30) N(694:time to wait)|(140,30)" xmlns="http://www.ni.com/PlatformFramework" />
