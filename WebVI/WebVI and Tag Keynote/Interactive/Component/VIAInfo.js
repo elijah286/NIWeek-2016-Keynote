@@ -9,5 +9,4 @@ NationalInstruments.HtmlVI.inputDataItem['di_46']='Boolean';
 //outputs:
 NationalInstruments.HtmlVI.outputDataItem = {};
 NationalInstruments.HtmlVI.outputDataItem['di_26']='Array';
-NationalInstruments.HtmlVI.outputDataItem['di_626']='Boolean';
-NationalInstruments.HtmlVI.outputDataItem['di_627']='Boolean';
+NationalInstruments.HtmlVI.outputDataItem['di_706']='String';

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="AE961F1A3554C1AB2AE8293FC7E38E32" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E2AE36CE8B417D4AB18C062B07F4EAD0" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="Html VI" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49153" />
-		<ApplicationVersionInfo Build="4.7.1.34759" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.2055" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.2055" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.2055" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.2055" FeatureSetName="Html VI" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.2055" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49153" />
+		<ApplicationVersionInfo Build="4.7.0.2055" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -37,32 +37,25 @@
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" />
 		<BlockDiagram Id="12">
-			<WhileLoop Bounds="180 -85 565 385" DiagramId="16" Id="15">
+			<WhileLoop Bounds="180 -85 580 385" DiagramId="16" Id="15">
 				<LoopIteration Bounds="5 355 15 15" Id="17" />
-				<LoopCondition Bounds="535 355 15 15" Id="18" />
-				<Literal Bounds="490 315 25 15" DataType="Boolean" Facade="False Constant" Id="19" Label="20" xmlns="http://www.ni.com/MocCommon">
+				<LoopCondition Bounds="550 355 15 15" Id="18" />
+				<Literal Bounds="505 315 25 15" DataType="Boolean" Facade="False Constant" Id="19" Label="20" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>False</p.Data>
 					<BooleanBehavior />
 				</Literal>
-				<NodeLabel AttachedTo="19" Bounds="490 297 30 15" Id="20" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="19" Bounds="505 297 30 15" Id="20" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>stop</p.Text>
 				</NodeLabel>
-				<Wire Id="21" Joints="N(19:Out)|(515,320) h(10) v(40) N(18:Input)|(535,360)" xmlns="http://www.ni.com/PlatformFramework" />
-				<CaseStructure Bounds="185 190 275 135" Default="50" Id="49" Selected="51" UserSelectorBounds="94 0 88 17">
-					<CaseStructure.Case Bounds="5 5 265 125" Id="50" Pattern="False">
+				<Wire Id="21" Joints="N(19:Out)|(530,320) h(10) v(40) N(18:Input)|(550,360)" xmlns="http://www.ni.com/PlatformFramework" />
+				<CaseStructure Bounds="185 190 309 135" Default="50" Id="49" Selected="51" UserSelectorBounds="110 0 88 17">
+					<CaseStructure.Case Bounds="5 5 299 125" Id="50" Pattern="False">
 						<Literal Bounds="95 15 25 15" DataType="Boolean" Facade="False Constant" Id="672" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>False</p.Data>
 							<BooleanBehavior />
 						</Literal>
-						<DataAccessor Bounds="150 15 40 15" DataItem="627" Id="690" Label="691" xmlns="http://www.ni.com/MocCommon">
-							<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-						</DataAccessor>
-						<NodeLabel AttachedTo="690" Bounds="195 15 45 14" Id="691" xmlns="http://www.ni.com/PlatformFramework">
-							<p.Text>High Hit</p.Text>
-						</NodeLabel>
-						<Wire Id="692" Joints="N(672:Out)|(120,20) N(690:Value)|(153,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
-					<CaseStructure.Case Bounds="5 5 265 125" Id="51" Pattern="True">
+					<CaseStructure.Case Bounds="5 5 299 125" Id="51" Pattern="True">
 						<MethodCall Bounds="150 70 40 40" DomainName="NI.MocCommon" Id="66" Target="Component:Update\ Tag\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -92,13 +85,6 @@
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
-						<DataAccessor Bounds="150 50 40 15" DataItem="627" Id="630" Label="631" xmlns="http://www.ni.com/MocCommon">
-							<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-						</DataAccessor>
-						<NodeLabel AttachedTo="630" Bounds="195 50 45 14" Id="631" xmlns="http://www.ni.com/PlatformFramework">
-							<p.Text>High Hit</p.Text>
-						</NodeLabel>
-						<Wire Id="687" Joints="N(676:Out)|(120,55) N(630:Value)|(153,55)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wait Bounds="155 15 30 30" Id="698" />
 						<Literal Bounds="85 25 45 16" DataType="UInt32" Facade="Numeric" Id="699" Label="701" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>500</p.Data>
@@ -108,26 +94,30 @@
 						<NodeLabel AttachedTo="699" Bounds="85 44 30 15" Id="701" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>milliseconds to wait</p.Text>
 						</NodeLabel>
+						<DataAccessor Bounds="210 55 40 15" DataItem="706" Id="717" Label="718" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="717" Bounds="255 55 34 14" Id="718" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>String</p.Text>
+						</NodeLabel>
+						<Literal Bounds="28 5 105 15" DataType="String" Facade="String" Id="719" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Vote Recieved!</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="720" Joints="N(719:Out)|(133,10) h(5) v(50) N(717:Value)|(213,60)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Selector Bounds="-4 50 13 10" Docking="Left" Id="52" Terminals="49=607, 50, 51" />
 					<CaseStructure.Tunnel Bounds="-4 20 13 10" Docking="Left" Id="71" Terminals="49=61, 50, 51=70" />
 					<CaseStructure.Tunnel Bounds="-4 35 13 10" Docking="Left" Id="146" Terminals="49=141, 50, 51=145" />
 				</CaseStructure>
-				<CaseStructure Bounds="135 50 265 135" Default="54" Id="53" Selected="55" UserSelectorBounds="88 0 88 17">
-					<CaseStructure.Case Bounds="5 5 255 125" Id="54" Pattern="False">
+				<CaseStructure Bounds="135 50 279 135" Default="54" Id="53" Selected="55" UserSelectorBounds="96 0 88 17">
+					<CaseStructure.Case Bounds="5 5 269 125" Id="54" Pattern="False">
 						<Literal Bounds="65 15 25 15" DataType="Boolean" Facade="False Constant" Id="670" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>False</p.Data>
 							<BooleanBehavior />
 						</Literal>
-						<DataAccessor Bounds="135 15 40 15" DataItem="626" Id="688" Label="689" xmlns="http://www.ni.com/MocCommon">
-							<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-						</DataAccessor>
-						<NodeLabel AttachedTo="688" Bounds="180 15 42 14" Id="689" xmlns="http://www.ni.com/PlatformFramework">
-							<p.Text>Low Hit</p.Text>
-						</NodeLabel>
-						<Wire Id="693" Joints="N(670:Out)|(90,20) N(688:Value)|(138,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
-					<CaseStructure.Case Bounds="5 5 255 125" Id="55" Pattern="True">
+					<CaseStructure.Case Bounds="5 5 269 125" Id="55" Pattern="True">
 						<MethodCall Bounds="135 70 40 40" DomainName="NI.MocCommon" Id="65" Target="Component:Update\ Tag\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -157,13 +147,6 @@
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
-						<DataAccessor Bounds="135 50 40 15" DataItem="626" Id="628" Label="629" xmlns="http://www.ni.com/MocCommon">
-							<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-						</DataAccessor>
-						<NodeLabel AttachedTo="628" Bounds="180 50 42 14" Id="629" xmlns="http://www.ni.com/PlatformFramework">
-							<p.Text>Low Hit</p.Text>
-						</NodeLabel>
-						<Wire Id="686" Joints="N(632:Out)|(90,55) N(628:Value)|(138,55)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wait Bounds="140 15 30 30" Id="694" />
 						<Literal Bounds="55 25 45 16" DataType="UInt32" Facade="Numeric" Id="695" Label="697" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>500</p.Data>
@@ -173,6 +156,17 @@
 						<NodeLabel AttachedTo="695" Bounds="55 44 30 15" Id="697" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>milliseconds to wait</p.Text>
 						</NodeLabel>
+						<DataAccessor Bounds="180 40 40 15" DataItem="706" Id="707" Label="710" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="707" Bounds="225 40 34 14" Id="710" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>String</p.Text>
+						</NodeLabel>
+						<Literal Bounds="58 45 105 15" DataType="String" Facade="String" Id="715" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>Vote Recieved!</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<Wire Id="716" Joints="N(715:Out)|(163,50) h(5) v(-5) N(707:Value)|(183,45)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Selector Bounds="-4 20 13 10" Docking="Left" Id="56" Terminals="53=606, 54, 55" />
 					<CaseStructure.Tunnel Bounds="-4 75 13 10" Docking="Left" Id="68" Terminals="53=61, 54, 55=67" />
@@ -203,6 +197,17 @@
 					<p.Text>milliseconds to wait</p.Text>
 				</NodeLabel>
 				<Wire Id="684" Joints="N(683:Out)|(95,30) N(682:time to wait)|(135,30)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="480 130 40 15" DataItem="706" Id="721" Label="722" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="721" Bounds="525 130 34 14" Id="722" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>String</p.Text>
+				</NodeLabel>
+				<Literal Bounds="495 95 40 15" DataType="String" Facade="String" Id="723" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>""</p.Data>
+					<StringBehavior TextDisplayMode="Default" />
+				</Literal>
+				<Wire Id="724" Joints="N(723:Out)|(535,100) h(-60) v(35) N(721:Value)|(483,135)" xmlns="http://www.ni.com/PlatformFramework" />
 				<LoopTunnel Bounds="-4 215 13 10" Docking="Left" Id="328" Terminals="o0=559, i0=61" />
 				<LoopTunnel Bounds="-4 230 13 10" Docking="Left" Id="333" Terminals="o0=560, i0=141" />
 			</WhileLoop>
@@ -231,8 +236,8 @@
 				<DataAccessor Bounds="135 50 40 15" DataItem="26" Id="27" Label="38" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="27" Bounds="180 50 34 14" Id="38" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>Graph</p.Text>
+				<NodeLabel AttachedTo="27" Bounds="180 50 75 14" Id="38" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>"Sounds Data "</p.Text>
 				</NodeLabel>
 				<Wire Id="553" Joints="N(330:i0)|(4,55) N(59:L0)|(55,55)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="554" Joints="N(557:i0)|(4,40) h(26) v(25) N(59:L1)|(55,65)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -266,33 +271,44 @@
 			</Literal>
 			<Wire Id="560" Joints="N(79:Out)|(140,150) h(30) B(1) N(333:o0)|(176,150) B(1) v(-320) N(335:o0)|(176,-170)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
-		<HtmlFrontPanel Height="[float]667" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" UpdatedRootPage="[string]&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xA;  &lt;head&gt;&#xA;    &lt;style&gt;&#xA;      &lt;!---Read only section. Source panel edits to the content of this style tag will not be persisted--&gt;&#xA;      [data-ni-base-style] {&#xA;        position: absolute;&#xA;      }&#xA;      ni-boolean-button[ni-control-id='41'] {&#xA;        left: 36px;&#xA;        top: 387px;&#xA;        width: 104px;&#xA;        height: 59px;&#xA;        font-size: 19px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-label[ni-control-id='42'] {&#xA;        left: 36px;&#xA;        top: 364px;&#xA;        width: 22px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-boolean-button[ni-control-id='44'] {&#xA;        left: 212px;&#xA;        top: 387px;&#xA;        width: 105px;&#xA;        height: 59px;&#xA;        font-size: 19px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-label[ni-control-id='45'] {&#xA;        left: 212px;&#xA;        top: 364px;&#xA;        width: 26px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-numeric-text-box[ni-control-id='155'] {&#xA;        left: 164px;&#xA;        top: 68px;&#xA;        width: 40px;&#xA;        height: 40px;&#xA;        font-size: 19px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-label[ni-control-id='167'] {&#xA;        left: 15px;&#xA;        top: 76px;&#xA;        width: 91px;&#xA;        height: 16px;&#xA;        font-size: 19px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-string-control[ni-control-id='610'] {&#xA;        left: 4px;&#xA;        top: 22px;&#xA;        width: 136px;&#xA;        height: 22px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-label[ni-control-id='611'] {&#xA;        left: 4px;&#xA;        top: -1px;&#xA;        width: 71px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-boolean-led[ni-control-id='622'] {&#xA;        left: 119px;&#xA;        top: 392px;&#xA;        width: 16px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-boolean-led[ni-control-id='623'] {&#xA;        left: 295px;&#xA;        top: 393px;&#xA;        width: 16px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-label[ni-control-id='624'] {&#xA;        left: 119px;&#xA;        top: 369px;&#xA;        width: 41px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-label[ni-control-id='625'] {&#xA;        left: 295px;&#xA;        top: 370px;&#xA;        width: 45px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-cartesian-graph[ni-control-id='28'] {&#xA;        left: 4px;&#xA;        top: 116px;&#xA;        width: 344px;&#xA;        height: 264px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-cartesian-axis[ni-control-id='29'] {&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-cartesian-axis[ni-control-id='30'] {&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-cartesian-plot[ni-control-id='31'] {&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-label[ni-control-id='37'] {&#xA;        left: 4px;&#xA;        top: 96px;&#xA;        width: 33px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-plot-legend[ni-control-id='33'] {&#xA;        left: 355px;&#xA;        top: 116px;&#xA;        width: 145px;&#xA;        height: 28px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-cursor-legend[ni-control-id='34'] {&#xA;        left: 9px;&#xA;        top: 409px;&#xA;        width: 270px;&#xA;        height: 202px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-scale-legend[ni-control-id='35'] {&#xA;        left: 355px;&#xA;        top: 278px;&#xA;        width: 145px;&#xA;        height: 60px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-graph-tools[ni-control-id='36'] {&#xA;        left: 9px;&#xA;        top: 387px;&#xA;        width: 120px;&#xA;        height: 35px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      &lt;!---End read only section. Additional styles can be added outside this style tag--&gt;&#xA;    &lt;/style&gt;&#xA;    &lt;style&gt;&#xA;    &#x9;ni-numeric-text-box[ni-control-id='155'] {&#xA;          border: transparent;&#xA;          background: transparent;&#xA;      }&#xA;    &lt;/style&gt;&#xA;    &lt;!---Read only section. Source panel edits to these document properties will not be persisted--&gt;&#xA;    &lt;meta charset=&quot;utf-8&quot;&gt;&#xA;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xA;    &lt;title&gt;&#x9;'Function.gvi'&#xA;    &lt;/title&gt;&#xA;    &lt;!---End read only section. Additional scripts or document properties can be added outside this section--&gt;&#xA;  &lt;/head&gt;&#xA;  &lt;body&gt;&#xA;    &lt;div id=&quot;ni-outdated-browser-message&quot; style=&quot;display:none&quot;&gt;This browser is reporting compatibility with older browser technologies that may perform poorly if it all.&#xA;    &lt;/div&gt;&#xA;    &lt;!---Partially read only section. Custom attributes can be added to these elements but edits to existing attributes will not be persisted--&gt;&#xA;    &lt;section id=&quot;FrontPanelCanvas&quot;&gt;&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    &lt;/section&gt;&#xA;    &lt;!---End partially read only section. Source panel edits to control styles will not be persisted--&gt;&#xA;  &lt;/body&gt;&#xA;&lt;/html&gt;&#xA;" Width="[float]375" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
-			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Low" Height="[float]59" Id="41" IsMomentary="[bool]True" Label="[UIModel]42" Left="[float]53" TabIndex="[int]0" Top="[float]418" Value="{DataItemBinding Id=39}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="702" xmlns="http://www.ni.com/PlatformFramework" />
+		<HtmlFrontPanel Height="[float]667" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" UpdatedRootPage="[string]&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xA;  &lt;head&gt;&#xA;    &lt;style&gt;&#xA;      &lt;!---Read only section. Source panel edits to the content of this style tag will not be persisted--&gt;&#xA;      [data-ni-base-style] {&#xA;        position: absolute;&#xA;      }&#xA;      ni-boolean-button[ni-control-id='41'] {&#xA;        left: 9px;&#xA;        top: 418px;&#xA;        width: 168px;&#xA;        height: 59px;&#xA;        font-size: 19px;&#xA;        font-family: Arial, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-label[ni-control-id='42'] {&#xA;        left: 9px;&#xA;        top: 398px;&#xA;        width: 23px;&#xA;        height: 14px;&#xA;        font-size: 12px;&#xA;        font-family: Arial, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-boolean-button[ni-control-id='44'] {&#xA;        left: 196px;&#xA;        top: 418px;&#xA;        width: 168px;&#xA;        height: 59px;&#xA;        font-size: 19px;&#xA;        font-family: Arial, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-label[ni-control-id='45'] {&#xA;        left: 196px;&#xA;        top: 398px;&#xA;        width: 26px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-cartesian-graph[ni-control-id='28'] {&#xA;        left: 4px;&#xA;        top: 132px;&#xA;        width: 366px;&#xA;        height: 263px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-cartesian-axis[ni-control-id='29'] {&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-cartesian-axis[ni-control-id='30'] {&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-cartesian-plot[ni-control-id='31'] {&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-label[ni-control-id='37'] {&#xA;        left: 4px;&#xA;        top: 112px;&#xA;        width: 33px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-plot-legend[ni-control-id='33'] {&#xA;        left: 377px;&#xA;        top: 132px;&#xA;        width: 145px;&#xA;        height: 28px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-cursor-legend[ni-control-id='34'] {&#xA;        left: 9px;&#xA;        top: 424px;&#xA;        width: 270px;&#xA;        height: 202px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-scale-legend[ni-control-id='35'] {&#xA;        left: 377px;&#xA;        top: 293px;&#xA;        width: 145px;&#xA;        height: 60px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-graph-tools[ni-control-id='36'] {&#xA;        left: 9px;&#xA;        top: 402px;&#xA;        width: 120px;&#xA;        height: 35px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-text[ni-control-id='704'] {&#xA;        left: 64px;&#xA;        top: 4px;&#xA;        width: 248px;&#xA;        height: 76px;&#xA;        font-size: 64px;&#xA;        font-family: Arial, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #FFFFFF;&#xA;      }&#xA;      ni-string-control[ni-control-id='708'] {&#xA;        left: 4px;&#xA;        top: 488px;&#xA;        width: 366px;&#xA;        height: 72px;&#xA;        font-size: 48px;&#xA;        font-family: Arial, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;      }&#xA;      ni-label[ni-control-id='709'] {&#xA;        left: 4px;&#xA;        top: 468px;&#xA;        width: 31px;&#xA;        height: 16px;&#xA;        font-size: 12px;&#xA;        font-family: Segoe UI, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #4D5359;&#xA;      }&#xA;      ni-text[ni-control-id='712'] {&#xA;        left: 4px;&#xA;        top: 84px;&#xA;        width: 368px;&#xA;        height: 50px;&#xA;        font-size: 19px;&#xA;        font-family: Arial, sans-serif;&#xA;        font-style: normal;&#xA;        font-weight: normal;&#xA;        color: #FFFFFF;&#xA;      }&#xA;      &lt;!---End read only section. Additional styles can be added outside this style tag--&gt;&#xA;    &lt;/style&gt;&#xA;    &lt;!---Read only section. Source panel edits to these document properties will not be persisted--&gt;&#xA;    &lt;meta charset=&quot;utf-8&quot;&gt;&#xA;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xA;    &lt;title&gt;&#x9;'Function.gvi'&#xA;    &lt;/title&gt;&#xA;    &lt;!---End read only section. Additional scripts or document properties can be added outside this section--&gt;&#xA;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, user-scalable=no&quot;&gt;&#xA;  &lt;/head&gt;&#xA;  &lt;style&gt;&#xA;    body {&#xA;      background: #a8c7df;&#xA;    }&#xA;    ni-string-control[ni-control-id='708'] {&#xA;      font-color: pink;&#xA;    }&#xA;    #subtitle {&#xA;      text-align: center;&#xA;    }&#xA;    ni-string-control[read-only] textarea {&#xA;      background: transparent;&#xA;      border: transparent;&#xA;      text-align: center;&#xA;      color: white;&#xA;    }&#xA;  &lt;/style&gt;&#xA;  &lt;body&gt;&#xA;    &lt;div id=&quot;ni-outdated-browser-message&quot; style=&quot;display:none&quot;&gt;This browser is reporting compatibility with older browser technologies that may perform poorly if it all.&#xA;    &lt;/div&gt;&#xA;    &lt;!---Partially read only section. Custom attributes can be added to these elements but edits to existing attributes will not be persisted--&gt;&#xA;    &lt;section id=&quot;FrontPanelCanvas&quot;&gt;&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    &lt;/section&gt;&#xA;    &lt;!---End partially read only section. Source panel edits to control styles will not be persisted--&gt;&#xA;  &lt;/body&gt;&#xA;&lt;/html&gt;&#xA;" Width="[float]375" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Low" Glyph="[int]61539" Height="[float]59" Id="41" IsMomentary="[bool]True" Label="[UIModel]42" Left="[float]9" TabIndex="[int]0" Top="[float]418" Value="{DataItemBinding Id=39}" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Arial" FontSize="14" Id="702" xmlns="http://www.ni.com/PlatformFramework" />
 			</HtmlButton>
-			<HtmlLabel Height="[float]16" Id="42" LabelOwner="[UIModel]41" Left="[float]53" Text="[string]Low" Top="[float]395" Visible="[bool]False" Width="[float]22" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]High" Height="[float]59" Id="44" IsMomentary="[bool]True" Label="[UIModel]45" Left="[float]229" TabIndex="[int]1" Top="[float]418" Value="{DataItemBinding Id=46}" Width="[float]105" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="703" xmlns="http://www.ni.com/PlatformFramework" />
+			<HtmlLabel Height="[float]14" Id="42" LabelOwner="[UIModel]41" Left="[float]9" Text="[string]Low" Top="[float]398" Visible="[bool]False" Width="[float]23" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Arial" FontSize="9" Id="714" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlLabel>
+			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]High" Glyph="[int]61538" Height="[float]59" Id="44" IsMomentary="[bool]True" Label="[UIModel]45" Left="[float]196" TabIndex="[int]1" Top="[float]418" Value="{DataItemBinding Id=46}" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Arial" FontSize="14" Id="703" xmlns="http://www.ni.com/PlatformFramework" />
 			</HtmlButton>
-			<HtmlLabel Height="[float]16" Id="45" LabelOwner="[UIModel]44" Left="[float]229" Text="[string]High" Top="[float]395" Visible="[bool]False" Width="[float]26" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlBooleanLED BaseName="[string]LED" ClickMode="[ClickMode]Press" FalseContent="[string]Off" Height="[float]16" Id="622" IsMomentary="[bool]False" Label="[UIModel]624" Left="[float]136" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]2" Top="[float]423" TrueContent="[string]On" Value="{DataItemBinding Id=626}" Width="[float]16" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlBooleanLED BaseName="[string]LED" ClickMode="[ClickMode]Press" FalseContent="[string]Off" Height="[float]16" Id="623" IsMomentary="[bool]False" Label="[UIModel]625" Left="[float]312" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]3" Top="[float]424" TrueContent="[string]On" Value="{DataItemBinding Id=627}" Width="[float]16" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="624" LabelOwner="[UIModel]622" Left="[float]136" Text="[string]Low Hit" Top="[float]400" Visible="[bool]False" Width="[float]41" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="625" LabelOwner="[UIModel]623" Left="[float]312" Text="[string]High Hit" Top="[float]401" Visible="[bool]False" Width="[float]45" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlCartesianGraph DataSource="{DataItemBinding Id=26}" Height="[float]360" Id="28" Label="[UIModel]37" Left="[float]4" PlotAreaMargin="[SMThickness]NaN,NaN,NaN,NaN" SuppressScaleLayout="[bool]False" TabIndex="[int]4" Top="[float]20" Width="[float]360" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<HtmlLabel Height="[float]16" Id="45" LabelOwner="[UIModel]44" Left="[float]196" Text="[string]High" Top="[float]398" Visible="[bool]False" Width="[float]26" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlCartesianGraph DataSource="{DataItemBinding Id=26}" Height="[float]247" Id="28" Label="[UIModel]37" Left="[float]4" PlotAreaMargin="[SMThickness]NaN,NaN,NaN,NaN" SuppressScaleLayout="[bool]False" TabIndex="[int]2" Top="[float]148" Width="[float]366" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<HtmlAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="29" Label="[string]" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible" />
-				<HtmlAxis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="30" Label="[string]" LabelVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" />
+				<HtmlAxis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="30" Label="[string]" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]726" MajorGridLines="[UIModel]725" MinorTickVisibility="[SMVisibility]Visible" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+					<GridLines Id="725" Visibility="[SMVisibility]Hidden" />
+					<HtmlRangeLabeledDivisions Id="726" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible" />
+				</HtmlAxis>
 				<HtmlPlot HorizontalScale="[UIModel]29" Id="31" Label="[string]Plot" VerticalScale="[UIModel]30">
-					<HtmlPlotRenderer Id="32" LineStroke="[SMSolidColorBrush]#ffff0000" LineThickness="[double]1" />
+					<HtmlPlotRenderer Id="32" LineStroke="[SMSolidColorBrush]#ffa8c7df" LineThickness="[double]3" PointFill="[SMSolidColorBrush]#ffa8c7df" />
 				</HtmlPlot>
 			</HtmlCartesianGraph>
-			<HtmlLabel Height="[float]16" Id="37" LabelOwner="[UIModel]28" Left="[float]4" Text="[string]Graph" Top="[float]-3" Visible="[bool]False" Width="[float]33" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlPlotLegend Graph="[UIModel]28" Height="[float]28" Id="33" Left="[float]371" MinWidth="[float]145" Top="[float]20" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlCursorLegend Graph="[UIModel]28" Height="[float]202" Id="34" Left="[float]9" MinWidth="[float]270" Top="[float]409" Visible="[bool]False" Width="[float]270" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlScaleLegend Graph="[UIModel]28" Height="[float]60" Id="35" Left="[float]371" MinWidth="[float]145" Top="[float]278" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlGraphTools Graph="[UIModel]28" Height="[float]35" Id="36" Left="[float]9" Top="[float]387" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="37" LabelOwner="[UIModel]28" Left="[float]4" Text="[string]Sounds Data " Top="[float]128" Visible="[bool]False" Width="[float]33" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlPlotLegend Graph="[UIModel]28" Height="[float]28" Id="33" Left="[float]377" MinWidth="[float]145" Top="[float]148" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlCursorLegend Graph="[UIModel]28" Height="[float]202" Id="34" Left="[float]9" MinWidth="[float]270" Top="[float]424" Visible="[bool]False" Width="[float]270" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlScaleLegend Graph="[UIModel]28" Height="[float]60" Id="35" Left="[float]377" MinWidth="[float]145" Top="[float]293" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlGraphTools Graph="[UIModel]28" Height="[float]35" Id="36" Left="[float]9" Top="[float]402" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Foreground="[SMColor]#ffffffff" Height="[float]76" Id="704" Left="[float]64" SizeMode="[TextModelSizeMode]Fixed" Text="[string]08.03.16" TextWrapping="[TextWrapping]Wrap" Top="[float]4" Width="[float]248" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Arial" FontSize="48" Id="705" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]72" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="708" IsReadOnly="[bool]True" Label="[UIModel]709" Left="[float]4" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]3" Text="{DataItemBinding Id=706}" Top="[float]488" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]366" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Arial" FontSize="36" Id="711" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlStringControl>
+			<HtmlLabel Height="[float]16" Id="709" LabelOwner="[UIModel]708" Left="[float]4" Text="[string]String" Top="[float]468" Visible="[bool]False" Width="[float]31" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Foreground="[SMColor]#ffffffff" Height="[float]50" Id="712" Left="[float]4" SizeMode="[TextModelSizeMode]Fixed" Text="[string]THE FUTURE OF &#xD;&#xA;NI SOFTWARE IS NEAR&#xD;&#xA;" TextWrapping="[TextWrapping]Wrap" Top="[float]84" Width="[float]368" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Arial" FontSize="14" Id="713" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
 		</HtmlFrontPanel>
-		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="26" Name="Graph" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="26" Name="&quot;Sounds Data &quot;" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="39" Name="Low" xmlns="http://www.ni.com/MocCommon">
@@ -301,11 +317,8 @@
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="46" Name="High" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="626" Name="Low Hit" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>False</p.DefaultValue>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="627" Name="High Hit" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>False</p.DefaultValue>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="706" Name="String" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
