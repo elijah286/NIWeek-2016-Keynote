@@ -737,11 +737,6 @@ ni-numeric-text-box[read-only] input {
     background-color: #efefef;
 }
 
-/* TODO mraj IE11 does not support initial*/
-ni-numeric-text-box[read-only="false"] input {
-    background-color: initial;
-}
-
 /*************************************
 * Opaque Refnum
 **************************************/
@@ -764,11 +759,11 @@ ni-path-selector .ni-text-field {
     float: right;
 }
 
-ni-path-selector[read-only="true"] .ni-text-field {
+ni-path-selector[read-only] .ni-text-field {
     background-color: #efefef;
 }
 
-ni-path-selector[read-only="true"] .ni-selector-button {
+ni-path-selector[read-only] .ni-selector-button {
     background-color: #efefef;
 }
 
@@ -1101,11 +1096,6 @@ ni-string-control {
 
 ni-string-control[read-only] textarea {
     background-color: #efefef;
-}
-
-/* TODO mraj IE11 does not support initial*/
-ni-string-control[read-only="false"] textarea {
-    background-color: initial;
 }
 
 ni-string-control textarea {

@@ -33,7 +33,6 @@
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niSupport.i18n.js", "LVjsMinifyChunk": "Base" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niUIActivityService.js", "LVjsMinifyChunk": "Base" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niNumerics.js", "LVjsMinifyChunk": "Base" },
-        { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niTimeStamp.js", "LVjsMinifyChunk": "Base" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niListBoxSelectionMode.js", "LVjsMinifyChunk": "Base" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Elements/ni-element.js", "LVjsMinifyChunk": "Base" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/ValueConverters/niValueConverter.js", "LVjsMinifyChunk": "Base" },
@@ -41,6 +40,9 @@
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/ValueConverters/niJsonValueConverter.js", "LVjsMinifyChunk": "Base" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/ValueConverters/niListBoxValueConverter.js", "LVjsMinifyChunk": "Base" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/ValueConverters/niElementValueConverter.js", "LVjsMinifyChunk": "Base" },
+        { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/DataTypes/niTimeStamp.js", "LVjsMinifyChunk": "Base" },
+        { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/DataTypes/niComplex.js", "LVjsMinifyChunk": "Base" },
+        { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/DataTypes/niAnalogWaveform.js", "LVjsMinifyChunk": "Base" },
 
         { "Path": "../../../../../../Imports/bower_components/jquery-simulate/jquery.simulate.js", "LVJSTestOnly": true },
         { "Path": "../../../../../../Imports/bower_components/jasmine-jquery/lib/jasmine-jquery.js", "LVJSTestOnly": true },
@@ -104,6 +106,9 @@
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niGlobals.js", "LVjsMinifyChunk": "ThirdPartyResources" },
 
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Tests/OrderedUtils/ni-element-test-interceptor.js", "LVJSTestOnly": true },
+
+        { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Elements/DataPipeline/niDataPipeline.js", "LVjsMinifyChunk": "Elements" },
+        { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Elements/DataPipeline/niGraphDataPipeline.js", "LVjsMinifyChunk": "Elements" },
 
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Elements/ni-web-application.js", "LVjsMinifyChunk": "Elements" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Elements/ni-virtual-instrument.js", "LVjsMinifyChunk": "Elements" },
@@ -184,7 +189,6 @@
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niVIReferenceService.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niRenderBuffer.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niRenderEngine.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
-        { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niAnalogWaveform.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niResizeStrategy.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niPaintResizeStrategy.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niTransformResizeStrategy.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
@@ -309,7 +313,6 @@
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Designer/niEnumSelectorViewModel.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Designer/niRingSelectorViewModel.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Designer/niRadioButtonGroupViewModel.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
-        
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Framework/niElementExtensions.js", "LVjsMinifyChunk": "ModelsAndViewModels" },
 
         { "Path": "../../../../../../LabVIEW/Html.Controls.Design/Web/Elements/ni-element-registration.js", "LVjsMinifyChunk": "Registration" },

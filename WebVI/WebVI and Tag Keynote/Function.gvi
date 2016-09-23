@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0231491F858C86D536AA25DDDD9436F0" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3A06075AD4CBF68F9DADE46AFC82E358" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.0.2055" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.0.2055" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.0.2055" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.0.2055" FeatureSetName="Html VI" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.0.2055" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49153" />
-		<ApplicationVersionInfo Build="4.7.0.2055" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="4.8.0.2619" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.8.0.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.2619" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.8.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.8.0.2619" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.2619" FeatureSetName="Html VI" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.8.0.2619" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.8.0.0" />
+		<ApplicationVersionInfo Build="4.8.0.2619" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -85,12 +85,12 @@
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
-						<Wait Bounds="155 15 30 30" Id="698" />
+						<Wait Bounds="155 15 40 40" Id="698" />
 						<Literal Bounds="85 25 45 16" DataType="UInt32" Facade="Numeric" Id="699" Label="701" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>500</p.Data>
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
-						<Wire Id="700" Joints="N(699:Out)|(130,30) N(698:time to wait)|(155,30)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="700" Joints="N(699:Out)|(130,30) h(25) N(698:time to wait)|(155,35)" xmlns="http://www.ni.com/PlatformFramework" />
 						<NodeLabel AttachedTo="699" Bounds="85 44 30 15" Id="701" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>milliseconds to wait</p.Text>
 						</NodeLabel>
@@ -147,12 +147,12 @@
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
-						<Wait Bounds="140 15 30 30" Id="694" />
+						<Wait Bounds="140 15 40 40" Id="694" />
 						<Literal Bounds="55 25 45 16" DataType="UInt32" Facade="Numeric" Id="695" Label="697" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>500</p.Data>
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
-						<Wire Id="696" Joints="N(695:Out)|(100,30) N(694:time to wait)|(140,30)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="696" Joints="N(695:Out)|(100,30) h(40) N(694:time to wait)|(140,35)" xmlns="http://www.ni.com/PlatformFramework" />
 						<NodeLabel AttachedTo="695" Bounds="55 44 30 15" Id="697" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>milliseconds to wait</p.Text>
 						</NodeLabel>
@@ -188,7 +188,7 @@
 				<Wire Id="141" Joints="N(333:i0)|(4,230) h(121) B(1) N(146:49)|(181,230) B(1) v(-90) N(142:53)|(131,140)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="606" Joints="N(40:Value)|(110,75) N(56:53)|(131,75)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="607" Joints="N(47:Value)|(165,245) N(52:49)|(181,245)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wait Bounds="135 15 30 30" Id="682" />
+				<Wait Bounds="135 15 40 40" Id="682" />
 				<Literal Bounds="55 25 40 16" DataType="UInt32" Facade="Numeric" Id="683" Label="685" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>50</p.Data>
 					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
@@ -196,7 +196,7 @@
 				<NodeLabel AttachedTo="683" Bounds="55 44 30 15" Id="685" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>milliseconds to wait</p.Text>
 				</NodeLabel>
-				<Wire Id="684" Joints="N(683:Out)|(95,30) N(682:time to wait)|(135,30)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="684" Joints="N(683:Out)|(95,30) h(40) N(682:time to wait)|(135,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				<DataAccessor Bounds="480 130 40 15" DataItem="706" Id="721" Label="722" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
@@ -242,7 +242,7 @@
 				<Wire Id="553" Joints="N(330:i0)|(4,55) N(59:L0)|(55,55)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="554" Joints="N(557:i0)|(4,40) h(26) v(25) N(59:L1)|(55,65)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="64" Joints="N(59:R0)|(95,55) N(27:Value)|(138,55)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wait Bounds="135 15 30 30" Id="561" />
+				<Wait Bounds="135 15 40 40" Id="561" />
 				<Literal Bounds="45 25 50 16" DataType="UInt32" Facade="Numeric" Id="562" Label="563" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>1000</p.Data>
 					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
@@ -250,7 +250,7 @@
 				<NodeLabel AttachedTo="562" Bounds="45 44 30 15" Id="563" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>milliseconds to wait</p.Text>
 				</NodeLabel>
-				<Wire Id="564" Joints="N(562:Out)|(95,30) N(561:time to wait)|(135,30)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="564" Joints="N(562:Out)|(95,30) h(40) N(561:time to wait)|(135,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				<LoopTunnel Bounds="-4 55 13 10" Docking="Left" Id="330" Terminals="o0=559, i0=553" />
 				<LoopTunnel Bounds="-4 70 13 10" Docking="Left" Id="335" Terminals="o0=560, i0" />
 				<LoopTunnel Bounds="-4 40 13 10" Docking="Left" Id="557" Terminals="o0=556, i0=554" />
@@ -275,7 +275,7 @@
 			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Low" Glyph="[int]61539" Height="[float]59" Id="41" IsMomentary="[bool]True" Label="[UIModel]42" Left="[float]13" TabIndex="[int]0" Top="[float]418" Value="{DataItemBinding Id=39}" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<FontSetting FontFamily="Arial" FontSize="14" Id="702" xmlns="http://www.ni.com/PlatformFramework" />
 			</HtmlButton>
-			<HtmlLabel Height="[float]14" Id="42" LabelOwner="[UIModel]41" Left="[float]13" Text="[string]Low" Top="[float]398" Visible="[bool]False" Width="[float]23" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<HtmlLabel Height="[float]14" Id="42" LabelOwner="[UIModel]41" Left="[float]13" Text="[string]Low" Top="[float]400" Visible="[bool]False" Width="[float]23" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<FontSetting FontFamily="Arial" FontSize="9" Id="714" xmlns="http://www.ni.com/PlatformFramework" />
 			</HtmlLabel>
 			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]High" Glyph="[int]61538" Height="[float]59" Id="44" IsMomentary="[bool]True" Label="[UIModel]45" Left="[float]194" TabIndex="[int]1" Top="[float]418" Value="{DataItemBinding Id=46}" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
@@ -299,15 +299,12 @@
 			<HtmlCursorLegend Graph="[UIModel]28" Height="[float]202" Id="34" Left="[float]10" MinWidth="[float]270" Top="[float]425" Visible="[bool]False" Width="[float]270" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlScaleLegend Graph="[UIModel]28" Height="[float]60" Id="35" Left="[float]378" MinWidth="[float]145" Top="[float]294" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlGraphTools Graph="[UIModel]28" Height="[float]35" Id="36" Left="[float]10" Top="[float]403" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlText BaseName="[string]Text" Foreground="[SMColor]#ffffffff" Height="[float]76" Id="704" Left="[float]64" SizeMode="[TextModelSizeMode]Fixed" Text="[string]08.03.16" TextWrapping="[TextWrapping]Wrap" Top="[float]4" Width="[float]248" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<FontSetting FontFamily="Arial" FontSize="48" Id="705" xmlns="http://www.ni.com/PlatformFramework" />
-			</HtmlText>
 			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]72" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="708" IsReadOnly="[bool]True" Label="[UIModel]709" Left="[float]4" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]3" Text="{DataItemBinding Id=706}" Top="[float]488" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]366" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<FontSetting FontFamily="Arial" FontSize="36" Id="711" xmlns="http://www.ni.com/PlatformFramework" />
 			</HtmlStringControl>
-			<HtmlLabel Height="[float]16" Id="709" LabelOwner="[UIModel]708" Left="[float]4" Text="[string]String" Top="[float]468" Visible="[bool]False" Width="[float]31" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlText BaseName="[string]Text" Foreground="[SMColor]#ffffffff" Height="[float]108" Id="712" Left="[float]4" SizeMode="[TextModelSizeMode]Fixed" Text="[string]THE FUTURE OF &#xD;&#xA;NI SOFTWARE IS NEAR&#xD;&#xA;&#xD;&#xA;#NIWeek" TextWrapping="[TextWrapping]Wrap" Top="[float]84" Width="[float]368" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<FontSetting FontFamily="Arial" FontSize="14" Id="713" xmlns="http://www.ni.com/PlatformFramework" />
+			<HtmlLabel Height="[float]16" Id="709" LabelOwner="[UIModel]708" Left="[float]4" Text="[string]String" Top="[float]468" Visible="[bool]False" Width="[float]32" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Foreground="[SMColor]#ffffffff" Height="[float]136" Id="712" Left="[float]4" SizeMode="[TextModelSizeMode]Fixed" Text="[string]THE FUTURE OF &#xD;&#xA;NI SOFTWARE IS NEAR&#xD;&#xA;&#xD;&#xA;#NIDays" TextWrapping="[TextWrapping]Wrap" Top="[float]36" Width="[float]368" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Arial" FontSize="22" FontStyle="Bold" Id="713" xmlns="http://www.ni.com/PlatformFramework" />
 			</HtmlText>
 		</HtmlFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="26" Name="&quot;Sounds Data &quot;" xmlns="http://www.ni.com/MocCommon">
