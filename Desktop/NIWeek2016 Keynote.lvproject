@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="AF26269AB7546A69425A4F20489F3697" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="420004A439C2A47BEEE8B6A5F8985FB2" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="GComponentFeatureSet" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/GComponent.xsd" Version="4.8.0.3" />
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="Editor" MinimumParsableVersion="4.8.0.0" MinimumSemanticallyEquivalentVersion="4.8.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.8.0.8" />
@@ -258,6 +258,8 @@
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1514" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Fill\ In\ Error\ Info\.gvi" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1560" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Create\ Channel\ \(AI\-Voltage\-Basic\)\.gvi" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1562" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Timing\ \(Sample\ Clock\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1563" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Create\ Channel\ \(AO\-Voltage\-Basic\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1564" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Write\ \(Analog\ Wfm\ 1Chan\ NSamp\)\.gvi" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference" Id="1203" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Conditioning_Base\.gcomp" Reparentable="False">
 						<SparseEnvoyManager AssociatedLastWriteTime="131176892000000000" Id="1204">
