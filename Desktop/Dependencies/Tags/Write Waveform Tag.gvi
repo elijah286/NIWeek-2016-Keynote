@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="44F9FF7FC3FF1B3B3C17D15AAA4471C3" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="25564A34ABA3142D63C0BD65AABCC1EA" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.8.0.0" />
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.8.0.0" MinimumSemanticallyEquivalentVersion="4.8.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.8.0.5" />
@@ -19,9 +19,9 @@
 				<Path Data="[PathGeometry]M 17.923,0.209 C 18.544,-0.339 19.902,0.184 21.363,1.84 C 22.826,3.495 23.176,4.908 22.556,5.456 L 19.932,7.774 L 15.3,2.525 L 17.923,0.209 Z M 3.869,18.287 L 9.525,15.628 L 6.711,16.112 L 6.834,13.334 L 5.919,13.809 L 6.217,11.88 L 2.877,17.163 L 3.869,18.287 Z M 10.188,16.378 L 0,20.703 L 5.554,11.131 L 11.551,5.835 L 16.184,11.082 L 10.188,16.378 Z M 18.362,9.016 L 13.729,3.769 C 13.391,3.386 14.151,2.736 14.478,3.106 L 19.112,8.354 C 19.446,8.733 18.686,9.383 18.362,9.016  M 16.872,10.35 L 12.239,5.103 C 11.901,4.72 12.66,4.07 12.988,4.442 L 17.621,9.688 C 17.956,10.067 17.195,10.717 16.872,10.35 " EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]20.703" Id="109" Left="[float]23" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]0" Width="[float]22.849" />
 			</IconPanel>
 		</Icon>
-		<ConnectorPane Height="20" Id="9" ListViewHeight="70" ListViewWidth="150" Width="50" xmlns="http://www.ni.com/PlatformFramework">
-			<ConnectorPaneTerminal ListViewHotspot="0 50" Parameter="392" />
-			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 35" Parameter="100" />
+		<ConnectorPane Height="20" Id="9" ListViewHeight="55" ListViewWidth="150" Width="50" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="100" />
+			<ConnectorPaneTerminal Hotspot="0 15" />
 			<ConnectorPaneTerminal Hotspot="15 0" />
 			<ConnectorPaneTerminal Hotspot="25 0" />
 			<ConnectorPaneTerminal Hotspot="50 5" />
@@ -62,79 +62,109 @@
 			<GraphTools Graph="[UIModel]173" Height="[float]22" Id="194" Left="[float]525" Top="[float]273" Visible="[bool]False" Width="[float]148" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<PlotLegend Graph="[UIModel]173" Id="195" Left="[float]369" Top="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="196" LabelOwner="[UIModel]173" Left="[float]133" Text="[string]Weaveform" Top="[float]57" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
-			<IONameControl BaseName="[string]Name" DataType="[Type]@d4fd2c1e696740a19cdae3864256e0fb" Height="[float]22" Id="393" Left="[float]0" Name="[string]Write Task" SelectedResource="{DataItemBinding Id=392}" TabIndex="[int]1" Top="[float]0" UdrClass="[string]niTag" UdrNamespace="[string]niTag" Width="[float]150" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
-			<DataAccessor Bounds="565 320 40 15" DataItem="392" Id="395" Label="396" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@3a8380e6007f4acd81ca428e1b0f3f8b" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="395" Bounds="501 320 59 14" Id="396" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>Write Task</p.Text>
-			</NodeLabel>
-			<DataAccessor Bounds="545 360 40 15" DataItem="172" Id="163" Label="171" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<FlattenToJSON Bounds="555 380 40 40" Id="164" />
-			<NodeLabel AttachedTo="163" Bounds="545 343 64 14" Id="171" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>Weaveform</p.Text>
-			</NodeLabel>
-			<DataAccessor Bounds="330 370 40 15" DataItem="100" Id="101" Label="104" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="101" Bounds="268 370 57 14" Id="104" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>Waveform</p.Text>
-			</NodeLabel>
-			<Wire Id="167" Joints="N(164:error out)|(595,415) h(20) v(-40) N(409:L1)|(625,375)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="398" Joints="N(395:Value)|(605,325) h(10) v(40) N(409:L0)|(625,365)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="475 380 50 50" DomainName="NI:Analysis:Resampling" Id="399" ResolveFailedHint="Decimate (single shot, DBL).gvi, Package: (, Version: 1.0.0.0)" Target="NI:Analysis:Resampling:Decimate\ \(single\ shot\,\ DBL\)\.gvi" xmlns="http://www.ni.com/MocCommon">
-				<p.MethodDeclaration>
-					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
-						<Parameter Id="L0" Desc="input array" />
-						<Parameter Id="L1" Desc="decimating factor" />
-						<Parameter Id="B0" Desc="averaging?" />
-						<Parameter Id="L4" Desc="error in" />
-						<Parameter Id="R0" Desc="decimated array" />
-						<Parameter Id="R4" Desc="error out" />
-					</MethodDeclaration>
-				</p.MethodDeclaration>
-				<Terminal DataType="Double[]" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Int32" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Boolean" Direction="Input" Hotspot="15 50" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Double[]" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
-			</MethodCall>
-			<Wire Id="403" Joints="N(399:R0)|(525,385) h(10) B(1) N(164:anything)|(555,385) B(1) v(-20) N(163:Value)|(548,365)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Literal Bounds="463 390 12 10" DataType="Int32" Facade="DockedConstantFacade" Id="405" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>10</p.Data>
-				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-				<DockedConstantFacade UndockedSize="40 15" />
-			</Literal>
-			<Wire Facade="WireInvisibleFacade" Id="406" Joints="N(405:Out)|(475,395) N(399:L1)|(475,395)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="407" Joints="N(164:JSON string)|(595,385) N(409:L2)|(625,385)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="625 360 50 50" DomainName="NI.MocCommon" Id="409" ResolveFailedHint="Write (String).gvi, Package: (NationalInstruments-Skyline-TagLibrary-src-17.0.0, Version: 17.0.0)" Target="Write\ \(String\)\.gvi" xmlns="http://www.ni.com/MocCommon">
-				<p.MethodDeclaration>
-					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
-						<Parameter Id="L0" Desc="tag reference in" />
-						<Parameter Id="L1" Desc="error in" />
-						<Parameter Id="L2" Desc="string" />
-						<Parameter Id="L3" Desc="timestamp" />
-						<Parameter Id="R0" Desc="tag reference out" />
-						<Parameter Id="R1" Desc="error out" />
-					</MethodDeclaration>
-				</p.MethodDeclaration>
-				<Terminal DataType="@3a8380e6007f4acd81ca428e1b0f3f8b" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Timestamp" Direction="Input" Hotspot="0 35" Id="L3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@3a8380e6007f4acd81ca428e1b0f3f8b" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
-			</MethodCall>
-			<PropertyNode Bounds="390 370 50 35" HasErrorTerminals="False" Id="410" InstanceDataType="Wfm(Double)" Mode="InstanceProperties" Template="List">
-				<PropertyItemTerminal DataType="Double[]" Hotspot="50 15" Id="c0t0v" Path="Y" Usage="Optional" />
-			</PropertyNode>
-			<Wire Id="411" Joints="N(101:Value)|(370,375) N(410:instance in)|(390,375)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="412" Joints="N(410:c0t0v)|(440,385) N(399:L0)|(475,385)" xmlns="http://www.ni.com/PlatformFramework" />
+			<WhileLoop Bounds="175 200 650 245" DiagramId="414" Id="413">
+				<LoopIteration Bounds="5 215 15 15" Id="415" />
+				<LoopCondition Bounds="545 170 15 15" Id="416" />
+				<DataAccessor Bounds="490 90 40 15" DataItem="172" Id="163" Label="171" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<FlattenToJSON Bounds="500 110 40 40" Id="164" />
+				<DataAccessor Bounds="275 100 40 15" DataItem="100" Id="101" Label="104" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<MethodCall Bounds="420 110 50 50" DomainName="NI:Analysis:Resampling" Id="399" ResolveFailedHint="Decimate (single shot, DBL).gvi, Package: (, Version: 1.0.0.0)" Target="NI:Analysis:Resampling:Decimate\ \(single\ shot\,\ DBL\)\.gvi" xmlns="http://www.ni.com/MocCommon">
+					<p.MethodDeclaration>
+						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+							<Parameter Id="L0" Desc="input array" />
+							<Parameter Id="L1" Desc="decimating factor" />
+							<Parameter Id="B0" Desc="averaging?" />
+							<Parameter Id="L4" Desc="error in" />
+							<Parameter Id="R0" Desc="decimated array" />
+							<Parameter Id="R4" Desc="error out" />
+						</MethodDeclaration>
+					</p.MethodDeclaration>
+					<Terminal DataType="Double[]" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Int32" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Boolean" Direction="Input" Hotspot="15 50" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Double[]" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+				</MethodCall>
+				<Literal Bounds="408 120 12 10" DataType="Int32" Facade="DockedConstantFacade" Id="405" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>10</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					<DockedConstantFacade UndockedSize="40 15" />
+				</Literal>
+				<MethodCall Bounds="570 90 50 50" DomainName="NI.MocCommon" Id="409" ResolveFailedHint="Write (String).gvi, Package: (NationalInstruments-Skyline-TagLibrary-src-17.0.0, Version: 17.0.0)" Target="Write\ \(String\)\.gvi" xmlns="http://www.ni.com/MocCommon">
+					<p.MethodDeclaration>
+						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+							<Parameter Id="L0" Desc="tag reference in" />
+							<Parameter Id="L1" Desc="error in" />
+							<Parameter Id="L2" Desc="string" />
+							<Parameter Id="L3" Desc="timestamp" />
+							<Parameter Id="R0" Desc="tag reference out" />
+							<Parameter Id="R1" Desc="error out" />
+						</MethodDeclaration>
+					</p.MethodDeclaration>
+					<Terminal DataType="@c03e088a59b649089235c2646e0597e3" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Timestamp" Direction="Input" Hotspot="0 35" Id="L3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@c03e088a59b649089235c2646e0597e3" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				</MethodCall>
+				<PropertyNode Bounds="335 100 50 35" HasErrorTerminals="False" Id="410" InstanceDataType="Wfm(Double)" Mode="InstanceProperties" Template="List">
+					<PropertyItemTerminal DataType="Double[]" Hotspot="50 15" Id="c0t0v" Path="Y" Usage="Optional" />
+				</PropertyNode>
+				<NodeLabel AttachedTo="163" Bounds="490 73 63 14" Id="171" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Weaveform</p.Text>
+				</NodeLabel>
+				<NodeLabel AttachedTo="101" Bounds="214 100 56 14" Id="104" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Waveform</p.Text>
+				</NodeLabel>
+				<Wire Id="398" Joints="N(481:474)|(199,55) h(361) B(1) N(484:414)|(636,55) B(1) v(40) N(409:L0)|(570,95)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="403" Joints="N(399:R0)|(470,115) h(10) B(1) N(164:anything)|(500,115) B(1) v(-20) N(163:Value)|(493,95)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="407" Joints="N(164:JSON string)|(540,115) N(409:L2)|(570,115)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="167" Joints="N(164:error out)|(540,145) h(20) v(-40) N(409:L1)|(570,105)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="411" Joints="N(101:Value)|(315,105) N(410:instance in)|(335,105)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="412" Joints="N(410:c0t0v)|(385,115) N(399:L0)|(420,115)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Facade="WireInvisibleFacade" Id="406" Joints="N(405:Out)|(420,125) N(399:L1)|(420,125)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="475 170 25 15" DataType="Boolean" Facade="True Constant" Id="471" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>True</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<Wire Id="472" Joints="N(471:Out)|(500,175) N(416:Input)|(545,175)" xmlns="http://www.ni.com/PlatformFramework" />
+				<IsFirstCall Bounds="30 90 15 15" Id="473" />
+				<CaseStructure Bounds="70 20 125 120" Default="475" Id="474" Selected="476" UserSelectorBounds="18.666666 0 88 17.333334">
+					<CaseStructure.Case Bounds="5 5 115 110" Id="475" Pattern="False">
+						<Wire Id="488" Joints="N(487:475)|(4,30) N(481:475)|(111,30)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 115 110" Id="476" Pattern="True">
+						<MethodCall Bounds="25 25 60 20" DomainName="NI.MocCommon" Id="479" ResolveFailedHint="&quot;C:\\Users\\SW Marketing\\Documents\\GitHub\\NIWeek-2016-Keynote\\Desktop\\Dependencies\\Tags\\Init tag write.gvi&quot;" Target="Init\ tag\ write\.gvi" xmlns="http://www.ni.com/MocCommon">
+							<p.MethodDeclaration>
+								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+									<Parameter Id="L1" Desc="error in" />
+									<Parameter Id="R0" Desc="niTag.niTag" />
+									<Parameter Id="R1" Desc="error out" />
+								</MethodDeclaration>
+							</p.MethodDeclaration>
+							<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@c03e088a59b649089235c2646e0597e3" Direction="Output" Hotspot="60 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="Error" Direction="Output" Hotspot="60 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+						</MethodCall>
+						<Wire Id="480" Joints="N(479:R0)|(85,30) N(481:476)|(111,30)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Selector Bounds="-4 70 13 10" Docking="Left" Id="477" Terminals="474=478, 475, 476" />
+					<CaseStructure.Tunnel Bounds="116 30 13 10" Docking="Right" Id="481" Terminals="474=398, 475=488, 476=480" />
+					<CaseStructure.Tunnel Bounds="-4 30 13 10" Docking="Left" Id="487" Terminals="474=486, 475=488, 476" />
+				</CaseStructure>
+				<Wire Id="478" Joints="N(473:First Call?: T/F)|(45,95) N(477:474)|(66,95)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="486" Joints="N(485:i0)|(4,55) N(487:474)|(66,55)" xmlns="http://www.ni.com/PlatformFramework" />
+				<RightShiftRegister Bounds="641 55 13 10" Docking="Right" Id="484" Terminals="413, 414=398" />
+				<LeftShiftRegister Bounds="-4 55 13 10" Docking="Left" Id="485" RightRegister="484" Terminals="o0, i0=486" />
+			</WhileLoop>
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<Waveform BaseName="[string]Waveform" Height="[float]136" Id="102" Label="[UIModel]103" Left="[float]278" TabIndex="[int]0" Top="[float]286" WaveformData="{DataItemBinding Id=100}" WaveformDataType="[Type]Double" Width="[float]264" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -155,36 +185,20 @@
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Returns the output signal formatted as dynamic data.</p.UserDescription>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="1" DataType="@3a8380e6007f4acd81ca428e1b0f3f8b" Id="392" Name="Write Task" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>""</p.DefaultValue>
-			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="niTag:niTag" />
-			</p.TypeDefinitionTargets>
-		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="d4fd2c1e696740a19cdae3864256e0fb">
-			<Attributed AttributedType="@82cbcaaefcf947288c2d1e48dd7cb79e">
+		<p.TypeReference TypeId="c03e088a59b649089235c2646e0597e3">
+			<Attributed AttributedType="@951072ded2434f96a1a460b5a2932b45">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]niTag" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="3a8380e6007f4acd81ca428e1b0f3f8b">
-			<Attributed AttributedType="@85388aa0248246b199f84a77193fdcc7">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]niTag" />
-				</AttributeValues>
-			</Attributed>
+		<p.TypeReference TypeId="951072ded2434f96a1a460b5a2932b45">
+			<Typedef TypedefName="niTag" UnderlyingType="@6effe7b71d7645e58be321cbf7209703" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="82cbcaaefcf947288c2d1e48dd7cb79e">
-			<Typedef TypedefName="niTag" UnderlyingType="@f51cd30d0a7a4d5288f031cfd3ff7c53" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="85388aa0248246b199f84a77193fdcc7">
-			<Typedef TypedefName="niTag" UnderlyingType="@b0e27a5cc2ae43948e423c6c1743df64" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="f51cd30d0a7a4d5288f031cfd3ff7c53">
-			<Attributed AttributedType="@be1d87dc4d1d431e9f5527c67285b9b0">
+		<p.TypeReference TypeId="6effe7b71d7645e58be321cbf7209703">
+			<Attributed AttributedType="@1e766337f16c41c4a7045620f80c1997">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
 					<AttributeValue Name="NI_UdrClass" Value="[string]niTag" />
@@ -192,47 +206,24 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b0e27a5cc2ae43948e423c6c1743df64">
-			<Attributed AttributedType="@3fe200795e81495db4551d039410b579">
-				<AttributeValues>
-					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
-					<AttributeValue Name="NI_UdrClass" Value="[string]niTag" />
-					<AttributeValue Name="NI_UdrNamespace" Value="[string]niTag" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
-		<p.TypeReference TypeId="be1d87dc4d1d431e9f5527c67285b9b0">
+		<p.TypeReference TypeId="1e766337f16c41c4a7045620f80c1997">
 			<Composite Id="1" Name="niTag" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="Read" Name="Path_0" DataType="String" />
-					<Field FieldAccessPolicy="Read" Name="Data Type_1" DataType="@808618f7c3e54a82b69e3eb495def213" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Properties_2" DataType="@bcacaee4d3124589ba7c97346d148922" />
+					<Field FieldAccessPolicy="Read" Name="Data Type_1" DataType="@cc07e73fd65d48b2b6e6a92aa34584f4" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Properties_2" DataType="@7c596e62206540c386528876109e09c6" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Keywords_3" DataType="String[]" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Collect Aggregates_4" DataType="Boolean" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="3fe200795e81495db4551d039410b579">
-			<Composite Id="1" Name="niTag" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="Read" Name="Path_0" DataType="String" />
-					<Field FieldAccessPolicy="Read" Name="Data Type_1" DataType="@808618f7c3e54a82b69e3eb495def213" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Properties_2" DataType="@1bc49244a86441c188761054ea6338b0" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Keywords_3" DataType="String[]" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Collect Aggregates_4" DataType="Boolean" />
-				</Members>
-			</Composite>
+		<p.TypeReference TypeId="cc07e73fd65d48b2b6e6a92aa34584f4">
+			<Typedef TypedefName="DataType.gtype" UnderlyingType="@b25a69c799734d16a3c8fb78f2905b73" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="808618f7c3e54a82b69e3eb495def213">
-			<Typedef TypedefName="DataType.gtype" UnderlyingType="@98d95ceb1d8546e2bd332c8c1fdbf033" />
+		<p.TypeReference TypeId="7c596e62206540c386528876109e09c6">
+			<VariableArray DereferenceType="@53112f7294bb471998f90136cd2427dd" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="bcacaee4d3124589ba7c97346d148922">
-			<VariableArray DereferenceType="@322e07de70794a0281181084b5ae5f6e" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="1bc49244a86441c188761054ea6338b0">
-			<VariableArray DereferenceType="@48be32e3c9524175920347ead86a3420" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="98d95ceb1d8546e2bd332c8c1fdbf033">
+		<p.TypeReference TypeId="b25a69c799734d16a3c8fb78f2905b73">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Double" />
@@ -242,13 +233,10 @@
 				<DataType>UInt32</DataType>
 			</Enumeration>
 		</p.TypeReference>
-		<p.TypeReference TypeId="322e07de70794a0281181084b5ae5f6e">
-			<Typedef TypedefName="Property.gtype" UnderlyingType="@2b039305d0a740aab2e8184db4f4c988" />
+		<p.TypeReference TypeId="53112f7294bb471998f90136cd2427dd">
+			<Typedef TypedefName="TagProperty.gtype" UnderlyingType="@b589f95500b8421b8d5591fca20d1f0b" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="48be32e3c9524175920347ead86a3420">
-			<Typedef TypedefName="TagProperty.gtype" UnderlyingType="@2b039305d0a740aab2e8184db4f4c988" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="2b039305d0a740aab2e8184db4f4c988">
+		<p.TypeReference TypeId="b589f95500b8421b8d5591fca20d1f0b">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="key" DataType="String" />
@@ -295,6 +283,23 @@
 							</IconTemplate>
 							<LVImage Height="[float]30" Left="[float]10" MinHeight="[float]13" MinWidth="[float]13" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD2SURBVEhLzZEBDoMgDEV3px3OS+5OrvBLaaEU0ZHs5acWpE+Nr9f7syt6cRbQ61uS+K6JdM3pWH0pekFjMolmWtEguk8xixycyFPOGJq4cqSjXSBLqX3jVjQ1ZjFIO3MxG8GH7OBP1PSJbgYsqlH7ePzirZEO3uJ/6p2oaJEbS1qzlNp0YGwXRRAFq8V7HMfQLvNxClUNL9Rpp0eGp8FxvrReVItMXomoiexMDyheVItMxsFZXACMT+2FdvKpXdGNZRmVO3aLoybu2Dt8NbFm9xiqicaelx0DLxGpiayrUt8+YH40iTepAR4AeGvGwlsQG9ULnOcXpxj/IlFzAo4AAAAASUVORK5CYII=" Top="[float]10" Width="[float]30" />
 							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]TagLibrary.gcomp" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Init\ tag\ write\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 60 20">
+						<IconPanel Height="[float]20" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]60">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]20" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]60">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Init tag write" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]58">
+									<FontSetting FontFamily="Verdana" FontSize="6" />
+								</FileNameText>
+							</IconTemplate>
 						</IconPanel>
 					</Icon>
 				</MergeItem>
