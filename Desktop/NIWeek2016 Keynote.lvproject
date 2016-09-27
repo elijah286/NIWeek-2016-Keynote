@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0B38A318CD23F0A6ED98AD16E4DF6BEC" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BD2EE50C10C742871043EC9BF6B5D55E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="Data" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Data" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="GComponentFeatureSet" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/GComponent.xsd" Version="4.8.0.3" />
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="Editor" MinimumParsableVersion="4.8.0.0" MinimumSemanticallyEquivalentVersion="4.8.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.8.0.8" />
+		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="Soft Front Panel" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SoftFrontPanel/SystemModel" Version="4.5.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Common/SystemModel" Version="4.5.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="Desktop SystemDesigner Plugin" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Desktop/SystemModel" Version="4.5.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="SystemDesigner Discovery" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Discovery" Version="4.5.0.49152" />
@@ -11,6 +13,7 @@
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/SystemDesigner/SystemModel" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.7.0.0" MinimumSemanticallyEquivalentVersion="4.7.0.0" Name="http://www.ni.com/SystemDesigner/SystemModelCore" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.8.0.3209" FeatureSetName="VI SystemDesigner Plugin" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Vi" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="17.0.0.145" FeatureSetName="Task" Name="http://www/ni.com/SoftFrontPanel" Version="1.0.0.0" />
 		<ApplicationVersionInfo Build="4.8.0.3209" Name="Next Generation LabVIEW Features" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<Project xmlns="http://www.ni.com/PlatformFramework">
@@ -108,6 +111,15 @@
 						<Instance Id="1095" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
 							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="Remote Control.gvi" p9:Process.AssociatedIdentifier="1093" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
+						<Instance Id="2064" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="Function.gvi" p9:Process.AssociatedIdentifier="2062" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="2088" Source="{http://www.ni.com/SoftFrontPanel/SystemModel}NationalInstruments.InstrumentFramework.Sensor">
+							<Symbols p8:Path="[{http://www.ni.com/SoftFrontPanel/SystemModel}NationalInstruments.InstrumentFramework.Sensor]NationalInstruments.InstrumentFramework.Sensor" p9:Process.AliasName="Analog Input.task" p9:Process.AssociatedIdentifier="2086" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="2082" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="Function_2.gvi" p9:Process.AssociatedIdentifier="2080" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
 						<Superimposition Id="9" Name="Root Superimposition">
 							<Superimpose Source="68">
 								<Superimpose Parent="{:/68}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="297" />
@@ -128,6 +140,9 @@
 								<Superimpose Parent="{:/68}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="973" />
 								<Superimpose Parent="{:/68}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="1095" />
 								<Superimpose Parent="{:/68}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="1101" />
+								<Superimpose Parent="{:/68}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="2064" />
+								<Superimpose Parent="{:/68}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="2082" />
+								<Superimpose Parent="{:/68}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="2088" />
 							</Superimpose>
 						</Superimposition>
 					</MappingManager>
@@ -233,6 +248,12 @@
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="971" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Modulate\ Audio\.gvi" StoragePath="Modulate Audio.gvi" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="1093" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Remote\ Control\.gvi" StoragePath="Dependencies\Reference\Remote Control.gvi" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="1099" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Starting\ Point\.gvi" StoragePath="Dependencies\Reference\Starting Point.gvi" />
+						<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask,EmbeddedReference" Id="2029" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask" Name="DAQmx\.AggregateTask">
+							<AggregateTask xmlns="http://www/ni.com/SoftFrontPanel" />
+						</EmbeddedDefinitionReference>
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="2062" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gvi" StoragePath="Function.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="2080" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_2\.gvi" StoragePath="Function_2.gvi" />
+						<SourceFileReference Bindings="DAQmx,NationalInstruments.InstrumentFramework.Sensor,Envoy,DefinitionReference,NationalInstruments.InstrumentFramework.Document.SourceModel.Task,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SoftFrontPanel/SystemModel}Process.SoftFrontPanel,ProcessBackedProjectServiceMetaFactory" Id="2086" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.Task" Name="Analog\ Input\.task" OverridingModelDefinitionType="NationalInstruments.InstrumentFramework.Sensor" StoragePath="Analog Input.task" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference,RcxRepositoryManagerDefinition" Id="291" ModelDefinitionType="RepositoryManagerDefinition" Name="rcx\.lib" Reparentable="False">
 						<RepositoryManagerDefinition Location="" />
@@ -262,6 +283,7 @@
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1564" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Write\ \(Analog\ Wfm\ 1Chan\ NSamp\)\.gvi" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1654" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Adjust\ S\-Series\ Calibration\.gvi" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1919" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Adjust\ M\-Series\ Calibration\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="2049" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Read\ \(Analog\ 1D\ Wfm\ NChan\ NSamp\ Duration\)\.gvi" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference" Id="1203" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Conditioning_Base\.gcomp" Reparentable="False">
 						<SparseEnvoyManager AssociatedLastWriteTime="131176892000000000" Id="1204">
@@ -310,6 +332,9 @@
 									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1835" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Uniform\ White\ Noise\ Waveform\.gvi" StoragePath="Uniform White Noise Waveform.gvi" />
 									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1836" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Uniform\ White\ Noise\.gvi" StoragePath="Uniform White Noise.gvi" />
 									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1837" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="RNG_Seed\ Generator\.gvi" StoragePath="RNG_Seed Generator.gvi" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="2270" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Square\ Wave\.gvi" StoragePath="Square Wave.gvi" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="2271" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Triangle\ Wave\.gvi" StoragePath="Triangle Wave.gvi" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="2272" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sawtooth\ Wave\.gvi" StoragePath="Sawtooth Wave.gvi" />
 								</NameScopingContentReference>
 							</NameScopingContentReference>
 						</NameScopingContentReference>
@@ -440,6 +465,7 @@
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1680" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TagProperty\.gtype" StoragePath="TagProperty.gtype" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1755" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ \(Double\)\.gvi" StoragePath="Write (Double).gvi" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1756" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ \(String\)\.gvi" StoragePath="Write (String).gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="2181" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close\ Tag\ \(Single\)\.gvi" StoragePath="Close Tag (Single).gvi" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference" Id="1259" ModelDefinitionType="SparseEnvoyManager" Name="Control_Controller\.gcomp" Reparentable="False">
 						<SparseEnvoyManager AssociatedLastWriteTime="131176894710000000" Id="1260">
@@ -508,6 +534,14 @@
 						<SparseEnvoyManager AssociatedLastWriteTime="131176956470000000" Id="1296">
 							<SparseEnvoyManagerDependencySource Id="1297" Target=":NullTarget:AAL_Generation\.gcomp" />
 						</SparseEnvoyManager>
+						<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="1296" Id="2265" Name="NI">
+							<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="1296" Id="2266" Name="Analysis">
+								<NameScopingContentReference AutomaticallyResolveUp="True" Bindings="Envoy,ContentReference,NationalInstruments.SourceModel.Envoys.SparseEnvoyManager,NameScopingContentReference" ContentIdentifier="1296" Id="2267" Name="Generation">
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="2268" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Basic\ Function\ Generator\.gvi" StoragePath="Basic Function Generator.gvi" />
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="2269" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Basic\ Function\ Generator\ \(1D\ DBL\)\.gvi" StoragePath="Basic Function Generator (1D DBL).gvi" />
+								</NameScopingContentReference>
+							</NameScopingContentReference>
+						</NameScopingContentReference>
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference" Id="1299" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Geometry\.gcomp" Reparentable="False">
 						<SparseEnvoyManager AssociatedLastWriteTime="131176956720000000" Id="1300">
@@ -835,6 +869,78 @@
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="33" ModelDefinitionType="DataDepot" Name="DataDepot">
 			<DataDepot />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2037" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root">
+				<TDMSRootDefinition StoragePath="Data-2016-09-27 144604 140.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2038" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP">
+					<TDMSGroupDefinition GroupName="Capture 1" Source="Analog Input.task" SourceType="NationalInstruments.InstrumentFramework.Sensor" Timestamp="09/27/2016 14:46:04" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference" Id="2039" ModelDefinitionType="TDMSDataItemDefinition" Name="Sensor\ 0">
+						<TDMSDataItemDefinition DataName="Sensor 0" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2040" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_2">
+				<TDMSRootDefinition StoragePath="Recording-2016-09-27 144607 472.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2041" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_2">
+					<TDMSGroupDefinition GroupName="Recording 1" Source="Analog Input.task" SourceType="NationalInstruments.InstrumentFramework.Sensor" Timestamp="09/27/2016 14:46:07" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference" Id="2042" ModelDefinitionType="TDMSDataItemDefinition" Name="Sensor\ 0_2">
+						<TDMSDataItemDefinition DataName="Sensor 0" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2056" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_3">
+				<TDMSRootDefinition StoragePath="Data-2016-09-27 152408 159.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2057" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_3">
+					<TDMSGroupDefinition GroupName="Capture 2" Source="Analog Input.task" SourceType="NationalInstruments.InstrumentFramework.Sensor" Timestamp="09/27/2016 15:24:08" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference" Id="2058" ModelDefinitionType="TDMSDataItemDefinition" Name="Sensor\ 0_3">
+						<TDMSDataItemDefinition DataName="Sensor 0" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2059" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_4">
+				<TDMSRootDefinition StoragePath="Recording-2016-09-27 152410 585.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2060" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_4">
+					<TDMSGroupDefinition GroupName="Recording 2" Source="Analog Input.task" SourceType="NationalInstruments.InstrumentFramework.Sensor" Timestamp="09/27/2016 15:24:10" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference" Id="2061" ModelDefinitionType="TDMSDataItemDefinition" Name="Sensor\ 0_4">
+						<TDMSDataItemDefinition DataName="Sensor 0" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2074" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_5">
+				<TDMSRootDefinition StoragePath="Data-2016-09-27 153622 249.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2075" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_5">
+					<TDMSGroupDefinition GroupName="Capture 3" Source="Analog Input_2.task" SourceType="NationalInstruments.InstrumentFramework.Sensor" Timestamp="09/27/2016 15:36:22" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference" Id="2076" ModelDefinitionType="TDMSDataItemDefinition" Name="Sensor\ 0_5">
+						<TDMSDataItemDefinition DataName="Sensor 0" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2077" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_6">
+				<TDMSRootDefinition StoragePath="Recording-2016-09-27 153624 671.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2078" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_6">
+					<TDMSGroupDefinition GroupName="Recording 3" Source="Analog Input_2.task" SourceType="NationalInstruments.InstrumentFramework.Sensor" Timestamp="09/27/2016 15:36:24" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference" Id="2079" ModelDefinitionType="TDMSDataItemDefinition" Name="Sensor\ 0_6">
+						<TDMSDataItemDefinition DataName="Sensor 0" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2092" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_7">
+				<TDMSRootDefinition StoragePath="Data-2016-09-27 154436 418.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2093" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_7">
+					<TDMSGroupDefinition GroupName="Capture 4" Source="Analog Input.task" SourceType="NationalInstruments.InstrumentFramework.Sensor" Timestamp="09/27/2016 15:44:36" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference" Id="2094" ModelDefinitionType="TDMSDataItemDefinition" Name="Sensor\ 0_7">
+						<TDMSDataItemDefinition DataName="Sensor 0" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="2095" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_8">
+				<TDMSRootDefinition StoragePath="Recording-2016-09-27 154437 576.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="2096" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_8">
+					<TDMSGroupDefinition GroupName="Recording 4" Source="Analog Input.task" SourceType="NationalInstruments.InstrumentFramework.Sensor" Timestamp="09/27/2016 15:44:37" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference" Id="2097" ModelDefinitionType="TDMSDataItemDefinition" Name="Sensor\ 0_8">
+						<TDMSDataItemDefinition DataName="Sensor 0" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NullTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="56" ModelDefinitionType="NullTarget" Name="NullTarget">
 			<NullTarget />
@@ -877,6 +983,12 @@
 				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="972" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Modulate\ Audio\.gvi" StoragePath="Modulate Audio.gvi" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="1094" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Remote\ Control\.gvi" StoragePath="Dependencies\Reference\Remote Control.gvi" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="1100" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Starting\ Point\.gvi" StoragePath="Dependencies\Reference\Starting Point.gvi" />
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask,EmbeddedReference" Id="2030" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask" Name="DAQmx\.AggregateTask">
+					<AggregateTask xmlns="http://www/ni.com/SoftFrontPanel" />
+				</EmbeddedDefinitionReference>
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="2063" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gvi" StoragePath="Function.gvi" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="2081" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_2\.gvi" StoragePath="Function_2.gvi" />
+				<SourceFileReference Bindings="DAQmx,NationalInstruments.InstrumentFramework.Sensor,Envoy,DefinitionReference,NationalInstruments.InstrumentFramework.Document.SourceModel.Task,FileReference,SourceFileReference" Id="2087" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.Task" Name="Analog\ Input\.task" OverridingModelDefinitionType="NationalInstruments.InstrumentFramework.Sensor" StoragePath="Analog Input.task" />
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</Project>
