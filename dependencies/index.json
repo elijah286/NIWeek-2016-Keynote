@@ -574,13 +574,13 @@
       "platform": "linux",
       "defaultTag": "latest",
       "tag": "latest",
-      "ready": false,
+      "ready": true,
       "packages": [],
       "failed_packages": [],
-      "nipkg_ready": false,
+      "nipkg_ready": true,
       "nipkg_packages": [],
-      "labview_version": "",
-      "version": "latest"
+      "labview_version": "2026",
+      "version": "linux-8a3f6613f8b8"
     }
   ]
 }
