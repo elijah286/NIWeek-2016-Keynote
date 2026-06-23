@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "platform": "linux",
+  "version": "linux-8a3f6613f8b8",
+  "labview_version": "2026",
+  "base_image": "nationalinstruments/labview:latest-linux",
+  "base_digest": "ghcr.io/elijah286/niweek-2016-keynote-labview@sha256:1689681370ab8f7042641f2fdefe74d63861f7710f140c2fe236d4c14657ce3f",
+  "image_ref": "ghcr.io/elijah286/niweek-2016-keynote-labview:linux-8a3f6613f8b8",
+  "build_date": "2026-06-23T03:43:04Z",
+  "git_sha": "c011569006c01d75767cea02d5ed9a2928332100",
+  "run_url": "https://github.com/elijah286/NIWeek-2016-Keynote/actions/runs/28000487069",
+  "vipc": [],
+  "nipkg_raw": "",
+  "nipkg_packages": []
+}
